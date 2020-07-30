@@ -16,8 +16,19 @@ jobs:
           node-version: 14.x
 
       - run: yarn install
+        env:
+          CI: true
+          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
+
       - run: yarn build
+        env:
+          CI: true
+          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
+
       - run: yarn bundle
+        env:
+          CI: true
+          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v2.5.0
