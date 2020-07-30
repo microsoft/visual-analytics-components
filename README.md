@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/msrp-essex/Rainbow%20Narwhal/_apis/build/status/disvis?branchName=master)](https://dev.azure.com/msrp-essex/Rainbow%20Narwhal/_build/latest?definitionId=87&branchName=master)
+![Node CI](https://github.com/microsoft/visual-analytics-components/workflows/Node%20CI/badge.svg)
 
 # Visual Analytic Components
 
