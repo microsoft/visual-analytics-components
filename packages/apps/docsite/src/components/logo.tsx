@@ -31,7 +31,7 @@ export const Logo: React.FC<LogoProps> = memo(function Logo({
 			onKeyPress={onClick}
 			style={{ ...style, height: fontSize, minWidth: width }}
 			tabIndex={0}
-			href="/documentation"
+			href="documentation"
 			aria-label="Logo text"
 		>
 			<HeroPaneText fontSize={fontSize} gap={gap} top={true}>

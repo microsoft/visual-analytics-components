@@ -43,7 +43,7 @@ export const SplashContent: React.FC = memo(function SplashContent() {
 					onMouseLeave={docMouseLeave}
 					onClick={onDocClick}
 				>
-					<DocsLink href="/documentation">Read the docs</DocsLink>
+					<DocsLink href="documentation">Read the docs</DocsLink>
 				</Box>
 				<Box
 					style={{ background: theme.logoPalette.pink }}

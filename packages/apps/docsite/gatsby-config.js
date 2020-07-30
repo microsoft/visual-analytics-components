@@ -7,14 +7,14 @@
 //
 const siteMetadata = {
 	title: 'Visual Analytic Components',
-	githubUrl: 'https://github.com/microsoft/visual-analytic-components',
+	githubUrl: 'https://github.com/microsoft/visual-analytics-components',
 	description: 'Disaggregated Visualization',
 	keywords: ['visualization', 'dataviz', 'component-based'],
 }
 
 module.exports = {
 	siteMetadata,
-	pathPrefix: '/visual-analytic-components',
+	pathPrefix: '/visual-analytics-components',
 	plugins: [
 		'gatsby-plugin-typescript',
 		'gatsby-plugin-react-helmet',
