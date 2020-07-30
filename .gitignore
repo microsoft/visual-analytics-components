@@ -1,0 +1,20 @@
+node_modules/
+lib/
+dist/
+.DS_Store
+*.log
+.idea/
+coverage/
+test-report.xml
+tsconfig.tsbuildinfo
+.cache/
+.docz/
+storybook-static/
+
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

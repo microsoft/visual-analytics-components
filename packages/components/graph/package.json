@@ -1,0 +1,84 @@
+{
+	"name": "@visual-analytics-components/graph-component",
+	"version": "0.3.0",
+	"entry": "src/index.ts",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"types": "lib/index.d.ts",
+	"author": "Dario Segura <dsegura@uncharted.software>",
+	"contributors": [
+		"Chris Trevino <chtrevin@microsoft.com>"
+	],
+	"license": "MIT",
+	"scripts": {
+		"build": "essex build",
+		"clean": "essex clean",
+		"start": "essex watch"
+	},
+	"vac": {
+		"className": "TensorGraph",
+		"dataShape": {
+			"vertices": {
+				"id": "string",
+				"label": "string",
+				"x": "number",
+				"y": "number",
+				"z": "number",
+				"color": "number|string",
+				"category": "number|string"
+			},
+			"edges": {
+				"source": "string",
+				"target": "string",
+				"weight": "number"
+			}
+		},
+		"build": {
+			"lint": false
+		}
+	},
+	"publishConfig": {
+		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
+	},
+	"dependencies": {
+		"@topologic/graph": "^0.3.1",
+		"@topologic/layout-core": "^0.3.1",
+		"@topologic/layout-fa2": "^0.3.1",
+		"@topologic/render-controls": "^0.3.2",
+		"@topologic/render-controls-react": "^0.3.2",
+		"@topologic/renderer": "^0.3.2",
+		"@visual-analytics-components/react": "^0.3.0",
+		"dat.gui": "^0.7.7",
+		"debug": "^4.1.1",
+		"lodash": "^4.17.19",
+		"use-resize-observer": "^6.1.0",
+		"visual-analytics-components": "^0.3.0"
+	},
+	"browserslist": [
+		"last 2 Chrome versions"
+	],
+	"//about:devDependencies": {
+		"wtf": [
+			"only added because of yarn not being able to construct workspaces properly:",
+			"schema-utils",
+			"camelcase"
+		]
+	},
+	"devDependencies": {
+		"@thematic/core": "^0.8.0",
+		"@types/debug": "^4.1.5",
+		"@types/lodash": "^4.14.158",
+		"@types/node": "^14.0.25",
+		"camelcase": "^6.0.0",
+		"indefinitely-typed": "^1.1.0",
+		"raw-loader": "^4.0.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"schema-utils": "^2.7.0"
+	},
+	"peerDependencies": {
+		"@types/debug": ">= 4.1.5",
+		"@types/lodash": ">= 4.14.157",
+		"@types/node": ">= 14.0.4"
+	}
+}

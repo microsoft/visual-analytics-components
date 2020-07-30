@@ -1,0 +1,41 @@
+{
+	"name": "@visual-analytics-components/filterchip-component",
+	"version": "0.3.0",
+	"entry": "src/index.ts",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"types": "dist/types/index.d.ts",
+	"author": "Chris Trevino <chtrevin@microsoft.com>",
+	"contributors": [],
+	"license": "MIT",
+	"scripts": {
+		"build": "essex build",
+		"clean": "essex clean",
+		"start": "essex watch"
+	},
+	"publishConfig": {
+		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
+	},
+	"dependencies": {
+		"@visual-analytics-components/react": "^0.3.0",
+		"styled-components": "^5.1.1",
+		"visual-analytics-components": "^0.3.0"
+	},
+	"devDependencies": {
+		"@thematic/core": "^0.8.0",
+		"@types/node": "^14.0.25",
+		"@types/react": "^16.9.43",
+		"@types/react-dom": "^16.9.8",
+		"@types/styled-components": "^5.1.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"peerDependencies": {
+		"@thematic/core": ">= 0.8",
+		"@types/node": ">= 14.0.4",
+		"@types/react": ">= 16.9.35",
+		"@types/react-dom": ">= 16.9.8",
+		"react": ">= 16.8",
+		"react-dom": ">= 16.8"
+	}
+}

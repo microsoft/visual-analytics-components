@@ -1,0 +1,22 @@
+{
+	"name": "@essex/vac-stories",
+	"version": "0.3.0",
+	"private": true,
+	"scripts": {
+		"clean": "essex clean storybook-static",
+		"start": "essex start-storybook",
+		"bundle": "echo essex build-storybook"
+	},
+	"dependencies": {
+		"@visual-analytics-components/datatable-component": "^0.3.0",
+		"@visual-analytics-components/filterchip-component": "^0.3.0",
+		"@visual-analytics-components/graph-component": "^0.3.0",
+		"@visual-analytics-components/ranklist-component": "^0.3.0",
+		"@visual-analytics-components/react": "^0.3.0",
+		"@visual-analytics-components/search-component": "^0.3.0",
+		"@visual-analytics-components/title-component": "^0.3.0",
+		"react-markdown": "^4.3.1",
+		"styled-components": "^5.1.1",
+		"visual-analytics-components": "^0.3.0"
+	}
+}

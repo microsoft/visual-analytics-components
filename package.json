@@ -1,0 +1,63 @@
+{
+	"name": "@visual-analytics-components/project",
+	"private": true,
+	"description": "Visual Analytic Components for the Web",
+	"repository": {
+		"type": "git",
+		"url": "git@ssh.dev.azure.com:v3/msrp-essex/Rainbow%20Narwhal/disvis"
+	},
+	"publishConfig": {
+		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
+	},
+	"engines": {
+		"node": ">= 10.0"
+	},
+	"scripts": {
+		"clean": "lerna run --parallel --stream clean",
+		"build:packages": "lerna run --stream build",
+		"build:copy_typings": "cd node_modules/@danmarshall/deckgl-typings && npm run postinstall",
+		"build": "run-s build:copy_typings build:packages",
+		"bundle": "lerna run --stream bundle",
+		"lint": "essex lint --strict --docs",
+		"test": "essex test",
+		"test:ci": "essex test --coverage --ci",
+		"watch": "lerna run --stream --parallel watch",
+		"ci": "cross-env CHOKIDAR_USEPOLLING=1 CI=true run-s build lint bundle test:ci",
+		"release": "lerna publish --registry https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/",
+		"start": "lerna run start --parallel --stream"
+	},
+	"workspaces": [
+		"packages/authoring/*",
+		"packages/datasets/*",
+		"packages/components/*",
+		"packages/apps/*"
+	],
+	"author": "Chris Trevino <chtrevin@microsoft.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@essex/eslint-plugin": "^8.0.14",
+		"@essex/jest-config": "^8.0.14",
+		"@essex/prettier-config": "^8.0.14",
+		"@essex/scripts": "^8.0.14",
+		"@types/enzyme": "^3.10.5",
+		"cross-env": "^7.0.2",
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.2",
+		"husky": "^4.2.5",
+		"lerna": "^3.22.1",
+		"lint-staged": "^10.2.11",
+		"npm-run-all": "^4.1.5",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"regenerator-runtime": "^0.13.7"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "essex pre-commit",
+			"commit-msg": "essex commit-msg"
+		}
+	},
+	"resolutions": {
+		"@types/react-native": "npm:@types/react@*"
+	}
+}

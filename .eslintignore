@@ -1,0 +1,8 @@
+node_modules/
+lib/
+build/
+dist/
+out/
+public/
+static/
+.yarn/

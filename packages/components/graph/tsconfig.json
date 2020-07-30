@@ -1,0 +1,10 @@
+{
+	"extends": "../../../tsconfig",
+	"compilerOptions": {
+		"declaration": true,
+		"downlevelIteration": true,
+		"removeComments": false,
+		"outDir": "lib"
+	},
+	"files": ["src/index.ts"]
+}

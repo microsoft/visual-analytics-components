@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"incremental": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"target": "esnext",
+		"strict": true,
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": false,
+		"noImplicitAny": false,
+		"jsx": "react",
+		"lib": ["esnext", "dom"]
+	},
+	"exclude": ["**/node_modules/**", "**/__tests__/**"]
+}
