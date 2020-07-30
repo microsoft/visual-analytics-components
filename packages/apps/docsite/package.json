@@ -7,7 +7,7 @@
 		"start": "gatsby develop -H 0.0.0.0",
 		"bundle_gatsby": "gatsby build --prefix-paths",
 		"copy_embeddings_explorer": "shx cp -r ../embeddings-explorer/build/ ./static/embeddings-explorer",
-		"bundle": "run-s bundle_gatsby copy_embeddings_explorer"
+		"bundle": "run-s copy_embeddings_explorer bundle_gatsby"
 	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [],
