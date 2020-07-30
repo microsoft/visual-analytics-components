@@ -20,11 +20,15 @@ jobs:
 
       - run: yarn install
         name: Install Dependencies
+        env:
+          CI: true
+          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
 
       - run: yarn ci
         name: Execute Tests
         env:
           CI: true
+          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
 
       - name: Publish coverage to codecov.io
         uses: codecov/codecov-action@v1.0.3
