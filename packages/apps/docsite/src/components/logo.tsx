@@ -2,6 +2,7 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { withPrefix } from 'gatsby'
 import React, { memo, useMemo } from 'react'
 import styled from 'styled-components'
 import theme from '../util/theme'
@@ -31,7 +32,7 @@ export const Logo: React.FC<LogoProps> = memo(function Logo({
 			onKeyPress={onClick}
 			style={{ ...style, height: fontSize, minWidth: width }}
 			tabIndex={0}
-			href="documentation"
+			href={withPrefix('/documentation')}
 			aria-label="Logo text"
 		>
 			<HeroPaneText fontSize={fontSize} gap={gap} top={true}>
