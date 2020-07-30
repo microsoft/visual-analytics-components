@@ -5,11 +5,14 @@
 	"scripts": {
 		"clean": "gatsby clean",
 		"start": "gatsby develop -H 0.0.0.0",
-		"bundle": "gatsby build --prefix-paths"
+		"bundle_gatsby": "gatsby build --prefix-paths",
+		"copy_embeddings_explorer": "shx cp -r ../embeddings-explorer/build/ ./static/embeddings-explorer",
+		"bundle": "run-s bundle_gatsby copy_embeddings_explorer"
 	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [],
 	"dependencies": {
+		"@essex/embeddings-explorer": "^0.3.0",
 		"@mdx-js/mdx": "^1.6.14",
 		"@mdx-js/react": "^1.6.14",
 		"gatsby": "^2.24.11",

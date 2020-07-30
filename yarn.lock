@@ -1998,7 +1998,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/embeddings-explorer@workspace:packages/apps/embeddings-explorer":
+"@essex/embeddings-explorer@^0.3.0, @essex/embeddings-explorer@workspace:packages/apps/embeddings-explorer":
   version: 0.0.0-use.local
   resolution: "@essex/embeddings-explorer@workspace:packages/apps/embeddings-explorer"
   dependencies:
@@ -2242,6 +2242,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@essex/vac-docsite@workspace:packages/apps/docsite"
   dependencies:
+    "@essex/embeddings-explorer": ^0.3.0
     "@mdx-js/mdx": ^1.6.14
     "@mdx-js/react": ^1.6.14
     "@types/gsap": ^1.20.2
@@ -6866,6 +6867,7 @@ __metadata:
     react: ^16.13.1
     react-dom: ^16.13.1
     regenerator-runtime: ^0.13.7
+    shx: ^0.3.2
   languageName: unknown
   linkType: soft
 
