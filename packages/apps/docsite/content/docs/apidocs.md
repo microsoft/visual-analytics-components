@@ -10,15 +10,29 @@ The following links contain low-level API documentation for Visual Analytics Com
 
 ### Visual Analytics Components runtime & Component Definition Utilities
 
-- [@essex/vac](/apidocs/vac/) - the application runtime & data model definition
-- [@visual-analytics-components/react](/apidocs/vac-react/) utilities for components using React
-- [@essex/vac-kruda](/apidocs/vac-kruda/) the kruda-based data-model provider, for efficient binary data representation
+The entry package:
 
-### Reusable Visual-Analytics Components
+- [visual-analytics-components](/apidocs/vac/) - the visual-analytics-components core.
+- [@visual-analytics-components/manager](/apidocs/vac-manager/) - The runtime manager
+- [@visual-analytics-components/messages](/apidocs/vac-messages/) - Message types that are passed between components
+- [@visual-analytics-components/types](/apidocs/vac-types/) - typings shared across the visual-analytics-components system
 
-- [datatable-vac](/apidocs/datatable-vac/)
-- [filterchip-vac](/apidocs/filterchip-vac/)
-- [graph-vac](/apidocs/graph-vac/)
-- [ranklist-vac](/apidocs/ranklist-vac/)
-- [search-vac](/apidocs/search-vac/)
-- [title-vac](/apidocs/title-vac/)
+#### React Authoring API
+
+- [@visual-analytics-components/react](/apidocs/vac-react/) utilities for authoring components using React
+
+### Dataset Implementations
+
+- [@visual-analytics-components/abstract-dataset] - Abstract classes for dataset implementation
+- [@visual-analytics-components/mapped-dataset] - Dataset with field/table name mapping
+- [@visual-analytics-components/plain-object-dataset] - Dataset implemented with "plain ol' JavaScript objects"
+- [@visual-analytics-components/kruda-dataset] - Experimental binary dataset (UNSTABLE)
+
+### Visual-Analytics Components
+
+- [@visual-analytics-components/datatable-component](/apidocs/datatable-vac/)
+- [@visual-analytics-components/filterchip-component](/apidocs/filterchip-vac/)
+- [@visual-analytics-components/graph-component](/apidocs/graph-vac/)
+- [@visual-analytics-components/ranklist-component](/apidocs/ranklist-vac/)
+- [@visual-analytics-components/search-component](/apidocs/search-vac/)
+- [@visual-analytics-components/title-component](/apidocs/title-vac/)

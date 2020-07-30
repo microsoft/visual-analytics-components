@@ -10,7 +10,7 @@
 	"license": "MIT",
 	"scripts": {
 		"clean": "essex clean",
-		"build": "essex build",
+		"build": "essex build --docs",
 		"watch": "essex watch"
 	},
 	"dependencies": {

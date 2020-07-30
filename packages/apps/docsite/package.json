@@ -7,7 +7,10 @@
 		"start": "gatsby develop -H 0.0.0.0",
 		"bundle_gatsby": "gatsby build --prefix-paths",
 		"copy_embeddings_explorer": "shx cp -r ../embeddings-explorer/build/ ./static/embeddings-explorer",
-		"bundle": "run-s copy_embeddings_explorer bundle_gatsby"
+		"create_apidocs_folder": "shx mkdir -p static/apidocs",
+		"apidoc:vac": "shx cp -r ../../authoring/vac/dist/docs static/apidocs/vac",
+		"copy_apidocs": "run-p apidoc:*",
+		"bundle": "run-s copy_embeddings_explorer create_apidocs_folder copy_apidocs bundle_gatsby"
 	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [],

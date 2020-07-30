@@ -9,7 +9,7 @@
 	"contributors": [],
 	"license": "MIT",
 	"scripts": {
-		"build": "essex build",
+		"build": "essex build --docs",
 		"clean": "essex clean",
 		"start": "essex watch"
 	},
