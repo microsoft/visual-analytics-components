@@ -8,7 +8,7 @@
 	"types": "dist/types/index.d.ts",
 	"scripts": {
 		"clean": "essex clean",
-		"build": "essex build",
+		"build": "essex build --docs",
 		"watch": "essex watch"
 	},
 	"dependencies": {
