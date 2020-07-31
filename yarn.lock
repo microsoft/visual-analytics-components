@@ -2238,67 +2238,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/vac-docsite@workspace:packages/apps/docsite":
-  version: 0.0.0-use.local
-  resolution: "@essex/vac-docsite@workspace:packages/apps/docsite"
-  dependencies:
-    "@essex/embeddings-explorer": ^0.3.0
-    "@mdx-js/mdx": ^1.6.14
-    "@mdx-js/react": ^1.6.14
-    "@types/gsap": ^1.20.2
-    "@types/react": ^16.9.43
-    "@types/react-dom": ^16.9.8
-    "@types/react-helmet": ^6.0.0
-    "@types/react-tabs": ^2.3.2
-    "@types/styled-components": ^5.1.1
-    "@types/vfile": ^4.0.0
-    "@types/vfile-message": ^2.0.0
-    gatsby: ^2.24.11
-    gatsby-plugin-mdx: ^1.2.30
-    gatsby-plugin-react-helmet: ^3.3.10
-    gatsby-plugin-styled-components: ^3.3.10
-    gatsby-plugin-typescript: ^2.4.16
-    gatsby-plugin-typography: ^2.5.10
-    gatsby-remark-autolink-headers: ^2.3.11
-    gatsby-remark-copy-linked-files: ^2.3.12
-    gatsby-remark-images: ^3.3.22
-    gatsby-remark-prismjs: ^3.5.10
-    gatsby-source-filesystem: ^2.3.23
-    gatsby-transformer-remark: ^2.8.27
-    gsap: ^3.4.2
-    react: ^16.13.1
-    react-dom: ^16.13.1
-    react-helmet: ^6.1.0
-    react-icons: ^3.10.0
-    react-tabs: ^3.1.1
-    react-typography: ^0.16.19
-    react-use-dimensions: ^1.2.1
-    rehype-react: ^5.0.1
-    styled-components: ^5.1.1
-    typography: ^0.16.19
-    typography-theme-github: ^0.16.19
-    vfile: ^4.1.1
-    vfile-message: ^2.0.4
-  languageName: unknown
-  linkType: soft
-
-"@essex/vac-stories@workspace:packages/apps/stories":
-  version: 0.0.0-use.local
-  resolution: "@essex/vac-stories@workspace:packages/apps/stories"
-  dependencies:
-    "@visual-analytics-components/datatable-component": ^0.3.0
-    "@visual-analytics-components/filterchip-component": ^0.3.0
-    "@visual-analytics-components/graph-component": ^0.3.0
-    "@visual-analytics-components/ranklist-component": ^0.3.0
-    "@visual-analytics-components/react": ^0.3.0
-    "@visual-analytics-components/search-component": ^0.3.0
-    "@visual-analytics-components/title-component": ^0.3.0
-    react-markdown: ^4.3.1
-    styled-components: ^5.1.1
-    visual-analytics-components: ^0.3.0
-  languageName: unknown
-  linkType: soft
-
 "@essex/webpack-config@npm:^8.0.14":
   version: 8.0.14
   resolution: "@essex/webpack-config@npm:8.0.14"
@@ -6731,6 +6670,50 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@visual-analytics-components/docsite@workspace:packages/apps/docsite":
+  version: 0.0.0-use.local
+  resolution: "@visual-analytics-components/docsite@workspace:packages/apps/docsite"
+  dependencies:
+    "@essex/embeddings-explorer": ^0.3.0
+    "@mdx-js/mdx": ^1.6.14
+    "@mdx-js/react": ^1.6.14
+    "@types/gsap": ^1.20.2
+    "@types/react": ^16.9.43
+    "@types/react-dom": ^16.9.8
+    "@types/react-helmet": ^6.0.0
+    "@types/react-tabs": ^2.3.2
+    "@types/styled-components": ^5.1.1
+    "@types/vfile": ^4.0.0
+    "@types/vfile-message": ^2.0.0
+    gatsby: ^2.24.11
+    gatsby-plugin-mdx: ^1.2.30
+    gatsby-plugin-react-helmet: ^3.3.10
+    gatsby-plugin-styled-components: ^3.3.10
+    gatsby-plugin-typescript: ^2.4.16
+    gatsby-plugin-typography: ^2.5.10
+    gatsby-remark-autolink-headers: ^2.3.11
+    gatsby-remark-copy-linked-files: ^2.3.12
+    gatsby-remark-images: ^3.3.22
+    gatsby-remark-prismjs: ^3.5.10
+    gatsby-source-filesystem: ^2.3.23
+    gatsby-transformer-remark: ^2.8.27
+    gsap: ^3.4.2
+    react: ^16.13.1
+    react-dom: ^16.13.1
+    react-helmet: ^6.1.0
+    react-icons: ^3.10.0
+    react-tabs: ^3.1.1
+    react-typography: ^0.16.19
+    react-use-dimensions: ^1.2.1
+    rehype-react: ^5.0.1
+    styled-components: ^5.1.1
+    typography: ^0.16.19
+    typography-theme-github: ^0.16.19
+    vfile: ^4.1.1
+    vfile-message: ^2.0.4
+  languageName: unknown
+  linkType: soft
+
 "@visual-analytics-components/filterchip-component@^0.3.0, @visual-analytics-components/filterchip-component@workspace:packages/components/filterchip":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/filterchip-component@workspace:packages/components/filterchip"
@@ -6952,6 +6935,23 @@ __metadata:
     "@types/react-dom": ">= 16.9.8"
     react: ">= 16.8"
     react-dom: ">= 16.8"
+  languageName: unknown
+  linkType: soft
+
+"@visual-analytics-components/stories@workspace:packages/apps/stories":
+  version: 0.0.0-use.local
+  resolution: "@visual-analytics-components/stories@workspace:packages/apps/stories"
+  dependencies:
+    "@visual-analytics-components/datatable-component": ^0.3.0
+    "@visual-analytics-components/filterchip-component": ^0.3.0
+    "@visual-analytics-components/graph-component": ^0.3.0
+    "@visual-analytics-components/ranklist-component": ^0.3.0
+    "@visual-analytics-components/react": ^0.3.0
+    "@visual-analytics-components/search-component": ^0.3.0
+    "@visual-analytics-components/title-component": ^0.3.0
+    react-markdown: ^4.3.1
+    styled-components: ^5.1.1
+    visual-analytics-components: ^0.3.0
   languageName: unknown
   linkType: soft
 
