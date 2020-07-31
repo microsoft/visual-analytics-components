@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>@visual-analytics-components/graph-component</title>
+	<meta name="description" content="Documentation for @visual-analytics-components/graph-component">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">@visual-analytics-components/graph-component</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="globals.html">Globals</a>
+				</li>
+			</ul>
+			<h1>@visual-analytics-components/graph-component</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<a href="#graph-vac" id="graph-vac" style="color: inherit; text-decoration: none;">
+					<h1>graph-vac</h1>
+				</a>
+				<p>A network visualization component for disaggregated visualization.</p>
+				<a href="#configuration-options" id="configuration-options" style="color: inherit; text-decoration: none;">
+					<h2>Configuration Options</h2>
+				</a>
+				<ul>
+					<li><strong>id</strong> <em>(string)</em>: The instance identifier for this component.</li>
+					<li><strong>isLayoutSupported</strong> <em>(boolean, optional)</em>: Whether this component should present layout controls.</li>
+					<li><strong>attemptInitialLayout</strong> <em>(boolean, optional)</em>: If the data is unpositioned, should this component attempt an initial 2D layout of the graph data.</li>
+					<li><strong>is3DSupported</strong> <em>(boolean, optional)</em>: A flag indicating whether this visual should expose a control allowing the user to select either 2D or 3D views.</li>
+					<li><strong>emitsViewportHighlights</strong> <em>(boolean, optional)</em>: A flag indicating whether this visual should emit events for when vertices are highlighted via hover actions.</li>
+					<li><strong>receivesViewportHighlights</strong> <em>(boolean, optional)</em>: A flag indicating whether this visual should accept events for when vertices are highlighted to synchronize highlights.</li>
+					<li><strong>renderSettings</strong>: <em>(TensorGraphRenderSettings, optional)</em>: A settings object specific to rendering.</li>
+				</ul>
+				<a href="#tensorgraphrendersettings" id="tensorgraphrendersettings" style="color: inherit; text-decoration: none;">
+					<h4>TensorGraphRenderSettings</h4>
+				</a>
+				<ul>
+					<li><strong>constantEdgeWidth</strong> <em>(boolean, optional)</em>: a flag indicating whether edges should have a consistent width vs a width variable on edge weight (default=true).</li>
+					<li><strong>cornerAxes</strong> <em>(boolean, optional)</em>: a flag indicating whether the axes guides should be rendered in the corner (e.g. minimap-style).</li>
+					<li><strong>drawAxes</strong> <em>(boolean, optional)</em>: a flag indicating whether the axes should be drawn at all (default=true).</li>
+					<li><strong>drawEdges</strong> <em>(boolean, optional)</em>: A flag indicating whether to draw the edges of the graph data (default=false).</li>
+					<li><strong>drawNodes</strong> <em>(boolean, optional)</em>: A flag indicating whether to draw the vertices of the graph data (default=true).</li>
+					<li><strong>edgeAlpha</strong> <em>(number, optional)</em>: A number between [0-1] indicating the edge opacity.</li>
+					<li><strong>edgeAntialias</strong> <em>(boolean, optional)</em>: A flag indicating whether to use antialiasing when rendering edges (default=false).</li>
+					<li><strong>edgeDepthWrite</strong> <em>(boolean, optional)</em>: A flag indicating whether to use depth-writing when rendering edges (default=false).</li>
+					<li><strong>edgeMaxWidth</strong> <em>(number, optional)</em>: The maximum width of edges to render.</li>
+					<li><strong>edgeMinWidth</strong> <em>(number, optional)</em>: The minimum width of edges to render.</li>
+					<li><strong>hideDeselected</strong> <em>(boolean, optional)</em>: Whether to hide/occlude deselected vertices (default=false).</li>
+					<li><strong>hideEdgesOnMove</strong> <em>(boolean, optional)</em>: A flag indicating whether to hide edges when moving the graph (default=false).</li>
+					<li><strong>hideNodesOnMove</strong> <em>(boolean, optional)</em>: A flag indicating whether to hide nodes when moving the graph (default=false).</li>
+					<li><strong>interpolationTime</strong> <em>(boolean, optional)</em>: Interpolation time to use when animating between positions.</li>
+					<li><strong>is3D</strong> <em>(boolean, optional)</em>: Whether to render in 3D mode (default=false).</li>
+					<li><strong>nodeMaxRadius</strong> <em>(number, optional)</em>: The minimum rendering radius of the nodes.</li>
+					<li><strong>nodeMinRadius</strong> <em>(number, optional)</em>: The maximum rendering radius of the nodes.</li>
+					<li><strong>nodeOutline</strong> <em>(boolean, optional)</em>: A flag indicating whether to render node outlines.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

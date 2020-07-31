@@ -1,0 +1,163 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>visual-analytics-components</title>
+	<meta name="description" content="Documentation for visual-analytics-components">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">visual-analytics-components</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="globals.html">Globals</a>
+				</li>
+			</ul>
+			<h1>visual-analytics-components</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<a href="#microsoft-visual-analytics-component-vac" id="microsoft-visual-analytics-component-vac" style="color: inherit; text-decoration: none;">
+					<h1>Microsoft Visual Analytics Component (VAC)</h1>
+				</a>
+				<p>An experiment in component-based, disaggregated, visual analytics from Microsoft Research.</p>
+				<p>This packages contains the VAC runtime, which allows VAC components to render and communicate with each other.</p>
+				<a href="#using-visual-analytics-components" id="using-visual-analytics-components" style="color: inherit; text-decoration: none;">
+					<h1>Using Visual Analytics Components</h1>
+				</a>
+				<p>Key Concepts:</p>
+				<ul>
+					<li><strong>Shared Data-Model</strong> the Manager exposes a central data model that uses a familiar table/row paradigm. Each data table exposes various &quot;slices&quot; that contain subsets of rows. These are used to model data filtering operations and also for more ephemeral selection and highlight states.</li>
+					<li><strong>Event-Based</strong> visualizations coordinate data filtering &amp; selection events, and UX interaction events via event objects. These events flow through a single, central hub that all VAC components listen to and may react to.</li>
+					<li><strong>Configurability</strong> each component defines its own configuration object format which can be used by clients to customize their behavior.</li>
+					<li><strong>Independent Styles</strong> Each component is rendered into a shadow DOM node, which allows to isolate their styles and prevent their CSS classes from interfering with each other.</li>
+					<li><strong>Kickoff Event</strong> when using VAC components, components do not render until a Manager instance is available. This is done by initiating a &quot;kickoff&quot; by invoking <code>ManagerImpl.createInstance(&lt;dataset&gt;)</code></li>
+				</ul>
+				<pre><code class="language-jsx"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">App</span>(<span class="hljs-params">dataset: InputData</span>) </span>{
+    <span class="hljs-keyword">const</span> manager = useMemo(<span class="hljs-function">() =&gt;</span> ManagerImpl.createInstance(dataset), [dataset])
+    <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">ManagerContext.Provider</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{manager}</span>&gt;</span>
+                {/* Use HTML/CSS to lay-out visuals*/}
+                <span class="hljs-tag">&lt;<span class="hljs-name">GraphComponent</span> <span class="hljs-attr">config</span>=<span class="hljs-string">{/*...*/}</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">TitleComponent</span> <span class="hljs-attr">config</span>=<span class="hljs-string">{/*...*/}</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ManagerContext.Provider</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+    )
+}</code></pre>
+				<a href="#key-components" id="key-components" style="color: inherit; text-decoration: none;">
+					<h1>Key Components</h1>
+				</a>
+				<a href="#manager" id="manager" style="color: inherit; text-decoration: none;">
+					<h2>Manager</h2>
+				</a>
+				<ul>
+					<li><p><strong>Manager</strong> - a singleton instance per application, the Manager is the heart of the VAC system. Components are instantiated with component-specific configuration and an instance of the current Manager. The manager acts as a facade to the data model, eventing hub, state persistence layer, theme provider, etc..</p>
+					</li>
+					<li><p><strong>MessageHub</strong> - This is a centralized event-based hub that allows visualizations to communicate with each other using message objects. Similar to redux-standard-actions, these messages have a <code>type</code> and a <code>payload</code>.</p>
+					</li>
+					<li><p><strong>AuditLog</strong> - a provenance tracking utility that logs what actions have been taken in a session.</p>
+					</li>
+					<li><p><strong>StateManager</strong> - VAC components may track their local state here. The idea here is to be able to persist state to a remote storage environment and allow for time-traveling to visual analytic states.</p>
+					</li>
+				</ul>
+				<a href="#data-model" id="data-model" style="color: inherit; text-decoration: none;">
+					<h2>Data Model</h2>
+				</a>
+				<p>The VAC data model is a set of tables, which contains a set of row objects representing the data. These tables contain a set of <em>TableSlices</em> which represent filtering levels of the data. These slices include:</p>
+				<ul>
+					<li><strong>All</strong></li>
+					<li><strong>FilteredIn</strong></li>
+					<li><strong>FilteredOut</strong></li>
+					<li><strong>Selected</strong></li>
+					<li><strong>Highlighted</strong></li>
+				</ul>
+				<p>The base @essex/vac package comes with three flavors of data set implementations:</p>
+				<ul>
+					<li><strong>Abstract</strong> - base implementation for dataset providers</li>
+					<li><strong>PlainObject</strong> - a dataset backed by plain JavaScript objects.</li>
+					<li><strong>Mapped</strong> - a dataset that allows for the Manager to apply a <code>data-mapping</code>, which can rename tables and fields.</li>
+				</ul>
+				<a href="#message-factory" id="message-factory" style="color: inherit; text-decoration: none;">
+					<h2>Message Factory</h2>
+				</a>
+				<ul>
+					<li><p><strong>MessageTypes</strong> - Common message types</p>
+					</li>
+					<li><p><strong>MessageCreators</strong> - Factory functions for message instance of common message types.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
