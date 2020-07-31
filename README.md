@@ -4,7 +4,7 @@
 
 Microsoft Visual Analytic Components is a research-grade SDK for creating composable visual analytic applications.
 
-For more details, check out the [@essex/visual-analytic-components package README](./packages/authoring/visual-analytic-components/readme)
+For more details, check out the [docsite](https://microsoft.github.io/visual-analytics-components)
 
 # Developing
 
