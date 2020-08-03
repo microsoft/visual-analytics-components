@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"clean": "essex clean storybook-static",
-		"start": "essex start-storybook",
+		"start": "essex serve --storybook",
 		"bundle": "essex bundle --storybook"
 	},
 	"dependencies": {
