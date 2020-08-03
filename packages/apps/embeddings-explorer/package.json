@@ -13,7 +13,7 @@
 		"start": "cross-env NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" essex serve",
 		"bundle_webapp": "essex bundle --mode production",
 		"copy_assets": "shx cp -r ./public/data build/",
-		"bundle": "run-s bundle_webapp copy_assets"
+		"bundle": "cross-env NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s bundle_webapp copy_assets"
 	},
 	"dependencies": {
 		"@babel/polyfill": "^7.10.4",

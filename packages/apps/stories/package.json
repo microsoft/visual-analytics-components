@@ -5,7 +5,7 @@
 	"scripts": {
 		"clean": "essex clean storybook-static",
 		"start": "essex serve --storybook",
-		"bundle": "essex bundle --storybook"
+		"bundle": "cross-env NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" essex bundle --storybook"
 	},
 	"dependencies": {
 		"@visual-analytics-components/datatable-component": "^0.3.0",
