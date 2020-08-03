@@ -59,6 +59,7 @@
 		}
 	},
 	"resolutions": {
-		"@types/react-native": "npm:@types/react@*"
+		"@types/react": "16.9.44",
+		"@types/react-native": "npm:@types/react@16.9.44"
 	}
 }
