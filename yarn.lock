@@ -5237,7 +5237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:^5.3.19":
+"@storybook/react@npm:*, @storybook/react@npm:^5.3.19":
   version: 5.3.19
   resolution: "@storybook/react@npm:5.3.19"
   dependencies:
@@ -6485,6 +6485,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/storybook__react@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "@types/storybook__react@npm:5.2.1"
+  dependencies:
+    "@storybook/react": "*"
+  checksum: 9a777121fb0d3b6bda8e18457e9a5bdf4abfaf17d8a134b7a045299b0b57d655b3cf47da3aa174d49ecf3d871b6552632b5636920d12b78af8aeb218b0f0416b
+  languageName: node
+  linkType: hard
+
 "@types/styled-components@npm:^5.1.2":
   version: 5.1.2
   resolution: "@types/styled-components@npm:5.1.2"
@@ -7236,6 +7245,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/stories@workspace:packages/apps/stories"
   dependencies:
+    "@types/storybook__react": ^5.2.1
     "@visual-analytics-components/datatable-component": ^0.3.0
     "@visual-analytics-components/filterchip-component": ^0.3.0
     "@visual-analytics-components/graph-component": ^0.3.0

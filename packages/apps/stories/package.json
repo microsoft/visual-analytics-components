@@ -18,5 +18,8 @@
 		"react-markdown": "^4.3.1",
 		"styled-components": "^5.1.1",
 		"visual-analytics-components": "^0.3.0"
+	},
+	"devDependencies": {
+		"@types/storybook__react": "^5.2.1"
 	}
 }
