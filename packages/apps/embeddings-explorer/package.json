@@ -13,11 +13,11 @@
 		"start": "cross-env NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" essex serve",
 		"bundle_webapp": "essex bundle --mode production",
 		"copy_assets": "shx cp -r ./public/data build/",
-		"bundle": "run-s bundle_webapp copy_assets"
+		"bundle": "cross-env NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s bundle_webapp copy_assets"
 	},
 	"dependencies": {
 		"@babel/polyfill": "^7.10.4",
-		"@fluentui/react": "^7.123.9",
+		"@fluentui/react": "^7.124.2",
 		"@thematic/core": "^0.8.0",
 		"@thematic/fabric": "^0.6.2",
 		"@thematic/fluent": "^0.8.0",
@@ -54,11 +54,11 @@
 		"last 2 chrome versions"
 	],
 	"devDependencies": {
-		"@essex/scripts": "^8.0.14",
-		"@essex/webpack-config": "^8.0.14",
+		"@essex/scripts": "^9.0.2",
+		"@essex/webpack-config": "^9.0.2",
 		"@types/classnames": "^2.2.10",
 		"@types/query-string": "^6.3.0",
-		"@types/react": "^16.9.43",
+		"@types/react": "^16.9.44",
 		"@types/react-beautiful-dnd": "^12.1.3",
 		"@types/react-dom": "^16.9.8",
 		"@types/react-dropzone": "^5.1.0",
@@ -69,6 +69,6 @@
 		"npm-run-all": "^4.1.5",
 		"shx": "^0.3.2",
 		"typescript": "^3.9.7",
-		"worker-loader": "^2.0.0"
+		"worker-loader": "^3.0.0"
 	}
 }

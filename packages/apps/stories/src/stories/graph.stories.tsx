@@ -17,9 +17,11 @@ storiesOf('Graph Component', module)
 			<Frame>
 				<ManagerContext.Provider value={createManager(ds)}>
 					<GraphComponent
-						datamap={{
-							vertices: {
-								table: 'nodes',
+						configuration={{
+							dataMapping: {
+								vertices: {
+									table: 'nodes',
+								},
 							},
 						}}
 					/>
@@ -34,9 +36,11 @@ storiesOf('Graph Component', module)
 			<Frame>
 				<ManagerContext.Provider value={createManager(ds)}>
 					<GraphComponent
-						datamap={{
-							vertices: {
-								table: 'nodes',
+						configuration={{
+							dataMapping: {
+								vertices: {
+									table: 'nodes',
+								},
 							},
 						}}
 					/>

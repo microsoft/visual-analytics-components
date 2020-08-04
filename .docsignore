@@ -1,2 +1,5 @@
 CODE_OF_CONDUCT.md
 SECURITY.md
+packages/apps/stories/storybook-static/*
+packages/apps/docsite/static/*
+packages/apps/docsite/public/*

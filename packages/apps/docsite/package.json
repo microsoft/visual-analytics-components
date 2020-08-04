@@ -1,5 +1,5 @@
 {
-	"name": "@essex/vac-docsite",
+	"name": "@visual-analytics-components/docsite",
 	"private": true,
 	"version": "0.3.0",
 	"scripts": {
@@ -7,6 +7,7 @@
 		"start": "gatsby develop -H 0.0.0.0",
 		"bundle_gatsby": "gatsby build --prefix-paths",
 		"copy_embeddings_explorer": "shx cp -r ../embeddings-explorer/build/ ./static/embeddings-explorer",
+		"copy_storybook": "shx cp -r ../stories/storybook-static/ ./static/storybook",
 		"create_apidocs_folder": "shx mkdir -p static/apidocs",
 		"apidoc:vac": "shx cp -r ../../authoring/vac/dist/docs static/apidocs/vac",
 		"apidoc:manager": "shx cp -r ../../authoring/manager/dist/docs static/apidocs/manager",
@@ -22,24 +23,25 @@
 		"apidoc:ranklist-component": "shx cp -r ../../components/ranklist/dist/docs static/apidocs/ranklist-component",
 		"apidoc:search-component": "shx cp -r ../../components/search/dist/docs static/apidocs/search-component",
 		"apidoc:title-component": "shx cp -r ../../components/title/dist/docs static/apidocs/title-component",
-		"process_apidocs": "npm-run-all -s create_apidocs_folder -p 'apidoc:*'",
-		"bundle": "run-s copy_embeddings_explorer process_apidocs bundle_gatsby"
+		"copy_apidocs": "npm-run-all -s create_apidocs_folder -p 'apidoc:*'",
+		"copy_static_assets": "run-p copy_apidocs copy_embeddings_explorer copy_storybook",
+		"bundle": "run-s copy_static_assets bundle_gatsby"
 	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [],
 	"dependencies": {
 		"@essex/embeddings-explorer": "^0.3.0",
-		"@mdx-js/mdx": "^1.6.14",
-		"@mdx-js/react": "^1.6.14",
+		"@mdx-js/mdx": "^1.6.16",
+		"@mdx-js/react": "^1.6.16",
 		"gatsby": "^2.24.11",
-		"gatsby-plugin-mdx": "^1.2.30",
+		"gatsby-plugin-mdx": "^1.2.32",
 		"gatsby-plugin-react-helmet": "^3.3.10",
 		"gatsby-plugin-styled-components": "^3.3.10",
 		"gatsby-plugin-typescript": "^2.4.16",
 		"gatsby-plugin-typography": "^2.5.10",
 		"gatsby-remark-autolink-headers": "^2.3.11",
 		"gatsby-remark-copy-linked-files": "^2.3.12",
-		"gatsby-remark-images": "^3.3.22",
+		"gatsby-remark-images": "^3.3.24",
 		"gatsby-remark-prismjs": "^3.5.10",
 		"gatsby-source-filesystem": "^2.3.23",
 		"gatsby-transformer-remark": "^2.8.27",
@@ -55,16 +57,16 @@
 		"styled-components": "^5.1.1",
 		"typography": "^0.16.19",
 		"typography-theme-github": "^0.16.19",
-		"vfile": "^4.1.1",
+		"vfile": "^4.2.0",
 		"vfile-message": "^2.0.4"
 	},
 	"devDependencies": {
 		"@types/gsap": "^1.20.2",
-		"@types/react": "^16.9.43",
+		"@types/react": "^16.9.44",
 		"@types/react-dom": "^16.9.8",
 		"@types/react-helmet": "^6.0.0",
 		"@types/react-tabs": "^2.3.2",
-		"@types/styled-components": "^5.1.1",
+		"@types/styled-components": "^5.1.2",
 		"@types/vfile": "^4.0.0",
 		"@types/vfile-message": "^2.0.0"
 	}
