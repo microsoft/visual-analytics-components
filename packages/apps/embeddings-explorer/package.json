@@ -50,9 +50,6 @@
 		"umap-js": "^1.3.2",
 		"visual-analytics-components": "^0.3.0"
 	},
-	"browserslist": [
-		"last 2 chrome versions"
-	],
 	"devDependencies": {
 		"@essex/scripts": "^9.0.2",
 		"@essex/webpack-config": "^9.0.2",
