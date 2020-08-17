@@ -28,8 +28,5 @@
 		"@types/node": ">= 14.0.4",
 		"@types/react": ">= 16.9.35",
 		"react": ">= 16.8"
-	},
-	"publishConfig": {
-		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
 	}
 }

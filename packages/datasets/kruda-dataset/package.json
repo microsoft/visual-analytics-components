@@ -28,8 +28,5 @@
 	},
 	"devDependencies": {
 		"@types/lodash": "^4.14.158"
-	},
-	"publishConfig": {
-		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
 	}
 }

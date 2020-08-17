@@ -15,9 +15,6 @@
 		"clean": "essex clean",
 		"start": "essex watch"
 	},
-	"publishConfig": {
-		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
-	},
 	"dependencies": {
 		"@visual-analytics-components/react": "^0.3.0",
 		"lodash": "^4.17.19",
