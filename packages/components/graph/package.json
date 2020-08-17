@@ -37,9 +37,6 @@
 			"lint": false
 		}
 	},
-	"publishConfig": {
-		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
-	},
 	"dependencies": {
 		"@topologic/graph": "^0.3.1",
 		"@topologic/layout-core": "^0.3.1",

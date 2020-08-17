@@ -32,9 +32,6 @@
 			"lint": false
 		}
 	},
-	"publishConfig": {
-		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
-	},
 	"dependencies": {
 		"@visual-analytics-components/react": "^0.3.0",
 		"classnames": "^2.2.6",

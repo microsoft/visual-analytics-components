@@ -6,9 +6,6 @@
 		"type": "git",
 		"url": "git@ssh.dev.azure.com:v3/msrp-essex/Rainbow%20Narwhal/disvis"
 	},
-	"publishConfig": {
-		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
-	},
 	"engines": {
 		"node": ">= 10.0"
 	},

@@ -32,8 +32,5 @@
 		"@thematic/core": "^0.8.0",
 		"@types/lodash": "^4.14.158",
 		"@types/node": "^14.0.27"
-	},
-	"publishConfig": {
-		"registry": "https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/"
 	}
 }
