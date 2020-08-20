@@ -7,6 +7,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App'
+import 'regenerator-runtime'
 import 'dat.gui/build/dat.gui.css'
 import './index.css'
 
