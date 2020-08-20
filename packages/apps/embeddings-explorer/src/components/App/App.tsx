@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet'
 import styled from 'styled-components'
 import { defaultTheme } from '../../utils/theme'
 import { AppHeader } from '../AppHeader'
-import Application from '../Application'
+import { ViewSelector } from './ViewSelector'
 
 export const App: React.FC = memo(function App() {
 	const theme = defaultTheme
@@ -22,7 +22,7 @@ export const App: React.FC = memo(function App() {
 				<ApplicationStyles />
 				<Container>
 					<AppHeader />
-					<Application />
+					<ViewSelector />
 				</Container>
 			</ThematicFluentProvider>
 		</>
