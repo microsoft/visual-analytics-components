@@ -102,19 +102,19 @@ export const FileUploadPane: React.FC<FileUploadPaneProps> = memo(
 								<a href="data/test-data/n2v.model">n2v.model</a>
 							</div>
 						</TestDataOption>
+						{availableRecords.length === 0 ? null : (
+							<div>
+								<FileList
+									availableFiles={availableRecords}
+									filesToLoad={loadingRecords}
+									onClickHandler={handleSwapFiles}
+									onTypeChange={handleTypeChange}
+								/>
+								<PrimaryButton onClick={ingestGraphData} text="Open Graph" />
+							</div>
+						)}
 					</DropAreaContainer>
 				</LoadContainer>
-				{availableRecords.length === 0 ? null : (
-					<div>
-						<FileList
-							availableFiles={availableRecords}
-							filesToLoad={loadingRecords}
-							onClickHandler={handleSwapFiles}
-							onTypeChange={handleTypeChange}
-						/>
-						<PrimaryButton onClick={ingestGraphData} text="Open Graph" />
-					</div>
-				)}
 			</div>
 		)
 	},

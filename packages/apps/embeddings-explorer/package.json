@@ -1,5 +1,5 @@
 {
-	"name": "@essex/embeddings-explorer",
+	"name": "@visual-analytics-components/embeddings-explorer",
 	"version": "0.3.0",
 	"homepage": "https://microsoft.github.com/visual-analytics-components/embeddings-explorer/",
 	"private": true,

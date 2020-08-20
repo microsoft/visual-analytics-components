@@ -3,11 +3,11 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import React, { useCallback, useMemo, useState } from 'react'
-import { Graph } from './../interfaces'
-import { AnalyticsView } from './AnalyticsView'
-import { UploadView } from './UploadView'
+import { Graph } from '../../interfaces'
+import { AnalyticsView } from '../AnalyticsView'
+import { UploadView } from '../UploadView'
 
-const Application: React.FC = () => {
+export const ViewSelector: React.FC = () => {
 	const [graphData, setGraphData] = useState<Graph | undefined>(undefined)
 	const handleGraphLoad = useCallback(graph => setGraphData(graph), [
 		setGraphData,
@@ -25,5 +25,3 @@ const Application: React.FC = () => {
 
 	return <>{content}</>
 }
-
-export default Application

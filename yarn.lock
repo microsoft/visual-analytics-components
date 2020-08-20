@@ -2261,62 +2261,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/embeddings-explorer@^0.3.0, @essex/embeddings-explorer@workspace:packages/apps/embeddings-explorer":
-  version: 0.0.0-use.local
-  resolution: "@essex/embeddings-explorer@workspace:packages/apps/embeddings-explorer"
-  dependencies:
-    "@babel/polyfill": ^7.10.4
-    "@essex/scripts": ^9.0.2
-    "@essex/webpack-config": ^9.0.2
-    "@fluentui/react": ^7.124.2
-    "@thematic/core": ^0.8.0
-    "@thematic/fabric": ^0.6.2
-    "@thematic/fluent": ^0.8.0
-    "@thematic/react": ^0.8.0
-    "@types/classnames": ^2.2.10
-    "@types/query-string": ^6.3.0
-    "@types/react": ^16.9.44
-    "@types/react-beautiful-dnd": ^12.1.3
-    "@types/react-dom": ^16.9.8
-    "@types/react-dropzone": ^5.1.0
-    "@types/react-helmet": ^6.0.0
-    "@types/react-router-dom": ^5.1.5
-    "@types/react-tabs": ^2.3.2
-    "@visual-analytics-components/datatable-component": ^0.3.0
-    "@visual-analytics-components/filterchip-component": ^0.3.0
-    "@visual-analytics-components/graph-component": ^0.3.0
-    "@visual-analytics-components/kruda-dataset": ^0.3.0
-    "@visual-analytics-components/ranklist-component": ^0.3.0
-    "@visual-analytics-components/react": ^0.3.0
-    "@visual-analytics-components/search-component": ^0.3.0
-    "@visual-analytics-components/title-component": ^0.3.0
-    azure-storage: ^2.10.3
-    classnames: ^2.2.6
-    cross-env: ^7.0.2
-    csv-parse: ^4.11.1
-    npm-run-all: ^4.1.5
-    numericjs: ^1.2.6
-    query-string: ^6.13.1
-    react: ^16.13.1
-    react-app-polyfill: ^1.0.6
-    react-beautiful-dnd: ^13.0.0
-    react-dom: ^16.13.1
-    react-dropzone: ^11.0.2
-    react-helmet: ^6.1.0
-    react-icons: ^3.10.0
-    react-router-dom: ^5.2.0
-    react-tabs: ^3.1.1
-    shortid: ^2.2.15
-    shx: ^0.3.2
-    styled-components: ^5.1.1
-    tsne-js: ^1.0.3
-    typescript: ^3.9.7
-    umap-js: ^1.3.2
-    visual-analytics-components: ^0.3.0
-    worker-loader: ^3.0.0
-  languageName: unknown
-  linkType: soft
-
 "@essex/eslint-config@npm:^9.0.2":
   version: 9.0.2
   resolution: "@essex/eslint-config@npm:9.0.2"
@@ -6977,7 +6921,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/docsite@workspace:packages/apps/docsite"
   dependencies:
-    "@essex/embeddings-explorer": ^0.3.0
     "@mdx-js/mdx": ^1.6.16
     "@mdx-js/react": ^1.6.16
     "@types/gsap": ^1.20.2
@@ -6988,6 +6931,7 @@ __metadata:
     "@types/styled-components": ^5.1.2
     "@types/vfile": ^4.0.0
     "@types/vfile-message": ^2.0.0
+    "@visual-analytics-components/embeddings-explorer": ^0.3.0
     gatsby: ^2.24.11
     gatsby-plugin-mdx: ^1.2.32
     gatsby-plugin-react-helmet: ^3.3.10
@@ -7014,6 +6958,62 @@ __metadata:
     typography-theme-github: ^0.16.19
     vfile: ^4.2.0
     vfile-message: ^2.0.4
+  languageName: unknown
+  linkType: soft
+
+"@visual-analytics-components/embeddings-explorer@^0.3.0, @visual-analytics-components/embeddings-explorer@workspace:packages/apps/embeddings-explorer":
+  version: 0.0.0-use.local
+  resolution: "@visual-analytics-components/embeddings-explorer@workspace:packages/apps/embeddings-explorer"
+  dependencies:
+    "@babel/polyfill": ^7.10.4
+    "@essex/scripts": ^9.0.2
+    "@essex/webpack-config": ^9.0.2
+    "@fluentui/react": ^7.124.2
+    "@thematic/core": ^0.8.0
+    "@thematic/fabric": ^0.6.2
+    "@thematic/fluent": ^0.8.0
+    "@thematic/react": ^0.8.0
+    "@types/classnames": ^2.2.10
+    "@types/query-string": ^6.3.0
+    "@types/react": ^16.9.44
+    "@types/react-beautiful-dnd": ^12.1.3
+    "@types/react-dom": ^16.9.8
+    "@types/react-dropzone": ^5.1.0
+    "@types/react-helmet": ^6.0.0
+    "@types/react-router-dom": ^5.1.5
+    "@types/react-tabs": ^2.3.2
+    "@visual-analytics-components/datatable-component": ^0.3.0
+    "@visual-analytics-components/filterchip-component": ^0.3.0
+    "@visual-analytics-components/graph-component": ^0.3.0
+    "@visual-analytics-components/kruda-dataset": ^0.3.0
+    "@visual-analytics-components/ranklist-component": ^0.3.0
+    "@visual-analytics-components/react": ^0.3.0
+    "@visual-analytics-components/search-component": ^0.3.0
+    "@visual-analytics-components/title-component": ^0.3.0
+    azure-storage: ^2.10.3
+    classnames: ^2.2.6
+    cross-env: ^7.0.2
+    csv-parse: ^4.11.1
+    npm-run-all: ^4.1.5
+    numericjs: ^1.2.6
+    query-string: ^6.13.1
+    react: ^16.13.1
+    react-app-polyfill: ^1.0.6
+    react-beautiful-dnd: ^13.0.0
+    react-dom: ^16.13.1
+    react-dropzone: ^11.0.2
+    react-helmet: ^6.1.0
+    react-icons: ^3.10.0
+    react-router-dom: ^5.2.0
+    react-tabs: ^3.1.1
+    shortid: ^2.2.15
+    shx: ^0.3.2
+    styled-components: ^5.1.1
+    tsne-js: ^1.0.3
+    typescript: ^3.9.7
+    umap-js: ^1.3.2
+    visual-analytics-components: ^0.3.0
+    worker-loader: ^3.0.0
   languageName: unknown
   linkType: soft
 

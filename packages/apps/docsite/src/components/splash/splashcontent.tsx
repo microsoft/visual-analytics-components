@@ -14,6 +14,7 @@ import { usePaneMousehandlers } from './splash.hooks'
 export const SplashContent: React.FC = memo(function SplashContent() {
 	const docRef = useRef<HTMLDivElement>(null)
 	const sourceRef = useRef<HTMLDivElement>(null)
+	const eeRef = useRef<HTMLDivElement>(null)
 	const [
 		sourceMouseEnter,
 		sourceMouseLeave,
@@ -25,6 +26,10 @@ export const SplashContent: React.FC = memo(function SplashContent() {
 	const [docMouseEnter, docMouseLeave, onDocClick] = usePaneMousehandlers(
 		docRef,
 		withPrefix('/documentation'),
+	)
+	const [eeMouseEnter, eeMouseLeave, onEEClick] = usePaneMousehandlers(
+		eeRef,
+		withPrefix('/embeddings-explorer'),
 	)
 	return (
 		<Container>
@@ -38,29 +43,71 @@ export const SplashContent: React.FC = memo(function SplashContent() {
 			</HeroPane>
 			<BoxRow id="links" role="main">
 				<Box
+					ref={docRef}
 					style={{ background: theme.logoPalette.green }}
 					onMouseEnter={docMouseEnter}
 					onMouseLeave={docMouseLeave}
 					onClick={onDocClick}
 				>
-					<DocsLink href="documentation">Read the docs</DocsLink>
+					<LocalLink href="documentation">
+						<Read />
+						Read the docs
+					</LocalLink>
 				</Box>
 				<Box
 					style={{ background: theme.logoPalette.pink }}
-					ref={sourceRef as any}
+					ref={sourceRef}
 					onMouseEnter={sourceMouseEnter}
 					onMouseLeave={sourceMouseLeave}
 					onClick={onSourceClick}
 				>
-					<StyledAnchor href="https://github.com/microsoft/visual-analytics-components">
+					<ExternalLink href="https://github.com/microsoft/visual-analytics-components">
+						<Inspect />
 						Browse the source
-					</StyledAnchor>
+					</ExternalLink>
+				</Box>
+			</BoxRow>
+			<BoxRow>
+				<Box
+					ref={eeRef}
+					style={{ background: theme.logoPalette.blue }}
+					onMouseEnter={eeMouseEnter}
+					onMouseLeave={eeMouseLeave}
+					onClick={onEEClick}
+				>
+					<LocalLink href="embeddings-explorer">
+						<Sparkle />
+						Try the Embeddings Explorer
+						<Sparkle />
+					</LocalLink>
 				</Box>
 			</BoxRow>
 			<FooterRow>
 				<Footer />
 			</FooterRow>
 		</Container>
+	)
+})
+
+const Sparkle: React.FC = memo(function Sparkle() {
+	return (
+		<span role="img" aria-label="sparkle">
+			✨
+		</span>
+	)
+})
+const Inspect: React.FC = memo(function Inspect() {
+	return (
+		<span role="img" aria-label="monacle">
+			🧐
+		</span>
+	)
+})
+const Read: React.FC = memo(function Read() {
+	return (
+		<span role="img" aria-label="books">
+			📚
+		</span>
 	)
 })
 
@@ -108,14 +155,14 @@ const BoxRow = styled.div`
 	flex-direction: row;
 `
 
-const DocsLink = styled.a`
+const LocalLink = styled.a`
 	color: black;
 	font-family: 'Josefin Sans', -apple-system, system-ui, BlinkMacSystemFont,
 		'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 	border-bottom: 0px;
 `
 
-const StyledAnchor = styled.a`
+const ExternalLink = styled.a`
 	font-weight: bold;
 	color: black;
 	font-family: 'Josefin Sans', -apple-system, system-ui, BlinkMacSystemFont,
