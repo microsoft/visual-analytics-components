@@ -98,14 +98,14 @@ const Sparkle: React.FC = memo(function Sparkle() {
 })
 const Inspect: React.FC = memo(function Inspect() {
 	return (
-		<span role="img" aria-label="sparkle">
+		<span role="img" aria-label="monacle">
 			🧐
 		</span>
 	)
 })
 const Read: React.FC = memo(function Read() {
 	return (
-		<span role="img" aria-label="sparkle">
+		<span role="img" aria-label="books">
 			📚
 		</span>
 	)
