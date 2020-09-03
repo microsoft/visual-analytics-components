@@ -18,13 +18,16 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: yarn install
+      - run: npm i -g pnpm
+        name: Use pnpm
+
+      - run: pnpm install
         name: Install Dependencies
         env:
           CI: true
           BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
 
-      - run: yarn ci
+      - run: pnpm ci
         name: Execute Tests
         env:
           CI: true

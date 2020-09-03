@@ -10,25 +10,19 @@
 		"node": ">= 10.0"
 	},
 	"scripts": {
-		"clean": "lerna run --parallel --stream clean",
-		"build:packages": "lerna run --stream build",
+		"preinstall": "npx only-allow pnpm",
+		"clean": "pnpm -r --parallel --stream clean",
+		"build:packages": "pnpm -r --stream build",
 		"build:copy_typings": "cd node_modules/@danmarshall/deckgl-typings && npm run postinstall",
 		"build": "run-s build:copy_typings build:packages",
-		"bundle": "lerna run --stream bundle",
+		"bundle": "pnpm -r --stream bundle",
 		"lint": "essex lint --strict --docs",
 		"test": "essex test",
 		"test:ci": "essex test --ci",
-		"watch": "lerna run --stream --parallel watch",
-		"ci": "cross-env CHOKIDAR_USEPOLLING=1 CI=true NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s build lint bundle test:ci",
-		"release": "lerna publish --registry https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/",
-		"start": "lerna run start --parallel --stream"
+		"watch": "pnpm -r --stream --parallel watch",
+		"ci": "cross-env CHOKIDAR_USEPOLLING=1 CI=true NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s build lint bundle test:ci",		
+		"start": "pnpm -r start --parallel --stream"
 	},
-	"workspaces": [
-		"packages/authoring/*",
-		"packages/datasets/*",
-		"packages/components/*",
-		"packages/apps/*"
-	],
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"license": "MIT",
 	"devDependencies": {

@@ -5,5 +5,4 @@ dist/
 out/
 public/
 static/
-.yarn/
 storybook-static/

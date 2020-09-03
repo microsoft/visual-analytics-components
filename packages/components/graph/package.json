@@ -51,24 +51,15 @@
 		"use-resize-observer": "^6.1.0",
 		"visual-analytics-components": "^0.3.0"
 	},
-	"//about:devDependencies": {
-		"wtf": [
-			"only added because of yarn not being able to construct workspaces properly:",
-			"schema-utils",
-			"camelcase"
-		]
-	},
 	"devDependencies": {
 		"@thematic/core": "^0.8.0",
 		"@types/debug": "^4.1.5",
 		"@types/lodash": "^4.14.158",
 		"@types/node": "^14.0.27",
-		"camelcase": "^6.0.0",
 		"indefinitely-typed": "^1.1.0",
 		"raw-loader": "^4.0.1",
 		"react": "^16.13.1",
-		"react-dom": "^16.13.1",
-		"schema-utils": "^2.7.0"
+		"react-dom": "^16.13.1"
 	},
 	"peerDependencies": {
 		"@types/debug": ">= 4.1.5",
