@@ -79,7 +79,7 @@ export const FileUploadPane: React.FC<FileUploadPaneProps> = memo(
 		}, [onDrop])
 
 		return (
-			<div>
+			<div style={{ margin: 40, flex: 1 }}>
 				<LoadContainer>
 					<UsageInstructionsStyled />
 					<DropAreaContainer>

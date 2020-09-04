@@ -5,6 +5,7 @@
 import React, { memo } from 'react'
 import styled from 'styled-components'
 import { Graph } from '../../interfaces'
+import { Footer } from '../Footer'
 import { FileUploadPane } from './FileUploadPane'
 
 export interface UploadViewProps {
@@ -17,13 +18,14 @@ export const UploadView: React.FC<UploadViewProps> = memo(function UploadView({
 	return (
 		<Container>
 			<FileUploadPane onGraphLoaded={onGraphLoaded} />
+			<Footer />
 		</Container>
 	)
 })
 
 const Container = styled.div`
 	display: flex;
+	flex-direction: column;
 	flex: 1;
-	margin: 40px;
 	justify-content: center;
 `
