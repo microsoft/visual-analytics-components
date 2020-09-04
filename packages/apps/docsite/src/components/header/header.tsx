@@ -9,7 +9,7 @@ import styled from 'styled-components'
 import theme from '../../util/theme'
 import { Logo } from '../logo'
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { version: libraryVersion } = require('../../../../../../lerna.json')
+const { version: libraryVersion } = require('../../../../../../package.json')
 
 export interface HeaderProps {
 	logoTo?: string

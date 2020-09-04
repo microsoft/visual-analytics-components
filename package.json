@@ -1,6 +1,7 @@
 {
 	"name": "@visual-analytics-components/project",
 	"private": true,
+	"version": "0.3.0",
 	"description": "Visual Analytic Components for the Web",
 	"repository": {
 		"type": "git",
