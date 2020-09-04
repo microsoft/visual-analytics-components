@@ -12,7 +12,7 @@ export const TrademarksStatement: React.FC = () => (
 			target="_blank"
 			href="https://privacy.microsoft.com/en-us/TrademarksStatement/"
 		>
-			Read Microsoft&apos;s statement on Trademarks.
+			Trademarks
 		</Link>
 	</Text>
 )

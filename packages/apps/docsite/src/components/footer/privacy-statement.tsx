@@ -6,13 +6,15 @@
 import React from 'react'
 import { Text, Link } from './common'
 
-export const PrivacyStatement: React.FC = () => (
-	<Text>
+export const PrivacyStatement: React.FC<{
+	style?: React.CSSProperties
+}> = ({ style }) => (
+	<Text style={style}>
 		<Link
 			target="_blank"
 			href="https://privacy.microsoft.com/en-us/privacystatement/"
 		>
-			Read Microsoft&apos;s statement on Privacy and Cookies.
+			Privacy and Cookies
 		</Link>
 	</Text>
 )

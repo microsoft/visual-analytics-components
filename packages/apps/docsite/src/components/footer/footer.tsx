@@ -19,17 +19,15 @@ export const FOOTER_HEIGHT = 50
 
 export const Footer: React.FC<FooterProps> = style => (
 	<Container style={style as any}>
+		<FooterColumn></FooterColumn>
 		<FooterColumn>
-			<WithLove>with ♥ from Microsoft</WithLove>
-		</FooterColumn>
-		<FooterColumn>
-			<WithLove>
-				<Copyright />
-				<NoCookies />
+			<Copyright />
+			<NoCookies />
+			<CorpLinks>
 				<TermsOfUse />
-				<PrivacyStatement />
+				<PrivacyStatement style={{ marginLeft: 30, marginRight: 30 }} />
 				<TrademarksStatement />
-			</WithLove>
+			</CorpLinks>
 		</FooterColumn>
 	</Container>
 )
@@ -38,7 +36,11 @@ const Container = styled.div`
 	display: flex;
 	margin-top: 10px;
 `
-
+const CorpLinks = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+`
 const FooterColumn = styled.div`
 	margin-top: 10px;
 	display: flex;
@@ -48,7 +50,6 @@ const FooterColumn = styled.div`
 	align-items: center;
 	height: ${FOOTER_HEIGHT}px;
 `
-
 const WithLove = styled.div`
 	color: ${theme.palette.whitish};
 	font-family: ${theme.text.fontFamily};
