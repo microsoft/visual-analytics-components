@@ -11,10 +11,9 @@
 	},
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
+		"postinstall": "shx rm -rf node_modules/@types/react-native",
 		"clean": "pnpm -r --parallel --stream clean",
-		"build:packages": "pnpm -r --stream build",
-		"build:copy_typings": "cd node_modules/@danmarshall/deckgl-typings && npm run postinstall",
-		"build": "run-s build:copy_typings build:packages",
+		"build": "pnpm -r --stream build",
 		"bundle": "pnpm -r --stream bundle",
 		"lint": "essex lint --strict --docs",
 		"test": "essex test",
@@ -48,10 +47,6 @@
 			"pre-commit": "essex pre-commit",
 			"commit-msg": "essex commit-msg"
 		}
-	},
-	"resolutions": {
-		"@types/react": "16.9.44",
-		"@types/react-native": "npm:@types/react@16.9.44"
 	},
 	"dependencies": {
 		"@commitlint/cli": "^9.1.2"

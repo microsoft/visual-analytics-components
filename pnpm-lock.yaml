@@ -252,9 +252,11 @@ importers:
       rxjs: 6.6.2
       symbol-observable: 1.2.0
     devDependencies:
+      '@thematic/core': 0.8.0
       '@types/node': 14.6.4
       '@visual-analytics-components/plain-object-dataset': 'link:../../datasets/plain-object-dataset'
     specifiers:
+      '@thematic/core': ^0.8.0
       '@types/node': ^14.0.27
       '@visual-analytics-components/mapped-dataset': ^0.3.0
       '@visual-analytics-components/plain-object-dataset': ^0.3.0
@@ -283,7 +285,13 @@ importers:
       react-shadow: ^18.2.4
       visual-analytics-components: ^0.3.0
   packages/authoring/types:
-    specifiers: {}
+    dependencies:
+      rxjs: 6.6.2
+    devDependencies:
+      '@thematic/core': 0.8.0
+    specifiers:
+      '@thematic/core': ^0.8.0
+      rxjs: ^6.6.2
   packages/authoring/vac:
     dependencies:
       '@visual-analytics-components/manager': 'link:../manager'
@@ -543,9 +551,11 @@ importers:
   packages/datasets/plain-object-dataset:
     dependencies:
       '@visual-analytics-components/abstract-dataset': 'link:../abstract-dataset'
+      '@visual-analytics-components/messages': 'link:../../authoring/messages'
       '@visual-analytics-components/types': 'link:../../authoring/types'
     specifiers:
       '@visual-analytics-components/abstract-dataset': ^0.3.0
+      '@visual-analytics-components/messages': ^0.3.0
       '@visual-analytics-components/types': ^0.3.0
 lockfileVersion: 5.1
 packages:
@@ -2972,6 +2982,8 @@ packages:
       '@typescript-eslint/parser': 3.10.1_eslint@7.8.1
       eslint: 7.8.1
     dev: true
+    peerDependencies:
+      typescript: '*'
     resolution:
       integrity: sha1-EYy5ZQAHNm9e2dj7jkNiD1bKoJU=
   /@essex/build-step-eslint/9.2.1_typescript@3.9.7:
@@ -3004,6 +3016,8 @@ packages:
       debug: 4.1.1
       jest: 26.1.0
     dev: true
+    peerDependencies:
+      typescript: '*'
     resolution:
       integrity: sha1-WWbuO3T2lxRiHwgDEPVXr+xihig=
   /@essex/build-step-jest/9.2.1_typescript@3.9.7:
@@ -3066,9 +3080,11 @@ packages:
       webpack: 4.44.1_webpack@4.44.1
     dev: true
     peerDependencies:
+      '@types/react': '*'
       react: '>= 16.13.1'
       react-dom: '>= 16.13.1'
       regenerator-runtime: '*'
+      typescript: '*'
     resolution:
       integrity: sha1-ojB4K17st0xnQg/POUo5hBcB4M4=
   /@essex/build-step-storybook/9.2.1_86777cfdda65bc145966cbb7bee18e81:
@@ -3125,6 +3141,8 @@ packages:
       webpack: 4.44.1_webpack@4.44.1
       webpack-dev-server: 3.11.0_webpack@4.44.1
     dev: true
+    peerDependencies:
+      typescript: '*'
     resolution:
       integrity: sha1-sQzWw7VsUbUMt+5U0ITVl9HZASo=
   /@essex/build-step-webpack/9.2.1_typescript@3.9.7:
@@ -3161,7 +3179,7 @@ packages:
       integrity: sha1-OXmkLS9pKY69bNVkaX7h6ES352M=
   /@essex/eslint-config/9.2.1_@essex+eslint-plugin@9.2.1:
     dependencies:
-      '@essex/eslint-plugin': 9.2.1
+      '@essex/eslint-plugin': 9.2.1_typescript@3.9.7
     dev: true
     peerDependencies:
       '@essex/eslint-plugin': '>= 8.0.0'
@@ -3186,6 +3204,8 @@ packages:
       eslint-plugin-react-hooks: 4.1.0_eslint@7.8.1
       prettier: 2.1.1
     dev: true
+    peerDependencies:
+      typescript: '*'
     resolution:
       integrity: sha1-hgUqm+YkjQhz2EdDf6Z3l7t4fvQ=
   /@essex/eslint-plugin/9.2.1_typescript@3.9.7:
@@ -3231,6 +3251,7 @@ packages:
     dev: true
     peerDependencies:
       jest: '>= 26'
+      typescript: '*'
     resolution:
       integrity: sha1-fb9Px6xLW4vKV5QKUCetgkn9eOg=
   /@essex/jest-config/9.2.1_jest@26.1.0:
@@ -3244,6 +3265,7 @@ packages:
     dev: true
     peerDependencies:
       jest: '>= 26'
+      typescript: '*'
     resolution:
       integrity: sha1-fb9Px6xLW4vKV5QKUCetgkn9eOg=
   /@essex/jest-config/9.2.1_jest@26.1.0+typescript@3.9.7:
@@ -3369,9 +3391,11 @@ packages:
       '@essex/eslint-config': '>= 8.0.2'
       '@essex/jest-config': '>= 8.0.9'
       '@essex/prettier-config': '>= 8.0.1'
+      '@types/react': '*'
       husky: '>= 4.2.5'
       react: '>= 16.13.1'
       react-dom: '>= 16.13.1'
+      typescript: '*'
     peerDependenciesMeta:
       '@essex/eslint-config':
         optional: true
@@ -3420,9 +3444,11 @@ packages:
       webpack: 4.44.1_webpack@4.44.1
     dev: true
     peerDependencies:
+      '@types/react': '*'
       react: '>= 16.13.1'
       react-dom: '>= 16.13.1'
       regenerator-runtime: '*'
+      typescript: '*'
     resolution:
       integrity: sha1-NvJ7Ap+7yC6E5fgZo7jajL2gvUE=
   /@essex/storybook-config/9.2.1_86777cfdda65bc145966cbb7bee18e81:
@@ -3485,6 +3511,8 @@ packages:
       ts-loader: 8.0.3
       webpack: 4.44.1_webpack@4.44.1
     dev: true
+    peerDependencies:
+      typescript: '*'
     resolution:
       integrity: sha1-mIom1w2gbNlJQURWjRLn0G10xGU=
   /@essex/webpack-config/9.2.1_typescript@3.9.7:
@@ -5844,6 +5872,7 @@ packages:
       util-deprecate: 1.0.2
     dev: true
     peerDependencies:
+      '@types/react': '*'
       react-dom: '*'
       regenerator-runtime: '*'
     resolution:
@@ -5891,6 +5920,7 @@ packages:
       uuid: 3.4.0
     dev: true
     peerDependencies:
+      '@types/react': '*'
       react-dom: '*'
       regenerator-runtime: '*'
     resolution:
@@ -6015,6 +6045,7 @@ packages:
     dev: true
     peerDependencies:
       '@babel/core': '*'
+      '@types/react': '*'
       babel-loader: ^8.0.0
       react: ^16.8.0
       react-dom: '*'
@@ -6048,6 +6079,7 @@ packages:
       regenerator-runtime: 0.13.7
     dev: true
     peerDependencies:
+      '@types/react': '*'
       react: '*'
       react-dom: '*'
       regenerator-runtime: '*'
@@ -6360,6 +6392,8 @@ packages:
       simplebar-react: 1.2.3_react-dom@16.13.1+react@16.13.1
       ts-dedent: 1.1.1
     dev: true
+    peerDependencies:
+      '@types/react': '*'
     resolution:
       integrity: sha1-F+43GiRVxugHw9MTWpJm5jrXZRo=
   /@storybook/components/5.3.21_@types+react@16.9.49:
@@ -6602,9 +6636,11 @@ packages:
     dev: true
     peerDependencies:
       '@babel/core': '*'
+      '@types/react': '*'
       babel-loader: ^7.0.0 || ^8.0.0
       react: '*'
       react-dom: '*'
+      typescript: '*'
     resolution:
       integrity: sha1-2pYxZuokYB8xgmajqmu8BvyPsXU=
   /@storybook/core/6.0.21:
@@ -6821,9 +6857,11 @@ packages:
     hasBin: true
     peerDependencies:
       '@babel/core': ^7.0.1
+      '@types/react': '*'
       babel-loader: ^7.0.0 || ^8.0.0
       react: '*'
       react-dom: '*'
+      typescript: '*'
     resolution:
       integrity: sha1-9/Nk09OtxwdGoSz4tmFJUvQdS9A=
   /@storybook/react/6.0.21:
@@ -7071,6 +7109,8 @@ packages:
       telejson: 3.3.0
       util-deprecate: 1.0.2
     dev: true
+    peerDependencies:
+      '@types/react': '*'
     resolution:
       integrity: sha1-tCVo4DNTtHqqsbZEkxHziFhYX4E=
   /@storybook/ui/5.3.21_@types+react@16.9.49:
@@ -8281,6 +8321,7 @@ packages:
       node: ^8.10.0 || ^10.13.0 || >=11.10.1
     peerDependencies:
       eslint: '*'
+      typescript: '*'
     resolution:
       integrity: sha1-01JLZEzbQO687KZ/jPPkzJyPmA8=
   /@typescript-eslint/experimental-utils/2.34.0_eslint@7.8.1+typescript@3.9.7:
@@ -8311,6 +8352,7 @@ packages:
       node: ^10.12.0 || >=12.0.0
     peerDependencies:
       eslint: '*'
+      typescript: '*'
     resolution:
       integrity: sha1-4Xn/yBqA68ri6gTgMy+LJRNFpoY=
   /@typescript-eslint/experimental-utils/3.10.1_eslint@7.8.1+typescript@3.9.7:
@@ -8828,6 +8870,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Rs3Tnw+P8IqHZhm1X1rIptx3C0U=
+  /acorn-jsx/5.2.0:
+    dev: false
+    peerDependencies:
+      acorn: ^6.0.0 || ^7.0.0
+    resolution:
+      integrity: sha1-TGYGkXPW/daO2FI5/CViJhgrLr4=
   /acorn-jsx/5.2.0_acorn@6.4.1:
     dependencies:
       acorn: 6.4.1
@@ -13700,6 +13748,7 @@ packages:
       node: '>=8'
     peerDependencies:
       eslint: '>=5'
+      typescript: '*'
     resolution:
       integrity: sha1-4dacdfY56Z2DZkJFPE517SLaQJk=
   /eslint-plugin-jest/23.20.0_eslint@7.8.1+typescript@3.9.7:
@@ -15383,7 +15432,7 @@ packages:
       '@mdx-js/react': 2.0.0-next.7_react@16.13.1
       '@mdx-js/runtime': 2.0.0-next.7_react@16.13.1
       acorn: 7.4.0
-      acorn-jsx: 5.2.0_acorn@7.4.0
+      acorn-jsx: 5.2.0
       ansi-html: 0.0.7
       babel-plugin-remove-export-keywords: 1.6.16
       better-queue: 3.8.10
@@ -22277,6 +22326,8 @@ packages:
     dev: true
     engines:
       node: '>=6'
+    peerDependencies:
+      typescript: '*'
     resolution:
       integrity: sha1-YqHNMGj0bVZLszxW6yUOTVhmdus=
   /pnp-webpack-plugin/1.5.0_typescript@3.9.7:
@@ -23656,6 +23707,7 @@ packages:
       use-sidecar: 1.0.3_react@16.13.1
     dev: true
     peerDependencies:
+      '@types/react': '*'
       react: ^16.8.0
     resolution:
       integrity: sha1-6ELMk9pza1xdMxeZASVEKVy87k8=
@@ -28084,7 +28136,6 @@ packages:
     dev: false
     engines:
       node: '>= 6.9.0'
-    hasBin: true
     peerDependencies:
       webpack: ^3.0.0 || ^4.0.0
     resolution:
