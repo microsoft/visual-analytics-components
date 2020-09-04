@@ -40,7 +40,8 @@
 		"react-virtualized-auto-sizer": "^1.0.2",
 		"react-window": "^1.8.5",
 		"styled-components": "^5.1.1",
-		"visual-analytics-components": "^0.3.0"
+		"visual-analytics-components": "^0.3.0",
+		"rxjs": "^6.6.2"
 	},
 	"devDependencies": {
 		"@thematic/core": "^0.8.0",

@@ -39,6 +39,7 @@
 	},
 	"dependencies": {
 		"@topologic/graph": "^0.3.1",
+		"@topologic/react": "^0.3.1",
 		"@topologic/layout-core": "^0.3.1",
 		"@topologic/layout-fa2": "^0.3.1",
 		"@topologic/render-controls": "^0.3.2",
@@ -49,7 +50,8 @@
 		"debug": "^4.1.1",
 		"lodash": "^4.17.19",
 		"use-resize-observer": "^6.1.0",
-		"visual-analytics-components": "^0.3.0"
+		"visual-analytics-components": "^0.3.0",
+		"rxjs": "^6.6.2"
 	},
 	"devDependencies": {
 		"@thematic/core": "^0.8.0",

@@ -77,6 +77,12 @@ importers:
       '@types/styled-components': 5.1.3
       '@types/vfile': 4.0.0
       '@types/vfile-message': 2.0.0
+      '@visual-analytics-components/datatable-component': 'link:../../components/datatable'
+      '@visual-analytics-components/filterchip-component': 'link:../../components/filterchip'
+      '@visual-analytics-components/graph-component': 'link:../../components/graph'
+      '@visual-analytics-components/ranklist-component': 'link:../../components/ranklist'
+      '@visual-analytics-components/search-component': 'link:../../components/search'
+      '@visual-analytics-components/title-component': 'link:../../components/title'
     specifiers:
       '@mdx-js/mdx': ^1.6.16
       '@mdx-js/react': ^1.6.16
@@ -88,7 +94,13 @@ importers:
       '@types/styled-components': ^5.1.2
       '@types/vfile': ^4.0.0
       '@types/vfile-message': ^2.0.0
+      '@visual-analytics-components/datatable-component': ^0.3.0
       '@visual-analytics-components/embeddings-explorer': ^0.3.0
+      '@visual-analytics-components/filterchip-component': ^0.3.0
+      '@visual-analytics-components/graph-component': ^0.3.0
+      '@visual-analytics-components/ranklist-component': ^0.3.0
+      '@visual-analytics-components/search-component': ^0.3.0
+      '@visual-analytics-components/title-component': ^0.3.0
       gatsby: ^2.24.11
       gatsby-plugin-mdx: ^1.2.32
       gatsby-plugin-react-helmet: ^3.3.10
@@ -325,6 +337,7 @@ importers:
       visual-analytics-components: 'link:../../authoring/vac'
     devDependencies:
       '@thematic/core': 0.8.0
+      '@thematic/react': 0.8.0_react@16.13.1
       '@types/lodash': 4.14.161
       '@types/node': 14.6.4
       '@types/react': 16.9.49
@@ -334,6 +347,7 @@ importers:
       react-dom: 16.13.1_react@16.13.1
     specifiers:
       '@thematic/core': ^0.8.0
+      '@thematic/react': ^0.8.0
       '@types/lodash': ^4.14.158
       '@types/node': ^14.0.27
       '@types/react': ^16.9.44
@@ -351,10 +365,12 @@ importers:
   packages/components/filterchip:
     dependencies:
       '@visual-analytics-components/react': 'link:../../authoring/react'
+      rxjs: 6.6.2
       styled-components: 5.1.1_479e60ee9c1aa71dc1eb81036e3619dc
       visual-analytics-components: 'link:../../authoring/vac'
     devDependencies:
       '@thematic/core': 0.8.0
+      '@thematic/react': 0.8.0_react@16.13.1
       '@types/node': 14.6.4
       '@types/react': 16.9.49
       '@types/react-dom': 16.9.8
@@ -363,6 +379,7 @@ importers:
       react-dom: 16.13.1_react@16.13.1
     specifiers:
       '@thematic/core': ^0.8.0
+      '@thematic/react': ^0.8.0
       '@types/node': ^14.0.27
       '@types/react': ^16.9.44
       '@types/react-dom': ^16.9.8
@@ -370,6 +387,7 @@ importers:
       '@visual-analytics-components/react': ^0.3.0
       react: ^16.13.1
       react-dom: ^16.13.1
+      rxjs: ^6.6.2
       styled-components: ^5.1.1
       visual-analytics-components: ^0.3.0
   packages/components/graph:
@@ -377,6 +395,7 @@ importers:
       '@topologic/graph': 0.3.1
       '@topologic/layout-core': 0.3.1
       '@topologic/layout-fa2': 0.3.1
+      '@topologic/react': 0.3.2_react-dom@16.13.1+react@16.13.1
       '@topologic/render-controls': 0.3.2_react-dom@16.13.1+react@16.13.1
       '@topologic/render-controls-react': 0.3.2_react-dom@16.13.1+react@16.13.1
       '@topologic/renderer': 0.3.2
@@ -384,6 +403,7 @@ importers:
       dat.gui: 0.7.7
       debug: 4.1.1
       lodash: 4.17.20
+      rxjs: 6.6.2
       use-resize-observer: 6.1.0_react-dom@16.13.1+react@16.13.1
       visual-analytics-components: 'link:../../authoring/vac'
     devDependencies:
@@ -400,6 +420,7 @@ importers:
       '@topologic/graph': ^0.3.1
       '@topologic/layout-core': ^0.3.1
       '@topologic/layout-fa2': ^0.3.1
+      '@topologic/react': ^0.3.1
       '@topologic/render-controls': ^0.3.2
       '@topologic/render-controls-react': ^0.3.2
       '@topologic/renderer': ^0.3.2
@@ -414,6 +435,7 @@ importers:
       raw-loader: ^4.0.1
       react: ^16.13.1
       react-dom: ^16.13.1
+      rxjs: ^6.6.2
       use-resize-observer: ^6.1.0
       visual-analytics-components: ^0.3.0
   packages/components/ranklist:
@@ -424,6 +446,7 @@ importers:
       lodash: 4.17.20
       react-virtualized-auto-sizer: 1.0.2_react-dom@16.13.1+react@16.13.1
       react-window: 1.8.5_react-dom@16.13.1+react@16.13.1
+      rxjs: 6.6.2
       styled-components: 5.1.1_479e60ee9c1aa71dc1eb81036e3619dc
       visual-analytics-components: 'link:../../authoring/vac'
     devDependencies:
@@ -462,6 +485,7 @@ importers:
       react-dom: ^16.13.1
       react-virtualized-auto-sizer: ^1.0.2
       react-window: ^1.8.5
+      rxjs: ^6.6.2
       styled-components: ^5.1.1
       visual-analytics-components: ^0.3.0
   packages/components/search:
