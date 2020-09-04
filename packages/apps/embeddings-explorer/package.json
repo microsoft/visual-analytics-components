@@ -35,6 +35,7 @@
 		"csv-parse": "^4.11.1",
 		"numericjs": "^1.2.6",
 		"query-string": "^6.13.1",
+		"rxjs": "^6.6.2",
 		"react": "^16.13.1",
 		"react-app-polyfill": "^1.0.6",
 		"react-beautiful-dnd": "^13.0.0",
@@ -52,6 +53,7 @@
 		"visual-analytics-components": "^0.3.0"
 	},
 	"devDependencies": {
+		"@uncharted.software/kruda": "0.0.13-ct.1",
 		"@essex/scripts": "^9.0.2",
 		"@essex/webpack-config": "^9.0.2",
 		"@types/classnames": "^2.2.10",
