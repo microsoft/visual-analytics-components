@@ -495,6 +495,7 @@ importers:
       visual-analytics-components: 'link:../../authoring/vac'
     devDependencies:
       '@thematic/core': 0.8.0
+      '@thematic/react': 0.8.0_react@16.13.1
       '@types/lodash': 4.14.161
       '@types/node': 14.6.4
       '@types/react': 16.9.49
@@ -503,6 +504,7 @@ importers:
       react-dom: 16.13.1_react@16.13.1
     specifiers:
       '@thematic/core': ^0.8.0
+      '@thematic/react': ^0.8.0
       '@types/lodash': ^4.14.158
       '@types/node': ^14.0.27
       '@types/react': ^16.9.44
@@ -518,12 +520,16 @@ importers:
       rxjs: 6.6.2
       visual-analytics-components: 'link:../../authoring/vac'
     devDependencies:
+      '@thematic/core': 0.8.0
+      '@thematic/react': 0.8.0_react@16.13.1
       '@types/node': 14.6.4
       '@types/react': 16.9.49
       '@types/react-dom': 16.9.8
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
     specifiers:
+      '@thematic/core': ^0.8.0
+      '@thematic/react': ^0.8.0
       '@types/node': ^14.0.27
       '@types/react': ^16.9.44
       '@types/react-dom': ^16.9.8
