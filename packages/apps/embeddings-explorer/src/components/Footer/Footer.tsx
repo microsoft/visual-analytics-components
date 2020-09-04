@@ -5,7 +5,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Copyright } from './Copyright'
-import { NoCookies } from './NoCookies'
 import { PrivacyStatement } from './Privacy'
 import { TermsOfUse } from './TermsOfUse'
 import { TrademarksStatement } from './Trademarks'
@@ -21,7 +20,6 @@ export const Footer: React.FC<FooterProps> = style => (
 		<FooterColumn></FooterColumn>
 		<FooterColumn>
 			<Copyright />
-			<NoCookies />
 			<CorpLinks>
 				<TermsOfUse />
 				<PrivacyStatement style={{ marginLeft: 30, marginRight: 30 }} />
