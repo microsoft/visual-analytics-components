@@ -25,13 +25,13 @@ jobs:
         name: Install Dependencies
         env:
           CI: true
-          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: pnpm ci
         name: Execute Tests
         env:
           CI: true
-          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish coverage to codecov.io
         uses: codecov/codecov-action@v1.0.3

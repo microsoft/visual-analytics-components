@@ -14,23 +14,26 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      
+
       - run: npm i -g pnpm
         env:
           CI: true
-          
+
       - run: pnpm install
         env:
           CI: true
-          
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - run: pnpm build
         env:
           CI: true
-          
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - run: pnpm bundle
         env:
           CI: true
-          
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@3.5.9
         with:
