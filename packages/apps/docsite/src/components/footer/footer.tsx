@@ -4,9 +4,7 @@
  */
 import React from 'react'
 import styled from 'styled-components'
-import theme from '../../util/theme'
 import { Copyright } from './copyright'
-import { NoCookies } from './no-cookies'
 import { PrivacyStatement } from './privacy-statement'
 import { TermsOfUse } from './terms-of-use'
 import { TrademarksStatement } from './trademarks-statement'
@@ -19,10 +17,9 @@ export const FOOTER_HEIGHT = 50
 
 export const Footer: React.FC<FooterProps> = style => (
 	<Container style={style as any}>
-		<FooterColumn></FooterColumn>
+		<FooterColumn />
 		<FooterColumn>
 			<Copyright />
-			<NoCookies />
 			<CorpLinks>
 				<TermsOfUse />
 				<PrivacyStatement style={{ marginLeft: 30, marginRight: 30 }} />
@@ -49,10 +46,4 @@ const FooterColumn = styled.div`
 	justify-content: center;
 	align-items: center;
 	height: ${FOOTER_HEIGHT}px;
-`
-const WithLove = styled.div`
-	color: ${theme.palette.whitish};
-	font-family: ${theme.text.fontFamily};
-	font-size: 12px;
-	margin-top: ${FOOTER_HEIGHT / 2}px;
 `
