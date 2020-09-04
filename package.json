@@ -20,7 +20,7 @@
 		"test": "essex test",
 		"test:ci": "essex test --ci",
 		"watch": "pnpm -r --stream --parallel watch",
-		"ci": "cross-env CHOKIDAR_USEPOLLING=1 CI=true NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s build lint bundle test:ci",		
+		"ci": "cross-env CHOKIDAR_USEPOLLING=1 CI=true NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s build lint bundle test:ci",
 		"start": "pnpm -r start --parallel --stream"
 	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
@@ -52,5 +52,8 @@
 	"resolutions": {
 		"@types/react": "16.9.44",
 		"@types/react-native": "npm:@types/react@16.9.44"
+	},
+	"dependencies": {
+		"@commitlint/cli": "^9.1.2"
 	}
 }
