@@ -10,5 +10,14 @@
 		"clean": "essex clean",
 		"build": "essex build --docs",
 		"watch": "essex watch"
+	},
+	"dependencies": {
+		"rxjs": "^6.6.2"
+	},
+	"devDependencies": {
+		"@thematic/core": "^0.8.0"
+	},
+	"peerDependencies": {
+		"@thematic/core": ">= 0.8.0"
 	}
 }

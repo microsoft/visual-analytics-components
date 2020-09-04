@@ -24,16 +24,19 @@
 	},
 	"devDependencies": {
 		"@thematic/core": "^0.8.0",
+		"@thematic/react": "^0.8.0",
 		"@types/lodash": "^4.14.158",
 		"@types/node": "^14.0.27",
 		"@types/react": "^16.9.44",
 		"@types/react-dom": "^16.9.8",
 		"@types/styled-components": "^5.1.2",
 		"react": "^16.13.1",
-		"react-dom": "^16.13.1"
+		"react-dom": "^16.13.1",
+		"raw-loader": "^4.0.1"
 	},
 	"peerDependencies": {
-		"@thematic/core": ">= 0.8",
+		"@thematic/core": ">+ 0.8.0",
+		"@thematic/react": ">= 0.8",
 		"@types/lodash": ">= 4.14.157",
 		"@types/node": ">= 14.0.4",
 		"@types/react": ">= 16.9.35",

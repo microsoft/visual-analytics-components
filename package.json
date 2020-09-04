@@ -1,6 +1,7 @@
 {
 	"name": "@visual-analytics-components/project",
 	"private": true,
+	"version": "0.3.0",
 	"description": "Visual Analytic Components for the Web",
 	"repository": {
 		"type": "git",
@@ -10,25 +11,18 @@
 		"node": ">= 10.0"
 	},
 	"scripts": {
-		"clean": "lerna run --parallel --stream clean",
-		"build:packages": "lerna run --stream build",
-		"build:copy_typings": "cd node_modules/@danmarshall/deckgl-typings && npm run postinstall",
-		"build": "run-s build:copy_typings build:packages",
-		"bundle": "lerna run --stream bundle",
+		"preinstall": "npx only-allow pnpm",
+		"postinstall": "shx rm -rf node_modules/@types/react-native",
+		"clean": "pnpm -r --parallel --stream clean",
+		"build": "pnpm -r --stream build",
+		"bundle": "pnpm -r --stream bundle",
 		"lint": "essex lint --strict --docs",
 		"test": "essex test",
 		"test:ci": "essex test --ci",
-		"watch": "lerna run --stream --parallel watch",
+		"watch": "pnpm -r --stream --parallel watch",
 		"ci": "cross-env CHOKIDAR_USEPOLLING=1 CI=true NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s build lint bundle test:ci",
-		"release": "lerna publish --registry https://pkgs.dev.azure.com/msrp-essex/_packaging/essex-npm/npm/registry/",
-		"start": "lerna run start --parallel --stream"
+		"start": "pnpm -r start --parallel --stream"
 	},
-	"workspaces": [
-		"packages/authoring/*",
-		"packages/datasets/*",
-		"packages/components/*",
-		"packages/apps/*"
-	],
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"license": "MIT",
 	"devDependencies": {
@@ -55,8 +49,7 @@
 			"commit-msg": "essex commit-msg"
 		}
 	},
-	"resolutions": {
-		"@types/react": "16.9.44",
-		"@types/react-native": "npm:@types/react@16.9.44"
+	"dependencies": {
+		"@commitlint/cli": "^9.1.2"
 	}
 }

@@ -15,20 +15,24 @@ jobs:
         with:
           node-version: 14.x
 
-      - run: yarn install
+      - run: npm i -g pnpm
         env:
           CI: true
-          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
 
-      - run: yarn build
+      - run: pnpm install
         env:
           CI: true
-          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: yarn bundle
+      - run: pnpm build
         env:
           CI: true
-          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - run: pnpm bundle
+        env:
+          CI: true
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@3.5.9

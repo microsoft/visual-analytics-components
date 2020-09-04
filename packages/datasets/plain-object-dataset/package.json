@@ -13,6 +13,7 @@
 	},
 	"dependencies": {
 		"@visual-analytics-components/abstract-dataset": "^0.3.0",
-		"@visual-analytics-components/types": "^0.3.0"
+		"@visual-analytics-components/types": "^0.3.0",
+		"@visual-analytics-components/messages": "^0.3.0"
 	}
 }

@@ -9,9 +9,9 @@ For more details, check out the [documentation site](https://microsoft.github.io
 # Developing
 
 ```sh
-yarn install
+pnpm install
 # starts documentation website and embedding-browser application
-yarn start
+pnpm start
 ```
 
 # Contributing

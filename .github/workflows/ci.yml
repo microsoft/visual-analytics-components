@@ -18,17 +18,20 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: yarn install
+      - run: npm i -g pnpm
+        name: Use pnpm
+
+      - run: pnpm install
         name: Install Dependencies
         env:
           CI: true
-          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: yarn ci
+      - run: pnpm ci
         name: Execute Tests
         env:
           CI: true
-          BERRY_TOKEN: ${{ secrets.BERRY_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish coverage to codecov.io
         uses: codecov/codecov-action@v1.0.3
