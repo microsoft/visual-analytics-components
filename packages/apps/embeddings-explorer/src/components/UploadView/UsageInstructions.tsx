@@ -59,8 +59,8 @@ export const UsageInstructions: React.FC<UsageInstructionsProps> = memo(
 									<b>community (number, optional):&nbsp;</b>The community label the
 									vertex belongs to, which is used for vertex coloration
 								</li>
-								<br />
 							</ul>
+							<br />
 						</li>
 						<li>
 							<div>
