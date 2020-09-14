@@ -2,7 +2,7 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { InputNode, InputEdge, GraphContainer } from '@topologic/graph'
+import { InputNode, InputEdge, GraphContainer } from '@graspologic/graph'
 import debug from 'debug'
 import { DataSet, SliceType } from 'visual-analytics-components'
 import { Vertex, Edge } from '../interfaces'

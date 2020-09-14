@@ -81,8 +81,6 @@
 		"@types/react-helmet": "^6.0.0",
 		"@types/react-tabs": "^2.3.2",
 		"@types/styled-components": "^5.1.2",
-		"@types/vfile": "^4.0.0",
-		"@types/vfile-message": "^2.0.0",
 		"@visual-analytics-components/datatable-component": "^0.3.0",
 		"@visual-analytics-components/filterchip-component": "^0.3.0",
 		"@visual-analytics-components/graph-component": "^0.3.0",

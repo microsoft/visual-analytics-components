@@ -2,7 +2,7 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { PositionMap, GraphRenderer } from '@topologic/renderer'
+import { PositionMap, GraphRenderer } from '@graspologic/renderer'
 import { useEffect } from 'react'
 import { filter, throttleTime } from 'rxjs/operators'
 import { Manager, SliceType, Message } from 'visual-analytics-components'
