@@ -56,8 +56,7 @@
 		"visual-analytics-components": "^0.3.0"
 	},
 	"devDependencies": {
-		"@essex/scripts": "^9.0.2",
-		"@essex/webpack-config": "^9.0.2",
+		"@essex/webpack-config": "^10.0.0",
 		"@types/classnames": "^2.2.10",
 		"@types/react": "^16.9.44",
 		"@types/react-beautiful-dnd": "^12.1.3",

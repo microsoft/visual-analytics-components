@@ -17,7 +17,7 @@
 		"rxjs": "^6.6.2"
 	},
 	"devDependencies": {
-		"@types/node": "^14.0.27"
+		"@types/node": "~14.0.27"
 	},
 	"peerDependencies": {
 		"@types/node": ">= 14"
