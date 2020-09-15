@@ -16,7 +16,7 @@
 		"watch": "essex watch"
 	},
 	"dependencies": {
-		"@uncharted.software/kruda": "0.0.13-ct.1",
+		"@uncharted.software/kruda": "^0.1.3",
 		"@visual-analytics-components/abstract-dataset": "^0.3.0",
 		"boolean-json-cnf": "^3.0.2",
 		"boolean-json-prune": "^1.1.1",

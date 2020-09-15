@@ -2,7 +2,7 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { GraphContainer } from '@topologic/graph'
+import { GraphContainer } from '@graspologic/graph'
 import { useMemo } from 'react'
 import { Manager } from 'visual-analytics-components'
 import { readDataset } from '../../data/readDataset'

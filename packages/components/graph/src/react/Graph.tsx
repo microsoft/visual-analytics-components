@@ -13,14 +13,14 @@ import {
 	NodeSetHighlight,
 	NodeSetLabel,
 	Camera,
-} from '@topologic/react'
+} from '@graspologic/react'
 import {
 	SettingsPane,
 	DisplaySettings,
 	EdgeSettings,
 	NodeSettings,
-} from '@topologic/render-controls-react'
-import { GraphRenderer, RenderConfiguration } from '@topologic/renderer'
+} from '@graspologic/render-controls-react'
+import { GraphRenderer, RenderConfiguration } from '@graspologic/renderer'
 import * as React from 'react'
 import {
 	memo,
@@ -32,7 +32,7 @@ import {
 } from 'react'
 import useResizeObserver from 'use-resize-observer'
 import { Manager } from 'visual-analytics-components'
-// import { LayoutSettings } from '@topologic/layout-react'
+// import { LayoutSettings } from '@graspologic/layout-react'
 import { Configuration, DEFAULT_INSTANCE_ID, COMPONENT_ID } from '../interfaces'
 import { GlobalStyles } from './GlobalStyles'
 import { useColorizer } from './hooks/useColorizer'

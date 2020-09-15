@@ -2,7 +2,7 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { VertexClickHandler } from '@topologic/react'
+import { VertexClickHandler } from '@graspologic/react'
 import { useCallback } from 'react'
 import {
 	MessageCreators,

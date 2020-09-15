@@ -2,6 +2,7 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+/* eslint-disable jest/no-conditional-expect */
 import * as kruda from '@uncharted.software/kruda'
 import { createKrudaTables } from '..'
 import { Graph } from '../../../interfaces'

@@ -3,7 +3,7 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 
-import { ColorVector } from '@topologic/renderer'
+import { ColorVector } from '@graspologic/renderer'
 import { ComponentConfiguration } from 'visual-analytics-components'
 
 export interface Vertex {

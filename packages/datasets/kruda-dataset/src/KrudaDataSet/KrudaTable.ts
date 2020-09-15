@@ -54,7 +54,8 @@ function determineDatumType(typeName: string): DatumType {
 	return DatumType.Number
 }
 
-export class KrudaTable<T> extends AbstractTable<T, KrudaTableSlice<T>>
+export class KrudaTable<T>
+	extends AbstractTable<T, KrudaTableSlice<T>>
 	implements Table<T> {
 	[key: string]: any // Add index signature
 	private filter: kruda.Filter
@@ -66,7 +67,7 @@ export class KrudaTable<T> extends AbstractTable<T, KrudaTableSlice<T>>
 			krudaTable.header.columns.map(({ name, type: { name: typeName } }) => ({
 				name,
 				type: determineDatumType(typeName),
-			})),
+			})) as any,
 		)
 		this.filter = new kruda.Filter(krudaTable)
 		this.slices = createDefaultSlices(name, krudaTable)
@@ -76,7 +77,7 @@ export class KrudaTable<T> extends AbstractTable<T, KrudaTableSlice<T>>
 		const cnfExpression = flatten(slice.filter)
 		return this.filter
 			.run(cnfExpression as any, kruda.FilterExpressionMode.CNF)
-			.then(result => slice.setData(result, true))
+			.then(result => slice.setData(result as any, true))
 	}
 
 	protected applyInverseDataFilter(
