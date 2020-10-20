@@ -27,13 +27,13 @@ export interface ContainerProps {
 }
 
 export const Container: React.FC<ContainerProps> = memo(function Container({
-	renderComponent,
+	renderComponent,	
 	datamap,
 	className,
 	style,
 }) {
 	const manager = useManager(datamap)
-	const rendered = useMemo(() => manager && renderComponent(manager), [manager])
+	const rendered = useMemo(() => manager && renderComponent(manager), [manager, renderComponent])
 	return manager == null ? null : (
 		<ShadowDiv className={className} style={style}>
 			{rendered}

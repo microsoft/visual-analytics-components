@@ -26,30 +26,32 @@ export function createComponent<Configuration extends ComponentConfiguration>(
 		| React.FC<InnerComponentProps<Configuration>>
 		| React.ComponentClass<InnerComponentProps<Configuration>>,
 ): React.FC<ComponentProps<Configuration>> {
-	const NewComponent: React.FC<ComponentProps<Configuration>> = ({
-		className,
-		style,
-		configuration = {} as Configuration,
-	}) => {
-		return (
-			<Container
-				className={className}
-				style={style || styles.brickWall}
-				datamap={configuration?.dataMapping}
-				configuration={configuration}
-				renderComponent={useCallback(
-					manager => (
-						<ThematicProvider theme={manager.theme}>
-							<InnerComponent manager={manager} configuration={configuration} />
-						</ThematicProvider>
-					),
-					[configuration],
-				)}
-			/>
-		)
-	}
+	const VacWrapper: React.FC<ComponentProps<Configuration>> = memo(
+		function VacWrapper({
+			className,
+			style,
+			configuration = {} as Configuration,
+		}) {
+			return (
+				<Container
+					className={className}
+					style={style || styles.brickWall}
+					datamap={configuration?.dataMapping}
+					configuration={configuration}
+					renderComponent={useCallback(
+						manager => (
+							<ThematicProvider theme={manager.theme}>
+								<InnerComponent manager={manager} configuration={configuration} />
+							</ThematicProvider>
+						),
+						[configuration],
+					)}
+				/>
+			)
+		},
+	)
 
-	return memo(NewComponent)
+	return VacWrapper
 }
 
 const styles: Record<string, React.CSSProperties> = {

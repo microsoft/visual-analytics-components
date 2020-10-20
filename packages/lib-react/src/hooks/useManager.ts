@@ -11,12 +11,10 @@ import { Manager, DataMapping } from 'visual-analytics-components'
  * @param datamap The optional datamapping to apply
  */
 export function useManager(datamap?: DataMapping): Manager | undefined {
-	const manager = useContext(ManagerContext)
+	const manager = useContext(ManagerContext)	
 	return useMemo(() => {
-		if (manager != null && datamap != null) {
-			return manager.applyMapping(datamap)
-		} else {
-			return manager
-		}
+		return manager != null && datamap != null
+			? manager.applyMapping(datamap)
+			: manager
 	}, [manager, datamap])
 }
