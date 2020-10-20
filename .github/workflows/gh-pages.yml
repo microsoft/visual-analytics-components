@@ -15,21 +15,17 @@ jobs:
         with:
           node-version: 14.x
 
-      - run: npm i -g pnpm
-        env:
-          CI: true
-
-      - run: pnpm install
+      - run: yarn install
         env:
           CI: true
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: pnpm build
+      - run: yarn build_all
         env:
           CI: true
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: pnpm bundle
+      - run: yarn bundle_all
         env:
           CI: true
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

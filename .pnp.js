@@ -11784,6 +11784,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rxjs", "npm:6.6.3"]
           ],
           "packagePeers": [
+            "@types/node",
             "@types/types__node"
           ],
           "linkType": "SOFT",
@@ -12276,6 +12277,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@visual-analytics-components/kruda-dataset", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/dataset-kruda"],
             ["@types/lodash", "npm:4.14.162"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/types__lodash", null],
             ["@uncharted.software/kruda", "npm:0.1.3"],
             ["@visual-analytics-components/abstract-dataset", "virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract"],
@@ -12294,6 +12296,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@visual-analytics-components/kruda-dataset", "workspace:packages/dataset-kruda"],
             ["@types/lodash", "npm:4.14.162"],
+            ["@types/node", "npm:14.14.0"],
             ["@uncharted.software/kruda", "npm:0.1.3"],
             ["@visual-analytics-components/abstract-dataset", "virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract"],
             ["boolean-json-cnf", "npm:3.0.2"],

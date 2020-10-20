@@ -7313,17 +7313,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^14.14.0, @types/node@npm:~14.14.0":
+  version: 14.14.0
+  resolution: "@types/node@npm:14.14.0"
+  checksum: 5ebd04788f3e800914d45de32f5007dc688ca0e6d3424910949be50cf2cf1a5048cc11093771a23d211b8c7ea46ebed91db0e586d491c82df91de422b2eabbab
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^8.5.7":
   version: 8.10.65
   resolution: "@types/node@npm:8.10.65"
   checksum: c7d8bb4a1a31172d705f89f7831ec90be051295db6d885a45cb5e55f9a550395791bdca378676bcbc110b91aeae74cd6c41258b5071da39ac5790ad05169c5f2
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:~14.14.0":
-  version: 14.14.0
-  resolution: "@types/node@npm:14.14.0"
-  checksum: 5ebd04788f3e800914d45de32f5007dc688ca0e6d3424910949be50cf2cf1a5048cc11093771a23d211b8c7ea46ebed91db0e586d491c82df91de422b2eabbab
   languageName: node
   linkType: hard
 
@@ -8301,6 +8301,7 @@ __metadata:
   resolution: "@visual-analytics-components/kruda-dataset@workspace:packages/dataset-kruda"
   dependencies:
     "@types/lodash": ^4.14.162
+    "@types/node": ^14.14.0
     "@uncharted.software/kruda": ^0.1.3
     "@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract"
     boolean-json-cnf: ^3.0.2

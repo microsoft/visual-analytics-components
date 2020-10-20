@@ -18,20 +18,18 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: npm i -g pnpm
-        name: Use pnpm
+      - name: Semver Check
+        run: yarn version check
 
-      - run: pnpm install
+      - run: yarn install
         name: Install Dependencies
         env:
-          CI: true
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          CI: true          
 
-      - run: pnpm ci
+      - run: yarn ci
         name: Execute Tests
         env:
-          CI: true
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          CI: true          
 
       - name: Publish coverage to codecov.io
         uses: codecov/codecov-action@v1.0.3

@@ -27,9 +27,11 @@
 		"visual-analytics-components": "^0.3.0"
 	},
 	"peerDependencies": {
-		"@types/lodash": ">= 4.14.157"
+		"@types/lodash": ">= 4.14.157",
+		"@types/node": ">= 14.14.0"
 	},
 	"devDependencies": {
-		"@types/lodash": "^4.14.162"
+		"@types/lodash": "^4.14.162",
+		"@types/node": "^14.14.0"
 	}
 }
