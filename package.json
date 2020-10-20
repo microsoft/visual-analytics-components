@@ -15,6 +15,7 @@
 		"clean_all": "yarn workspaces foreach -pv run clean",
 		"build_all": "yarn workspaces foreach -pv --topological-dev run build",
 		"bundle_all": "yarn workspaces foreach -pv --topological-dev run bundle",
+		"publish_all": "yarn workspaces foreach -pv npm publish --tolerate-republish --access public",
 		"watch_all": "yarn workspaces foreach -piv run watch",
 		"start_all": "yarn workspaces foreach -piv run start",
 		"lint": "essex lint --strict --docs",
