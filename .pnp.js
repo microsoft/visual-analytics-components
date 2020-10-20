@@ -13084,6 +13084,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-transformer-remark", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:2.8.44"],
             ["gsap", "npm:3.5.1"],
             ["mitt", "npm:2.1.0"],
+            ["npm-run-all", "npm:4.1.5"],
             ["prismjs", "npm:1.22.0"],
             ["prop-types", "npm:15.7.2"],
             ["query-string", "npm:6.13.6"],

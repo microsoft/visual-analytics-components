@@ -86,5 +86,8 @@
 		"typography-theme-github": "^0.16.19",
 		"vfile": "^4.2.0",
 		"vfile-message": "^2.0.4"
+	},
+	"devDependencies": {
+		"npm-run-all": "^4.1.5"
 	}
 }
