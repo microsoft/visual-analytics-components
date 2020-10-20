@@ -16,5 +16,8 @@
 	},
 	"dependencies": {
 		"@visual-analytics-components/types": "workspace:packages/lib-types"
+	},
+	"peerDependencies": {
+		"core-js": "*"
 	}
 }

@@ -8,5 +8,5 @@
 		"tsBuildInfoFile": "dist/.tsbuildinfo",
 		"resolveJsonModule": true
 	},
-	"files": ["src/index.ts"]
+	"include": ["stories/index.ts"]
 }

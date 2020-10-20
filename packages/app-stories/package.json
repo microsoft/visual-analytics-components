@@ -9,7 +9,9 @@
 		"start:storybook": "yarn start"
 	},
 	"dependencies": {
-		"@storybook/react": "^5.3.21",
+		"@essex/scripts": "^11.0.1",
+		"@essex/storybook-config": "^11.0.0",
+		"@storybook/react": "^6.0.26",
 		"@thematic/core": "^0.9.0",
 		"@thematic/react": "^0.9.0",
 		"@types/react": "^16.9.53",
@@ -26,5 +28,8 @@
 		"rxjs": "^6.6.3",
 		"styled-components": "^5.2.0",
 		"visual-analytics-components": "workspace:packages/lib-vac"
+	},
+	"devDependencies": {
+		"core-js": "^3.6.5"
 	}
 }

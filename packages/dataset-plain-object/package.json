@@ -18,5 +18,8 @@
 		"@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract",
 		"@visual-analytics-components/messages": "workspace:packages/lib-messages",
 		"@visual-analytics-components/types": "workspace:packages/lib-types"
+	},
+	"peerDependencies": {
+		"core-js": "*"
 	}
 }
