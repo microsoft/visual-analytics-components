@@ -5,23 +5,22 @@
 	"description": "Visual Analytic Components for the Web",
 	"repository": {
 		"type": "git",
-		"url": "git@ssh.dev.azure.com:v3/msrp-essex/Rainbow%20Narwhal/disvis"
+		"url": "https://github.com/microsoft/visual-analytics-components"
 	},
 	"engines": {
 		"node": ">= 10.0"
 	},
 	"scripts": {
-		"preinstall": "npx only-allow pnpm",
-		"postinstall": "shx rm -rf node_modules/@types/react-native",
-		"clean": "pnpm -r --parallel --stream clean",
-		"build": "pnpm -r --stream build",
-		"bundle": "pnpm -r --stream bundle",
+		"preinstall": "npx only-allow yarn",
+		"clean_all": "yarn workspaces foreach -piv run clean",
+		"build_all": "yarn workspaces foreach -piv --topological-dev run build",
+		"bundle_all": "yarn workspaces foreach -piv run bundle",
+		"watch_all": "yarn workspaces foreach -piv run watch",
+		"start_all": "yarn workspaces foreach -piv run start",
 		"lint": "essex lint --strict --docs",
 		"test": "essex test",
 		"test:ci": "essex test --ci",
-		"watch": "pnpm -r --stream --parallel watch",
-		"ci": "cross-env CHOKIDAR_USEPOLLING=1 CI=true NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s build lint bundle test:ci",
-		"start": "pnpm -r start --parallel --stream"
+		"ci": "CHOKIDAR_USEPOLLING=1 CI=true NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s build_all lint bundle_all test:ci"
 	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"license": "MIT",
@@ -31,7 +30,6 @@
 		"@essex/prettier-config": "^10.0.0",
 		"@essex/scripts": "^10.0.0",
 		"@types/enzyme": "^3.10.5",
-		"cross-env": "^7.0.2",
 		"enzyme": "^3.11.0",
 		"enzyme-adapter-react-16": "^1.15.2",
 		"husky": "^4.2.5",
@@ -43,13 +41,10 @@
 		"regenerator-runtime": "^0.13.7",
 		"shx": "^0.3.2"
 	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "essex pre-commit",
-			"commit-msg": "essex commit-msg"
-		}
-	},
 	"dependencies": {
 		"@commitlint/cli": "^9.1.2"
-	}
+	},
+	"workspaces": [
+		"packages/*"
+	]
 }

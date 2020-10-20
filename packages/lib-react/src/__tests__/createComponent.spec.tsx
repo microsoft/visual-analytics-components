@@ -31,7 +31,7 @@ describe('createComponent', () => {
 		expect(() => mount(<Comp />)).not.toThrow()
 	})
 
-	it('will mount the disvin component if the component is in context', () => {
+	it('will mount the VAC component if the component is in context', () => {
 		const dataset = new PlainObjectDataSet({
 			nodes: {
 				columns: [
