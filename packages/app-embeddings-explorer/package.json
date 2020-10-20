@@ -10,11 +10,11 @@
 	],
 	"scripts": {
 		"clean": "essex clean build",
-		"start": "NODE_OPTIONS=\"--unhandled-rejections=strict\" essex serve",
+		"start": "essex serve",
 		"start:explorer": "yarn start",
 		"bundle_webapp": "essex bundle --mode production",
 		"copy_assets": "shx cp -r ./public/data build/",
-		"bundle": "NODE_OPTIONS=\"--unhandled-rejections=strict\" run-s bundle_webapp copy_assets"
+		"bundle": "run-s bundle_webapp copy_assets"
 	},
 	"dependencies": {
 		"@babel/polyfill": "^7.12.1",
