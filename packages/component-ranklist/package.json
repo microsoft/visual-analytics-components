@@ -73,6 +73,7 @@
 		"@types/react-virtualized-auto-sizer": ">= 1.0.0",
 		"@types/react-window": ">= 1.8.1",
 		"react": "*",
-		"react-dom": "*"
+		"react-dom": "*",
+		"styled-components": "*"
 	}
 }

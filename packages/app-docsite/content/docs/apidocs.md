@@ -26,7 +26,6 @@ The entry package:
 - [@visual-analytics-components/abstract-dataset](/apidocs/abstract-dataset/) - Abstract classes for dataset implementation
 - [@visual-analytics-components/mapped-dataset](/apidocs/mapped-dataset/) - Dataset with field/table name mapping
 - [@visual-analytics-components/plain-object-dataset](/apidocs/plain-object-dataset/) - Dataset implemented with "plain ol' JavaScript objects"
-- [@visual-analytics-components/kruda-dataset](/apidocs/kruda-dataset/) - Experimental binary dataset (UNSTABLE)
 
 ### Visual-Analytics Components
 

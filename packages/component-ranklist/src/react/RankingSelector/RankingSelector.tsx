@@ -3,7 +3,7 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 /* eslint-disable jsx-a11y/no-onchange */
-import { Theme } from '@thematic/core/dist/types/Theme'
+import { Theme } from '@thematic/core'
 import { useThematic } from '@thematic/react'
 import * as React from 'react'
 import { memo, useCallback } from 'react'
