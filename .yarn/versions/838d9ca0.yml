@@ -1,0 +1,19 @@
+releases:
+  "@visual-analytics-components/abstract-dataset": patch
+  "@visual-analytics-components/datatable-component": patch
+  "@visual-analytics-components/docsite": patch
+  "@visual-analytics-components/embeddings-explorer": patch
+  "@visual-analytics-components/filterchip-component": patch
+  "@visual-analytics-components/graph-component": patch
+  "@visual-analytics-components/manager": patch
+  "@visual-analytics-components/mapped-dataset": patch
+  "@visual-analytics-components/messages": patch
+  "@visual-analytics-components/plain-object-dataset": patch
+  "@visual-analytics-components/project": patch
+  "@visual-analytics-components/ranklist-component": patch
+  "@visual-analytics-components/react": patch
+  "@visual-analytics-components/search-component": patch
+  "@visual-analytics-components/stories": patch
+  "@visual-analytics-components/title-component": patch
+  "@visual-analytics-components/types": patch
+  visual-analytics-components: patch

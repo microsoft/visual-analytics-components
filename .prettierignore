@@ -1,2 +1,5 @@
-packages/authoring/create-vac-component/assets/
-pnpm-workspace.yaml
+coverage/
+.yarn/
+yarn.lock
+.yarnrc.yml
+.pnp.js

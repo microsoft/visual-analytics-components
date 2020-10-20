@@ -1,0 +1,40 @@
+{
+	"name": "@visual-analytics-components/react",
+	"version": "0.3.0",
+	"description": "Visual Analytics Components for React",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
+	"author": "Chris Trevino <chtrevin@microsoft.com>",
+	"contributors": [],
+	"license": "MIT",
+	"scripts": {
+		"clean": "essex clean",
+		"build": "essex build --docs",
+		"watch": "essex watch"
+	},
+	"dependencies": {
+		"react-shadow": "^18.4.2",
+		"visual-analytics-components": "workspace:packages/lib-vac"
+	},
+	"devDependencies": {
+		"@thematic/react": "^0.9.0",
+		"@types/enzyme": "^3.10.7",
+		"@types/node": "~14.14.0",
+		"@types/react": "^16.9.53",
+		"enzyme": "^3.11.0",
+		"react": "^16.14.0",
+		"styled-components": "^5.2.0"
+	},
+	"peerDependencies": {
+		"@thematic/react": "> 0.8",
+		"@types/node": ">= 14.0.4",
+		"@types/react": ">= 16.9.35",
+		"core-js": "*",
+		"react": ">= 16.8",
+		"styled-components": "*"
+	}
+}

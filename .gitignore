@@ -1,12 +1,26 @@
 node_modules/
-lib/
-dist/
+
+# Build Outputs
+packages/*/lib/
+packages/*/dist/
+packages/*/storybook-static/
+tsconfig.tsbuildinfo
+
+# Test Output
+coverage/
+test-report.xml
+
+# Yarn Gitignores
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Misc Files
 .DS_Store
 *.log
 .idea/
-coverage/
-test-report.xml
-tsconfig.tsbuildinfo
 .cache/
 .docz/
-storybook-static/

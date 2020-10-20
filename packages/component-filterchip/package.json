@@ -1,0 +1,47 @@
+{
+	"name": "@visual-analytics-components/filterchip-component",
+	"version": "0.3.0",
+	"entry": "src/index.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
+	"author": "Chris Trevino <chtrevin@microsoft.com>",
+	"contributors": [],
+	"license": "MIT",
+	"scripts": {
+		"build": "essex build --docs",
+		"clean": "essex clean",
+		"start": "essex watch"
+	},
+	"dependencies": {
+		"@visual-analytics-components/react": "workspace:packages/lib-react",
+		"rxjs": "^6.6.3",
+		"styled-components": "^5.2.0",
+		"visual-analytics-components": "workspace:packages/lib-vac"
+	},
+	"devDependencies": {
+		"@thematic/core": "^0.9.0",
+		"@thematic/react": "^0.9.0",
+		"@types/node": "~14.14.0",
+		"@types/react": "^16.9.53",
+		"@types/react-dom": "^16.9.8",
+		"@types/styled-components": "^5.1.4",
+		"react": "^16.14.0",
+		"react-dom": "^16.14.0",
+		"styled-components": "^5.2.0"
+	},
+	"peerDependencies": {
+		"@thematic/core": ">= 0.8",
+		"@thematic/react": ">= 0.8",
+		"@types/node": ">= 14.0.4",
+		"@types/react": ">= 16.9.35",
+		"@types/react-dom": ">= 16.9.8",
+		"core-js": "*",
+		"react": ">= 16.8",
+		"react-dom": ">= 16.8",
+		"styled-components": "*"
+	}
+}

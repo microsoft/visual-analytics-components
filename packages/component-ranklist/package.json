@@ -1,0 +1,81 @@
+{
+	"name": "@visual-analytics-components/ranklist-component",
+	"version": "0.3.0",
+	"entry": "src/index.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
+	"author": "Chris Trevino <chtrevin@microsoft.com>",
+	"contributors": [
+		"Dario Segura <dsegura@uncharted.software>"
+	],
+	"license": "MIT",
+	"scripts": {
+		"build": "essex build --docs",
+		"clean": "essex clean",
+		"start": "essex watch"
+	},
+	"vac": {
+		"dataShape": {
+			"vertices": {
+				"id": "string",
+				"label": "string",
+				"community": "number"
+			},
+			"edges": {
+				"source": "string",
+				"target": "string",
+				"weight": "number"
+			}
+		},
+		"build": {
+			"lint": false
+		}
+	},
+	"dependencies": {
+		"@visual-analytics-components/react": "workspace:packages/lib-react",
+		"classnames": "^2.2.6",
+		"d3-scale": "^3.2.3",
+		"lodash": "^4.17.20",
+		"react-virtualized-auto-sizer": "^1.0.2",
+		"react-window": "^1.8.5",
+		"rxjs": "^6.6.3",
+		"styled-components": "^5.2.0",
+		"visual-analytics-components": "workspace:packages/lib-vac"
+	},
+	"devDependencies": {
+		"@thematic/core": "^0.9.0",
+		"@thematic/react": "^0.9.0",
+		"@types/classnames": "^2.2.10",
+		"@types/d3-scale": "^2.2.4",
+		"@types/lodash": "^4.14.162",
+		"@types/node": "~14.14.0",
+		"@types/react": "^16.9.53",
+		"@types/react-dom": "^16.9.8",
+		"@types/react-virtualized-auto-sizer": "^1.0.0",
+		"@types/react-window": "^1.8.2",
+		"@types/styled-components": "^5.1.4",
+		"camelcase": "^6.1.0",
+		"react": "^16.14.0",
+		"react-dom": "^16.14.0",
+		"styled-components": "^5.2.0"
+	},
+	"peerDependencies": {
+		"@thematic/core": ">= 0.8",
+		"@types/classnames": ">= 2.2.7",
+		"@types/d3-scale": ">= 2.1.1",
+		"@types/lodash": ">= 4.14.157",
+		"@types/node": ">= 14.0.4",
+		"@types/react": ">= 16.9.35",
+		"@types/react-dom": ">= 16.9.8",
+		"@types/react-virtualized-auto-sizer": ">= 1.0.0",
+		"@types/react-window": ">= 1.8.1",
+		"core-js": "*",
+		"react": "*",
+		"react-dom": "*",
+		"styled-components": "*"
+	}
+}

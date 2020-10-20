@@ -1,0 +1,25 @@
+{
+	"name": "@visual-analytics-components/plain-object-dataset",
+	"version": "0.3.0",
+	"license": "MIT",
+	"author": "Chris Trevino <chtrevin@microsoft.com>",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
+	"scripts": {
+		"clean": "essex clean",
+		"build": "essex build --docs",
+		"watch": "essex watch"
+	},
+	"dependencies": {
+		"@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract",
+		"@visual-analytics-components/messages": "workspace:packages/lib-messages",
+		"@visual-analytics-components/types": "workspace:packages/lib-types"
+	},
+	"peerDependencies": {
+		"core-js": "*"
+	}
+}

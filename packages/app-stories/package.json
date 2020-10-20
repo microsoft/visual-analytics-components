@@ -1,0 +1,35 @@
+{
+	"name": "@visual-analytics-components/stories",
+	"version": "0.3.0",
+	"private": true,
+	"scripts": {
+		"clean": "essex clean storybook-static",
+		"start": "essex serve --storybook",
+		"bundle": "essex bundle --storybook",
+		"start:storybook": "yarn start"
+	},
+	"dependencies": {
+		"@essex/scripts": "^11.0.1",
+		"@essex/storybook-config": "^11.0.0",
+		"@storybook/react": "^6.0.26",
+		"@thematic/core": "^0.9.0",
+		"@thematic/react": "^0.9.0",
+		"@types/react": "^16.9.53",
+		"@visual-analytics-components/datatable-component": "workspace:packages/component-datatable",
+		"@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip",
+		"@visual-analytics-components/graph-component": "workspace:packages/component-graph",
+		"@visual-analytics-components/ranklist-component": "workspace:packages/component-ranklist",
+		"@visual-analytics-components/react": "workspace:packages/lib-react",
+		"@visual-analytics-components/search-component": "workspace:packages/component-search",
+		"@visual-analytics-components/title-component": "workspace:packages/component-title",
+		"d3-scale": "^3.2.3",
+		"react": "^17.0.0",
+		"react-markdown": "^4.3.1",
+		"rxjs": "^6.6.3",
+		"styled-components": "^5.2.0",
+		"visual-analytics-components": "workspace:packages/lib-vac"
+	},
+	"devDependencies": {
+		"core-js": "^3.6.5"
+	}
+}
