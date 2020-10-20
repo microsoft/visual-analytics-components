@@ -8140,6 +8140,7 @@ __metadata:
   resolution: "@visual-analytics-components/embeddings-explorer@workspace:packages/app-embeddings-explorer"
   dependencies:
     "@babel/polyfill": ^7.12.1
+    "@essex/scripts": ^11.0.1
     "@essex/webpack-config": ^10.0.2
     "@fluentui/react": ^7.147.1
     "@thematic/core": ^0.9.0

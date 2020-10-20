@@ -11,12 +11,14 @@
 	"scripts": {
 		"clean": "essex clean build",
 		"start": "NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" essex serve",
+		"start:explorer": "yarn start",
 		"bundle_webapp": "essex bundle --mode production",
 		"copy_assets": "shx cp -r ./public/data build/",
 		"bundle": "NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s bundle_webapp copy_assets"
 	},
 	"dependencies": {
 		"@babel/polyfill": "^7.12.1",
+		"@essex/scripts": "^11.0.1",
 		"@essex/webpack-config": "^10.0.2",
 		"@fluentui/react": "^7.147.1",
 		"@thematic/core": "^0.9.0",
