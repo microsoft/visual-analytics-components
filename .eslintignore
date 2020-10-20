@@ -6,3 +6,6 @@ out/
 public/
 static/
 storybook-static/
+.yarn/
+yarn.lock
+.yarnrc.yml

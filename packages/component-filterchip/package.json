@@ -15,9 +15,9 @@
 	},
 	"dependencies": {
 		"@visual-analytics-components/react": "^0.3.0",
+		"rxjs": "^6.6.2",
 		"styled-components": "^5.1.1",
-		"visual-analytics-components": "^0.3.0",
-		"rxjs": "^6.6.2"
+		"visual-analytics-components": "^0.3.0"
 	},
 	"devDependencies": {
 		"@thematic/core": "^0.8.0",
