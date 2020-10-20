@@ -13,6 +13,7 @@ const extendConfiguration = config => ({
 })
 
 const webpackConfig = configure({
+	pnp: true,
 	extendResolveModules: resolveModules,
 	extendResolveLoaderModules: resolveModules,
 	extendConfiguration,

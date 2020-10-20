@@ -12046,7 +12046,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@visual-analytics-components/title-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-title"],
             ["azure-storage", "npm:2.10.3"],
             ["classnames", "npm:2.2.6"],
-            ["cross-env", "npm:7.0.2"],
             ["csv-parse", "npm:4.12.0"],
             ["d3-scale", "npm:3.2.3"],
             ["dat.gui", "npm:0.7.7"],
@@ -18119,14 +18118,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cross-env-npm-6.0.3-83e1ec95fd-ac3bcc24ad.zip/node_modules/cross-env/",
           "packageDependencies": [
             ["cross-env", "npm:6.0.3"],
-            ["cross-spawn", "npm:7.0.3"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["npm:7.0.2", {
-          "packageLocation": "./.yarn/cache/cross-env-npm-7.0.2-1e9c9fdbca-624d638db3.zip/node_modules/cross-env/",
-          "packageDependencies": [
-            ["cross-env", "npm:7.0.2"],
             ["cross-spawn", "npm:7.0.3"]
           ],
           "linkType": "HARD",

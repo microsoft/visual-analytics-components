@@ -8207,7 +8207,6 @@ __metadata:
     "@visual-analytics-components/title-component": "workspace:packages/component-title"
     azure-storage: ^2.10.3
     classnames: ^2.2.6
-    cross-env: ^7.0.2
     csv-parse: ^4.12.0
     d3-scale: ^3.2.3
     dat.gui: ^0.7.7
@@ -12963,18 +12962,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-env@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "cross-env@npm:7.0.2"
-  dependencies:
-    cross-spawn: ^7.0.1
-  bin:
-    cross-env: src/bin/cross-env.js
-    cross-env-shell: src/bin/cross-env-shell.js
-  checksum: 624d638db3b4b6b221f32238aeb6785b865365bf41154f01d46a23b6d78f807ca5588a3b32e9af5f17384b866fed3752d0e3ecf8c4a8cfca2935d363d27ba058
-  languageName: node
-  linkType: hard
-
 "cross-fetch@npm:3.0.6, cross-fetch@npm:^3.0.6":
   version: 3.0.6
   resolution: "cross-fetch@npm:3.0.6"
@@ -13019,7 +13006,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.1, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
+"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
   dependencies:
