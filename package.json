@@ -12,9 +12,9 @@
 	},
 	"scripts": {
 		"preinstall": "npx only-allow yarn",
-		"clean_all": "yarn workspaces foreach -piv run clean",
-		"build_all": "yarn workspaces foreach -piv --topological-dev run build",
-		"bundle_all": "yarn workspaces foreach -piv run bundle",
+		"clean_all": "yarn workspaces foreach -pv run clean",
+		"build_all": "yarn workspaces foreach -pv --topological-dev run build",
+		"bundle_all": "yarn workspaces foreach -pv --topological-dev run bundle",
 		"watch_all": "yarn workspaces foreach -piv run watch",
 		"start_all": "yarn workspaces foreach -piv run start",
 		"lint": "essex lint --strict --docs",
