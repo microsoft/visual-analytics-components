@@ -6621,7 +6621,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:26.x, @types/jest@npm:^26.0.14":
+"@types/jest@npm:26.x, @types/jest@npm:^26.0.14, @types/jest@npm:^26.0.15":
   version: 26.0.15
   resolution: "@types/jest@npm:26.0.15"
   dependencies:
@@ -7729,6 +7729,7 @@ __metadata:
     react: ^16.14.0
     react-dom: ^16.14.0
     rxjs: ^6.6.3
+    styled-components: ^5.2.0
     use-resize-observer: ^6.1.0
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
@@ -7805,6 +7806,8 @@ __metadata:
     "@essex/prettier-config": ^10.0.0
     "@essex/scripts": ^11.0.1
     "@types/enzyme": ^3.10.7
+    "@types/jest": ^26.0.15
+    "@types/styled-components": ^5.1.4
     "@typescript-eslint/eslint-plugin": ^4.4.1
     "@typescript-eslint/parser": ^4.4.1
     enzyme: ^3.11.0
@@ -7818,6 +7821,8 @@ __metadata:
     react-dom: ^16.14.0
     regenerator-runtime: ^0.13.7
     shx: ^0.3.2
+    styled-components: ^5.2.0
+    ts-jest: ^26.4.1
     typescript: ^4.0.3
   languageName: unknown
   linkType: soft
@@ -7877,6 +7882,7 @@ __metadata:
     enzyme: ^3.11.0
     react: ^16.14.0
     react-shadow: ^18.4.2
+    styled-components: ^5.2.0
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/react": "> 0.8"
@@ -7902,6 +7908,7 @@ __metadata:
     lodash: ^4.17.20
     react: ^16.14.0
     react-dom: ^16.14.0
+    styled-components: ^5.2.0
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8"
@@ -7957,6 +7964,7 @@ __metadata:
     react: ^16.14.0
     react-dom: ^16.14.0
     rxjs: ^6.6.3
+    styled-components: ^5.2.0
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8.0"
@@ -31427,7 +31435,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:~26.4.1":
+"ts-jest@npm:^26.4.1, ts-jest@npm:~26.4.1":
   version: 26.4.1
   resolution: "ts-jest@npm:26.4.1"
   dependencies:
