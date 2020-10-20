@@ -22,7 +22,7 @@
 		"react-markdown": "^4.3.1",
 		"rxjs": "^6.6.3",
 		"styled-components": "^5.2.0",
-		"visual-analytics-components": "^0.3.0"
+		"visual-analytics-components": "workspace:packages/lib-vac"
 	},
 	"devDependencies": {
 		"@types/d3-scale": "^2.2.4"

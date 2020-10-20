@@ -8083,7 +8083,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/datatable-component@^0.3.0, @visual-analytics-components/datatable-component@workspace:packages/component-datatable":
+"@visual-analytics-components/datatable-component@workspace:packages/component-datatable":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/datatable-component@workspace:packages/component-datatable"
   dependencies:
@@ -8103,7 +8103,7 @@ __metadata:
     react-dom: ^16.14.0
     rxjs: ^6.6.3
     styled-components: ^5.2.0
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": "*"
     "@thematic/react": ">= 0.8"
@@ -8131,13 +8131,13 @@ __metadata:
     "@types/react-helmet": ^6.1.0
     "@types/react-tabs": ^2.3.2
     "@types/styled-components": ^5.1.4
-    "@visual-analytics-components/datatable-component": ^0.3.0
-    "@visual-analytics-components/embeddings-explorer": ^0.3.0
-    "@visual-analytics-components/filterchip-component": ^0.3.0
-    "@visual-analytics-components/graph-component": ^0.3.0
-    "@visual-analytics-components/ranklist-component": ^0.3.0
-    "@visual-analytics-components/search-component": ^0.3.0
-    "@visual-analytics-components/title-component": ^0.3.0
+    "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
+    "@visual-analytics-components/embeddings-explorer": "workspace:packages/app-embeddings-explorer"
+    "@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip"
+    "@visual-analytics-components/graph-component": "workspace:packages/component-graph"
+    "@visual-analytics-components/ranklist-component": "workspace:packages/component-ranklist"
+    "@visual-analytics-components/search-component": "workspace:packages/component-search"
+    "@visual-analytics-components/title-component": "workspace:packages/component-title"
     debug: ^4.2.0
     event-source-polyfill: ^1.0.21
     gatsby: ^2.24.83
@@ -8178,7 +8178,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/embeddings-explorer@^0.3.0, @visual-analytics-components/embeddings-explorer@workspace:packages/app-embeddings-explorer":
+"@visual-analytics-components/embeddings-explorer@workspace:packages/app-embeddings-explorer":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/embeddings-explorer@workspace:packages/app-embeddings-explorer"
   dependencies:
@@ -8231,12 +8231,12 @@ __metadata:
     tsne-js: ^1.0.3
     typescript: ^3.9.7
     umap-js: ^1.3.3
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
     worker-loader: ^3.0.5
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/filterchip-component@^0.3.0, @visual-analytics-components/filterchip-component@workspace:packages/component-filterchip":
+"@visual-analytics-components/filterchip-component@workspace:packages/component-filterchip":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/filterchip-component@workspace:packages/component-filterchip"
   dependencies:
@@ -8251,7 +8251,7 @@ __metadata:
     react-dom: ^16.14.0
     rxjs: ^6.6.3
     styled-components: ^5.2.0
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8"
     "@thematic/react": ">= 0.8"
@@ -8263,7 +8263,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/graph-component@^0.3.0, @visual-analytics-components/graph-component@workspace:packages/component-graph":
+"@visual-analytics-components/graph-component@workspace:packages/component-graph":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/graph-component@workspace:packages/component-graph"
   dependencies:
@@ -8288,7 +8288,7 @@ __metadata:
     react-dom: ^16.14.0
     rxjs: ^6.6.3
     use-resize-observer: ^6.1.0
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@types/debug": ">= 4.1.5"
     "@types/lodash": ">= 4.14.157"
@@ -8307,9 +8307,10 @@ __metadata:
     boolean-json-cnf: ^3.0.2
     boolean-json-prune: ^1.1.1
     lodash: ^4.17.20
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@types/lodash": ">= 4.14.157"
+    "@types/node": ">= 14.14.0"
   languageName: unknown
   linkType: soft
 
@@ -8383,7 +8384,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/ranklist-component@^0.3.0, @visual-analytics-components/ranklist-component@workspace:packages/component-ranklist":
+"@visual-analytics-components/ranklist-component@workspace:packages/component-ranklist":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/ranklist-component@workspace:packages/component-ranklist"
   dependencies:
@@ -8409,7 +8410,7 @@ __metadata:
     react-window: ^1.8.5
     rxjs: ^6.6.3
     styled-components: ^5.2.0
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8"
     "@types/classnames": ">= 2.2.7"
@@ -8434,7 +8435,7 @@ __metadata:
     "@types/react": ^16.9.53
     react: ^16.14.0
     react-shadow: ^18.4.2
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/react": "> 0.8"
     "@types/node": ">= 14.0.4"
@@ -8443,7 +8444,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/search-component@^0.3.0, @visual-analytics-components/search-component@workspace:packages/component-search":
+"@visual-analytics-components/search-component@workspace:packages/component-search":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/search-component@workspace:packages/component-search"
   dependencies:
@@ -8457,7 +8458,7 @@ __metadata:
     lodash: ^4.17.20
     react: ^16.14.0
     react-dom: ^16.14.0
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8"
     "@thematic/react": ">= 0.8.0"
@@ -8489,11 +8490,11 @@ __metadata:
     react-markdown: ^4.3.1
     rxjs: ^6.6.3
     styled-components: ^5.2.0
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/title-component@^0.3.0, @visual-analytics-components/title-component@workspace:packages/component-title":
+"@visual-analytics-components/title-component@workspace:packages/component-title":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/title-component@workspace:packages/component-title"
   dependencies:
@@ -8506,7 +8507,7 @@ __metadata:
     react: ^16.14.0
     react-dom: ^16.14.0
     rxjs: ^6.6.3
-    visual-analytics-components: ^0.3.0
+    visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8.0"
     "@thematic/react": ">= 0.8.0"
@@ -33870,7 +33871,7 @@ typescript@^4.0.3:
   languageName: node
   linkType: hard
 
-"visual-analytics-components@^0.3.0, visual-analytics-components@workspace:packages/lib-vac":
+"visual-analytics-components@workspace:packages/lib-vac":
   version: 0.0.0-use.local
   resolution: "visual-analytics-components@workspace:packages/lib-vac"
   dependencies:

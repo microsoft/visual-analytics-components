@@ -18,7 +18,7 @@
 	},
 	"dependencies": {
 		"react-shadow": "^18.4.2",
-		"visual-analytics-components": "^0.3.0"
+		"visual-analytics-components": "workspace:packages/lib-vac"
 	},
 	"devDependencies": {
 		"@thematic/react": "^0.9.0",

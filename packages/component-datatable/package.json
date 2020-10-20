@@ -23,7 +23,7 @@
 		"lodash": "^4.17.20",
 		"rxjs": "^6.6.3",
 		"styled-components": "^5.2.0",
-		"visual-analytics-components": "^0.3.0"
+		"visual-analytics-components": "workspace:packages/lib-vac"
 	},
 	"devDependencies": {
 		"@thematic/core": "^0.9.0",
