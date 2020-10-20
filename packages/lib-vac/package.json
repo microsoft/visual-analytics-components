@@ -2,9 +2,12 @@
 	"name": "visual-analytics-components",
 	"version": "0.3.0",
 	"description": "Disaggregated Visualization Core Interfaces & Utilities",
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/types/index.d.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [
 		"Dario Segura <dsegura@uncharted.software>"
@@ -16,11 +19,11 @@
 		"watch": "essex watch"
 	},
 	"dependencies": {
-		"@visual-analytics-components/manager": "^0.3.0",
-		"@visual-analytics-components/mapped-dataset": "^0.3.0",
-		"@visual-analytics-components/messages": "^0.3.0",
-		"@visual-analytics-components/plain-object-dataset": "^0.3.0",
-		"@visual-analytics-components/types": "^0.3.0",
+		"@visual-analytics-components/manager": "workspace:packages/lib-manager",
+		"@visual-analytics-components/mapped-dataset": "workspace:packages/dataset-mapped",
+		"@visual-analytics-components/messages": "workspace:packages/lib-messages",
+		"@visual-analytics-components/plain-object-dataset": "workspace:packages/dataset-plain-object",
+		"@visual-analytics-components/types": "workspace:packages/lib-types",
 		"rxjs": "^6.6.2"
 	},
 	"peerDependencies": {

@@ -3,15 +3,18 @@
 	"version": "0.3.0",
 	"license": "MIT",
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/types/index.d.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
 	"scripts": {
 		"clean": "essex clean",
 		"build": "essex build --docs",
 		"watch": "essex watch"
 	},
 	"dependencies": {
-		"@visual-analytics-components/types": "^0.3.0"
+		"@visual-analytics-components/types": "workspace:packages/lib-types"
 	}
 }

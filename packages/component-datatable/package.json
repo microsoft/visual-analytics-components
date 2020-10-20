@@ -2,9 +2,12 @@
 	"name": "@visual-analytics-components/datatable-component",
 	"version": "0.3.0",
 	"entry": "src/index.ts",
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/types/index.d.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [],
 	"license": "MIT",
@@ -14,7 +17,7 @@
 		"start": "essex watch"
 	},
 	"dependencies": {
-		"@visual-analytics-components/react": "^0.3.0",
+		"@visual-analytics-components/react": "workspace:packages/lib-react",
 		"ag-grid-community": "^23.2.1",
 		"ag-grid-react": "^23.2.1",
 		"lodash": "^4.17.19",

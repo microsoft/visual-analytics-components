@@ -8063,13 +8063,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@visual-analytics-components/abstract-dataset@^0.3.0, @visual-analytics-components/abstract-dataset@workspace:packages/dataset-abstract":
+"@visual-analytics-components/abstract-dataset@workspace:packages/dataset-abstract":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/abstract-dataset@workspace:packages/dataset-abstract"
   dependencies:
     "@types/node": ~14.0.27
-    "@visual-analytics-components/messages": ^0.3.0
-    "@visual-analytics-components/types": ^0.3.0
+    "@visual-analytics-components/messages": "workspace:packages/lib-messages"
+    "@visual-analytics-components/types": "workspace:packages/lib-types"
     rxjs: ^6.6.2
   peerDependencies:
     "@types/node": ">= 14"
@@ -8087,7 +8087,7 @@ __metadata:
     "@types/react": ^16.9.44
     "@types/react-dom": ^16.9.8
     "@types/styled-components": ^5.1.2
-    "@visual-analytics-components/react": ^0.3.0
+    "@visual-analytics-components/react": "workspace:packages/lib-react"
     ag-grid-community: ^23.2.1
     ag-grid-react: ^23.2.1
     lodash: ^4.17.19
@@ -8190,14 +8190,14 @@ __metadata:
     "@types/react-router-dom": ^5.1.5
     "@types/react-tabs": ^2.3.2
     "@uncharted.software/kruda": ^0.1.3
-    "@visual-analytics-components/datatable-component": ^0.3.0
-    "@visual-analytics-components/filterchip-component": ^0.3.0
-    "@visual-analytics-components/graph-component": ^0.3.0
-    "@visual-analytics-components/kruda-dataset": ^0.3.0
-    "@visual-analytics-components/ranklist-component": ^0.3.0
-    "@visual-analytics-components/react": ^0.3.0
-    "@visual-analytics-components/search-component": ^0.3.0
-    "@visual-analytics-components/title-component": ^0.3.0
+    "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
+    "@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip"
+    "@visual-analytics-components/graph-component": "workspace:packages/component-graph"
+    "@visual-analytics-components/kruda-dataset": "workspace:packages/dataset-kruda"
+    "@visual-analytics-components/ranklist-component": "workspace:packages/component-ranklist"
+    "@visual-analytics-components/react": "workspace:packages/lib-react"
+    "@visual-analytics-components/search-component": "workspace:packages/component-search"
+    "@visual-analytics-components/title-component": "workspace:packages/component-title"
     azure-storage: ^2.10.3
     classnames: ^2.2.6
     cross-env: ^7.0.2
@@ -8240,7 +8240,7 @@ __metadata:
     "@types/react": ^16.9.44
     "@types/react-dom": ^16.9.8
     "@types/styled-components": ^5.1.2
-    "@visual-analytics-components/react": ^0.3.0
+    "@visual-analytics-components/react": "workspace:packages/lib-react"
     react: ^16.13.1
     react-dom: ^16.13.1
     rxjs: ^6.6.2
@@ -8272,7 +8272,7 @@ __metadata:
     "@types/debug": ^4.1.5
     "@types/lodash": ^4.14.158
     "@types/node": ~14.0.27
-    "@visual-analytics-components/react": ^0.3.0
+    "@visual-analytics-components/react": "workspace:packages/lib-react"
     dat.gui: ^0.7.7
     debug: ^4.1.1
     indefinitely-typed: ^1.1.0
@@ -8290,13 +8290,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/kruda-dataset@^0.3.0, @visual-analytics-components/kruda-dataset@workspace:packages/dataset-kruda":
+"@visual-analytics-components/kruda-dataset@workspace:packages/dataset-kruda":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/kruda-dataset@workspace:packages/dataset-kruda"
   dependencies:
     "@types/lodash": ^4.14.158
     "@uncharted.software/kruda": ^0.1.3
-    "@visual-analytics-components/abstract-dataset": ^0.3.0
+    "@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract"
     boolean-json-cnf: ^3.0.2
     boolean-json-prune: ^1.1.1
     lodash: ^4.17.19
@@ -8306,15 +8306,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/manager@^0.3.0, @visual-analytics-components/manager@workspace:packages/lib-manager":
+"@visual-analytics-components/manager@workspace:packages/lib-manager":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/manager@workspace:packages/lib-manager"
   dependencies:
     "@thematic/core": ^0.8.0
     "@types/node": ~14.0.27
-    "@visual-analytics-components/mapped-dataset": ^0.3.0
-    "@visual-analytics-components/plain-object-dataset": ^0.3.0
-    "@visual-analytics-components/types": ^0.3.0
+    "@visual-analytics-components/mapped-dataset": "workspace:packages/dataset-mapped"
+    "@visual-analytics-components/plain-object-dataset": "workspace:packages/dataset-plain-object"
+    "@visual-analytics-components/types": "workspace:packages/lib-types"
     rxjs: ^6.6.2
     symbol-observable: ^1.2.0
   peerDependencies:
@@ -8323,33 +8323,33 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/mapped-dataset@^0.3.0, @visual-analytics-components/mapped-dataset@workspace:packages/dataset-mapped":
+"@visual-analytics-components/mapped-dataset@workspace:packages/dataset-mapped":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/mapped-dataset@workspace:packages/dataset-mapped"
   dependencies:
     "@types/lodash": ^4.14.158
-    "@visual-analytics-components/types": ^0.3.0
+    "@visual-analytics-components/types": "workspace:packages/lib-types"
     lodash: ^4.17.19
   peerDependencies:
     "@types/lodash": ">= 4.14.155"
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/messages@^0.3.0, @visual-analytics-components/messages@workspace:packages/lib-messages":
+"@visual-analytics-components/messages@workspace:packages/lib-messages":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/messages@workspace:packages/lib-messages"
   dependencies:
-    "@visual-analytics-components/types": ^0.3.0
+    "@visual-analytics-components/types": "workspace:packages/lib-types"
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/plain-object-dataset@^0.3.0, @visual-analytics-components/plain-object-dataset@workspace:packages/dataset-plain-object":
+"@visual-analytics-components/plain-object-dataset@workspace:packages/dataset-plain-object":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/plain-object-dataset@workspace:packages/dataset-plain-object"
   dependencies:
-    "@visual-analytics-components/abstract-dataset": ^0.3.0
-    "@visual-analytics-components/messages": ^0.3.0
-    "@visual-analytics-components/types": ^0.3.0
+    "@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract"
+    "@visual-analytics-components/messages": "workspace:packages/lib-messages"
+    "@visual-analytics-components/types": "workspace:packages/lib-types"
   languageName: unknown
   linkType: soft
 
@@ -8391,7 +8391,7 @@ __metadata:
     "@types/react-virtualized-auto-sizer": ^1.0.0
     "@types/react-window": ^1.8.2
     "@types/styled-components": ^5.1.2
-    "@visual-analytics-components/react": ^0.3.0
+    "@visual-analytics-components/react": "workspace:packages/lib-react"
     camelcase: ^6.0.0
     classnames: ^2.2.6
     d3-scale: ^3.2.1
@@ -8418,7 +8418,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/react@^0.3.0, @visual-analytics-components/react@workspace:packages/lib-react":
+"@visual-analytics-components/react@workspace:packages/lib-react":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/react@workspace:packages/lib-react"
   dependencies:
@@ -8446,7 +8446,7 @@ __metadata:
     "@types/node": ~14.0.27
     "@types/react": ^16.9.44
     "@types/react-dom": ^16.9.8
-    "@visual-analytics-components/react": ^0.3.0
+    "@visual-analytics-components/react": "workspace:packages/lib-react"
     lodash: ^4.17.19
     react: ^16.13.1
     react-dom: ^16.13.1
@@ -8471,13 +8471,13 @@ __metadata:
     "@thematic/core": ^0.8.0
     "@thematic/react": ^0.8.0
     "@types/d3-scale": ^2.2.0
-    "@visual-analytics-components/datatable-component": ^0.3.0
-    "@visual-analytics-components/filterchip-component": ^0.3.0
-    "@visual-analytics-components/graph-component": ^0.3.0
-    "@visual-analytics-components/ranklist-component": ^0.3.0
-    "@visual-analytics-components/react": ^0.3.0
-    "@visual-analytics-components/search-component": ^0.3.0
-    "@visual-analytics-components/title-component": ^0.3.0
+    "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
+    "@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip"
+    "@visual-analytics-components/graph-component": "workspace:packages/component-graph"
+    "@visual-analytics-components/ranklist-component": "workspace:packages/component-ranklist"
+    "@visual-analytics-components/react": "workspace:packages/lib-react"
+    "@visual-analytics-components/search-component": "workspace:packages/component-search"
+    "@visual-analytics-components/title-component": "workspace:packages/component-title"
     d3-scale: ^3.2.2
     react-markdown: ^4.3.1
     rxjs: ^6.6.2
@@ -8495,7 +8495,7 @@ __metadata:
     "@types/node": ~14.0.27
     "@types/react": ^16.9.44
     "@types/react-dom": ^16.9.8
-    "@visual-analytics-components/react": ^0.3.0
+    "@visual-analytics-components/react": "workspace:packages/lib-react"
     react: ^16.13.1
     react-dom: ^16.13.1
     rxjs: ^6.6.2
@@ -8511,7 +8511,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@visual-analytics-components/types@^0.3.0, @visual-analytics-components/types@workspace:packages/lib-types":
+"@visual-analytics-components/types@workspace:packages/lib-types":
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/types@workspace:packages/lib-types"
   dependencies:
@@ -33891,11 +33891,11 @@ typescript@^4.0.3:
     "@thematic/core": ^0.8.0
     "@types/lodash": ^4.14.158
     "@types/node": ~14.0.27
-    "@visual-analytics-components/manager": ^0.3.0
-    "@visual-analytics-components/mapped-dataset": ^0.3.0
-    "@visual-analytics-components/messages": ^0.3.0
-    "@visual-analytics-components/plain-object-dataset": ^0.3.0
-    "@visual-analytics-components/types": ^0.3.0
+    "@visual-analytics-components/manager": "workspace:packages/lib-manager"
+    "@visual-analytics-components/mapped-dataset": "workspace:packages/dataset-mapped"
+    "@visual-analytics-components/messages": "workspace:packages/lib-messages"
+    "@visual-analytics-components/plain-object-dataset": "workspace:packages/dataset-plain-object"
+    "@visual-analytics-components/types": "workspace:packages/lib-types"
     rxjs: ^6.6.2
   peerDependencies:
     "@thematic/core": ">= 0.8"

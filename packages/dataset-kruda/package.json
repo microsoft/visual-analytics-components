@@ -2,9 +2,12 @@
 	"name": "@visual-analytics-components/kruda-dataset",
 	"version": "0.3.0",
 	"description": "Visual-Analytics-Components Kruda Integration",
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/types/index.d.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [
 		"Dario Segura <dsegura@uncharted.software>"
@@ -17,7 +20,7 @@
 	},
 	"dependencies": {
 		"@uncharted.software/kruda": "^0.1.3",
-		"@visual-analytics-components/abstract-dataset": "^0.3.0",
+		"@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract",
 		"boolean-json-cnf": "^3.0.2",
 		"boolean-json-prune": "^1.1.1",
 		"lodash": "^4.17.19",

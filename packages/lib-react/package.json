@@ -2,9 +2,12 @@
 	"name": "@visual-analytics-components/react",
 	"version": "0.3.0",
 	"description": "Visual Analytics Components for React",
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/types/index.d.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [],
 	"license": "MIT",

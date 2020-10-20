@@ -2,9 +2,12 @@
 	"name": "@visual-analytics-components/ranklist-component",
 	"version": "0.3.0",
 	"entry": "src/index.ts",
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/types/index.d.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"contributors": [
 		"Dario Segura <dsegura@uncharted.software>"
@@ -33,7 +36,7 @@
 		}
 	},
 	"dependencies": {
-		"@visual-analytics-components/react": "^0.3.0",
+		"@visual-analytics-components/react": "workspace:packages/lib-react",
 		"classnames": "^2.2.6",
 		"d3-scale": "^3.2.1",
 		"lodash": "^4.17.19",

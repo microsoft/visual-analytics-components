@@ -2,9 +2,12 @@
 	"name": "@visual-analytics-components/search-component",
 	"version": "0.3.0",
 	"entry": "src/index.ts",
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/types/index.d.ts",
+	"main": "src/index.ts",
+	"publishConfig": {
+		"main": "dist/cjs/index.js",
+		"module": "dist/esm/index.js",
+		"types": "dist/types/index.d.ts"
+	},
 	"author": "Peter MacMurchy<pmacmurchy@uncharted.software>",
 	"contributors": [
 		"Chris Trevino <chtrevin@microsoft.com>"
@@ -16,7 +19,7 @@
 		"start": "essex watch"
 	},
 	"dependencies": {
-		"@visual-analytics-components/react": "^0.3.0",
+		"@visual-analytics-components/react": "workspace:packages/lib-react",
 		"lodash": "^4.17.19",
 		"visual-analytics-components": "^0.3.0"
 	},
