@@ -63,10 +63,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:packages/dataset-abstract"
       },
       {
-        "name": "@visual-analytics-components/kruda-dataset",
-        "reference": "workspace:packages/dataset-kruda"
-      },
-      {
         "name": "@visual-analytics-components/mapped-dataset",
         "reference": "workspace:packages/dataset-mapped"
       },
@@ -98,13 +94,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["@visual-analytics-components/abstract-dataset", ["virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract", "workspace:packages/dataset-abstract"]],
+      ["@visual-analytics-components/abstract-dataset", ["virtual:698fedfcb77ac70111f45bc0ef3bfb78ee8423a1f25027b4d7e86fedec6e5a990007d59631ca4151a810201041e4148c172540dc84e8f41ce12c54bdf5eb87fc#workspace:packages/dataset-abstract", "workspace:packages/dataset-abstract"]],
       ["@visual-analytics-components/datatable-component", ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-datatable", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-datatable", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#workspace:packages/component-datatable", "workspace:packages/component-datatable"]],
       ["@visual-analytics-components/docsite", ["workspace:packages/app-docsite"]],
       ["@visual-analytics-components/embeddings-explorer", ["workspace:packages/app-embeddings-explorer"]],
       ["@visual-analytics-components/filterchip-component", ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-filterchip", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-filterchip", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#workspace:packages/component-filterchip", "workspace:packages/component-filterchip"]],
       ["@visual-analytics-components/graph-component", ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-graph", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-graph", "workspace:packages/component-graph"]],
-      ["@visual-analytics-components/kruda-dataset", ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/dataset-kruda", "workspace:packages/dataset-kruda"]],
       ["@visual-analytics-components/manager", ["virtual:a1f0881b551556672c23a48e89f712b89f5da6889e4a56ad94610cc8350e50722b581aa50b2d289fe5239badb64ed37b5f0928af7a75cd19720ecf670d3da8d6#workspace:packages/lib-manager", "workspace:packages/lib-manager"]],
       ["@visual-analytics-components/mapped-dataset", ["virtual:a1f0881b551556672c23a48e89f712b89f5da6889e4a56ad94610cc8350e50722b581aa50b2d289fe5239badb64ed37b5f0928af7a75cd19720ecf670d3da8d6#workspace:packages/dataset-mapped", "workspace:packages/dataset-mapped"]],
       ["@visual-analytics-components/messages", ["workspace:packages/lib-messages"]],
@@ -12725,18 +12720,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["@uncharted.software/kruda", [
-        ["npm:0.1.3", {
-          "packageLocation": "./.yarn/cache/@uncharted.software-kruda-npm-0.1.3-686c255dc5-b4647a65cc.zip/node_modules/@uncharted.software/kruda/",
-          "packageDependencies": [
-            ["@uncharted.software/kruda", "npm:0.1.3"],
-            ["dekkai", "npm:0.3.6"],
-            ["pako", "npm:1.0.11"],
-            ["webcpu", "npm:0.4.7"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["@urql/core", [
         ["virtual:00a9b3fba05ea0ed38d729228e05c339722abdb366f3d4da80a39408a904864ec27d31d260a7b9517e3aa25fc1ca578bf5e880629df6e8e593f16480fe99f291#npm:1.13.1", {
           "packageLocation": "./.yarn/$$virtual/@urql-core-virtual-8c02301721/0/cache/@urql-core-npm-1.13.1-cfa2f47510-709d6f96b9.zip/node_modules/@urql/core/",
@@ -12754,10 +12737,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@visual-analytics-components/abstract-dataset", [
-        ["virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract", {
-          "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-abstract-dataset-virtual-f117037c9d/1/packages/dataset-abstract/",
+        ["virtual:698fedfcb77ac70111f45bc0ef3bfb78ee8423a1f25027b4d7e86fedec6e5a990007d59631ca4151a810201041e4148c172540dc84e8f41ce12c54bdf5eb87fc#workspace:packages/dataset-abstract", {
+          "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-abstract-dataset-virtual-3260e63489/1/packages/dataset-abstract/",
           "packageDependencies": [
-            ["@visual-analytics-components/abstract-dataset", "virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract"],
+            ["@visual-analytics-components/abstract-dataset", "virtual:698fedfcb77ac70111f45bc0ef3bfb78ee8423a1f25027b4d7e86fedec6e5a990007d59631ca4151a810201041e4148c172540dc84e8f41ce12c54bdf5eb87fc#workspace:packages/dataset-abstract"],
             ["@types/node", "npm:14.14.0"],
             ["@types/types__node", null],
             ["@visual-analytics-components/messages", "workspace:packages/lib-messages"],
@@ -12765,7 +12748,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rxjs", "npm:6.6.3"]
           ],
           "packagePeers": [
-            "@types/node",
             "@types/types__node"
           ],
           "linkType": "SOFT",
@@ -13027,11 +13009,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-tabs", "npm:2.3.2"],
             ["@types/styled-components", "npm:5.1.4"],
             ["@uifabric/icons", "npm:7.5.12"],
-            ["@uncharted.software/kruda", "npm:0.1.3"],
             ["@visual-analytics-components/datatable-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-datatable"],
             ["@visual-analytics-components/filterchip-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-filterchip"],
             ["@visual-analytics-components/graph-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-graph"],
-            ["@visual-analytics-components/kruda-dataset", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/dataset-kruda"],
             ["@visual-analytics-components/ranklist-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-ranklist"],
             ["@visual-analytics-components/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/lib-react"],
             ["@visual-analytics-components/search-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-search"],
@@ -13322,45 +13302,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@visual-analytics-components/kruda-dataset", [
-        ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/dataset-kruda", {
-          "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-kruda-dataset-virtual-3eb97e6461/1/packages/dataset-kruda/",
-          "packageDependencies": [
-            ["@visual-analytics-components/kruda-dataset", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/dataset-kruda"],
-            ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.14.0"],
-            ["@types/types__lodash", null],
-            ["@types/types__node", null],
-            ["@uncharted.software/kruda", "npm:0.1.3"],
-            ["@visual-analytics-components/abstract-dataset", "virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract"],
-            ["boolean-json-cnf", "npm:3.0.2"],
-            ["boolean-json-prune", "npm:1.1.1"],
-            ["lodash", "npm:4.17.20"],
-            ["visual-analytics-components", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/lib-vac"]
-          ],
-          "packagePeers": [
-            "@types/node",
-            "@types/types__lodash",
-            "@types/types__node"
-          ],
-          "linkType": "SOFT",
-        }],
-        ["workspace:packages/dataset-kruda", {
-          "packageLocation": "./packages/dataset-kruda/",
-          "packageDependencies": [
-            ["@visual-analytics-components/kruda-dataset", "workspace:packages/dataset-kruda"],
-            ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.14.0"],
-            ["@uncharted.software/kruda", "npm:0.1.3"],
-            ["@visual-analytics-components/abstract-dataset", "virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract"],
-            ["boolean-json-cnf", "npm:3.0.2"],
-            ["boolean-json-prune", "npm:1.1.1"],
-            ["lodash", "npm:4.17.20"],
-            ["visual-analytics-components", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/lib-vac"]
-          ],
-          "linkType": "SOFT",
-        }]
-      ]],
       ["@visual-analytics-components/manager", [
         ["virtual:a1f0881b551556672c23a48e89f712b89f5da6889e4a56ad94610cc8350e50722b581aa50b2d289fe5239badb64ed37b5f0928af7a75cd19720ecf670d3da8d6#workspace:packages/lib-manager", {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-manager-virtual-adc44138cb/1/packages/lib-manager/",
@@ -13441,7 +13382,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/dataset-plain-object/",
           "packageDependencies": [
             ["@visual-analytics-components/plain-object-dataset", "workspace:packages/dataset-plain-object"],
-            ["@visual-analytics-components/abstract-dataset", "virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract"],
+            ["@visual-analytics-components/abstract-dataset", "virtual:698fedfcb77ac70111f45bc0ef3bfb78ee8423a1f25027b4d7e86fedec6e5a990007d59631ca4151a810201041e4148c172540dc84e8f41ce12c54bdf5eb87fc#workspace:packages/dataset-abstract"],
             ["@visual-analytics-components/messages", "workspace:packages/lib-messages"],
             ["@visual-analytics-components/types", "virtual:2d0dc55f483c9fc71989d557bb4d367267c8587515e11df367f9811f736abd2a721c6bda04b64a87c122f02929686f04988254c67782e39ec2976f11d388f1cd#workspace:packages/lib-types"]
           ],
@@ -16924,35 +16865,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["boolean-json-bifurcate", [
-        ["npm:0.1.2", {
-          "packageLocation": "./.yarn/cache/boolean-json-bifurcate-npm-0.1.2-58bc9ca29f-1f3a3f941d.zip/node_modules/boolean-json-bifurcate/",
-          "packageDependencies": [
-            ["boolean-json-bifurcate", "npm:0.1.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["boolean-json-cnf", [
-        ["npm:3.0.2", {
-          "packageLocation": "./.yarn/cache/boolean-json-cnf-npm-3.0.2-75e73fa01e-bc2e87d302.zip/node_modules/boolean-json-cnf/",
-          "packageDependencies": [
-            ["boolean-json-cnf", "npm:3.0.2"],
-            ["boolean-json-bifurcate", "npm:0.1.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["boolean-json-prune", [
-        ["npm:1.1.1", {
-          "packageLocation": "./.yarn/cache/boolean-json-prune-npm-1.1.1-142869a9bd-5ec685d325.zip/node_modules/boolean-json-prune/",
-          "packageDependencies": [
-            ["boolean-json-prune", "npm:1.1.1"],
-            ["lodash", "npm:4.17.20"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["bowser", [
         ["npm:1.9.4", {
           "packageLocation": "./.yarn/cache/bowser-npm-1.9.4-59f62819d0-6550d42547.zip/node_modules/bowser/",
@@ -20369,16 +20281,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["define-property", "npm:2.0.2"],
             ["is-descriptor", "npm:1.0.2"],
             ["isobject", "npm:3.0.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["dekkai", [
-        ["npm:0.3.6", {
-          "packageLocation": "./.yarn/unplugged/dekkai-npm-0.3.6-e07eaff6e1/node_modules/dekkai/",
-          "packageDependencies": [
-            ["dekkai", "npm:0.3.6"],
-            ["webcpu", "npm:0.4.7"]
           ],
           "linkType": "HARD",
         }]
@@ -43606,15 +43508,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/web-namespaces-npm-1.1.4-a6dfacb865-0899d2a4a0.zip/node_modules/web-namespaces/",
           "packageDependencies": [
             ["web-namespaces", "npm:1.1.4"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["webcpu", [
-        ["npm:0.4.7", {
-          "packageLocation": "./.yarn/cache/webcpu-npm-0.4.7-edfb582a35-e22784cefd.zip/node_modules/webcpu/",
-          "packageDependencies": [
-            ["webcpu", "npm:0.4.7"]
           ],
           "linkType": "HARD",
         }]

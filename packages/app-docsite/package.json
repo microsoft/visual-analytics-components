@@ -14,7 +14,7 @@
 		"apidoc:manager": "shx cp -r ../lib-manager/dist/docs static/apidocs/manager",
 		"apidoc:messages": "shx cp -r ../lib-messages/dist/docs static/apidocs/messages",
 		"apidoc:types": "shx cp -r ../lib-types/dist/docs static/apidocs/types",
-		"apidoc:abstract-dataset": "shx cp -r ../dataset-abstract/dist/docs static/apidocs/abstract-dataset",		
+		"apidoc:abstract-dataset": "shx cp -r ../dataset-abstract/dist/docs static/apidocs/abstract-dataset",
 		"apidoc:mapped-dataset": "shx cp -r ../dataset-mapped/dist/docs static/apidocs/mapped-dataset",
 		"apidoc:plain-object-dataset": "shx cp -r ../dataset-plain-object/dist/docs static/apidocs/plain-object-dataset",
 		"apidoc:datatable-component": "shx cp -r ../component-datatable/dist/docs static/apidocs/datatable-component",

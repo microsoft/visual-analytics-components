@@ -8005,17 +8005,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uncharted.software/kruda@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@uncharted.software/kruda@npm:0.1.3"
-  dependencies:
-    dekkai: ^0.3.6
-    pako: ^1.0.11
-    webcpu: ^0.4.7
-  checksum: b4647a65cc62c496638261be69e1940519c0b073c7a9f713ed02f8450507fde49afc432071876894fcb0b2fedd0d1fcf104e8bab446008d93d113e342cb8bba6
-  languageName: node
-  linkType: hard
-
 "@urql/core@npm:^1.12.3":
   version: 1.13.1
   resolution: "@urql/core@npm:1.13.1"
@@ -8158,11 +8147,9 @@ __metadata:
     "@types/react-tabs": ^2.3.2
     "@types/styled-components": ^5.1.4
     "@uifabric/icons": ^7.5.12
-    "@uncharted.software/kruda": ^0.1.3
     "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
     "@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip"
     "@visual-analytics-components/graph-component": "workspace:packages/component-graph"
-    "@visual-analytics-components/kruda-dataset": "workspace:packages/dataset-kruda"
     "@visual-analytics-components/ranklist-component": "workspace:packages/component-ranklist"
     "@visual-analytics-components/react": "workspace:packages/lib-react"
     "@visual-analytics-components/search-component": "workspace:packages/component-search"
@@ -8259,24 +8246,6 @@ __metadata:
     "@types/node": ">= 14.0.4"
     "@types/react": "*"
     styled-components: "*"
-  languageName: unknown
-  linkType: soft
-
-"@visual-analytics-components/kruda-dataset@workspace:packages/dataset-kruda":
-  version: 0.0.0-use.local
-  resolution: "@visual-analytics-components/kruda-dataset@workspace:packages/dataset-kruda"
-  dependencies:
-    "@types/lodash": ^4.14.162
-    "@types/node": ^14.14.0
-    "@uncharted.software/kruda": ^0.1.3
-    "@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract"
-    boolean-json-cnf: ^3.0.2
-    boolean-json-prune: ^1.1.1
-    lodash: ^4.17.20
-    visual-analytics-components: "workspace:packages/lib-vac"
-  peerDependencies:
-    "@types/lodash": ">= 4.14.157"
-    "@types/node": ">= 14.14.0"
   languageName: unknown
   linkType: soft
 
@@ -10750,31 +10719,6 @@ __metadata:
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
   checksum: e827963c416fdb1dbcd57e066a43c40829518f4dcdc9f58ed04519daeebb610adacbb6cf102518bda9f08be593c5b1b49a83e36bf6b7d91b3403f7e35510eeae
-  languageName: node
-  linkType: hard
-
-"boolean-json-bifurcate@npm:^0.1.0":
-  version: 0.1.2
-  resolution: "boolean-json-bifurcate@npm:0.1.2"
-  checksum: 1f3a3f941d93bce1200b520e80c8f4c8ae500f450eda24f255364d536454f057d994516dd5b990bce1bd70effd4f9e728254fec1c4764234b601159ff7aa6b57
-  languageName: node
-  linkType: hard
-
-"boolean-json-cnf@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "boolean-json-cnf@npm:3.0.2"
-  dependencies:
-    boolean-json-bifurcate: ^0.1.0
-  checksum: bc2e87d302d82748ae9cf1791a691f4f926b1d81a7a29ee50a9e1cfed4e361dd4122d01aaae398cf0748e78840bf8001ba31a2553343e1e1484f7f822aad63c6
-  languageName: node
-  linkType: hard
-
-"boolean-json-prune@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "boolean-json-prune@npm:1.1.1"
-  dependencies:
-    lodash: ^4.17.4
-  checksum: 5ec685d32579dc8b36a0ea69deb4a6129ce7b816d6bb831c4c8ba6ce5ced9a827d64e54a0f1516106b9d281297daf7b9876e3e2469fa17fd9e6f27be586b4bbf
   languageName: node
   linkType: hard
 
@@ -13793,15 +13737,6 @@ __metadata:
     is-descriptor: ^1.0.2
     isobject: ^3.0.1
   checksum: 00c7ec53b5040507016736922a9678b3247bc85e0ea0429e47d6ca6a993890f9dc338fb19d5bf6f8c0ca29016a68aa7e7da5c35d4ed8b3646347d86a3b2b4b01
-  languageName: node
-  linkType: hard
-
-"dekkai@npm:^0.3.6":
-  version: 0.3.6
-  resolution: "dekkai@npm:0.3.6"
-  dependencies:
-    webcpu: ^0.4.7
-  checksum: a62ef70f6f6d2cbe5519ddf7bb73c33261f4b48c4ef10572ad7e4b96a0c6b9c50dc71544a13db67a4db411623c16a92035fadc8919ebb85a1a32a9e8f0651d6b
   languageName: node
   linkType: hard
 
@@ -25312,7 +25247,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"pako@npm:^1.0.11, pako@npm:^1.0.5, pako@npm:~1.0.5":
+"pako@npm:^1.0.5, pako@npm:~1.0.5":
   version: 1.0.11
   resolution: "pako@npm:1.0.11"
   checksum: 71c60150b68220ec52a404f3c39a4ed38f750e42452b88fe0eb2e6b5c98e91f73f706444359b097aca1e6db83ef8fef50b5a9ec100e30a606cda6da8d45e5439
@@ -33921,13 +33856,6 @@ typescript@^4.0.3:
   version: 1.1.4
   resolution: "web-namespaces@npm:1.1.4"
   checksum: 0899d2a4a088b15761b6234ff6610f9598112d58f27adad86f7881ad51631317b47033bfa84cdeb62a37c8b6c3ece618f4ff720fd42c99f4907a1d9390c9dae0
-  languageName: node
-  linkType: hard
-
-"webcpu@npm:^0.4.7":
-  version: 0.4.7
-  resolution: "webcpu@npm:0.4.7"
-  checksum: e22784cefde71b145ed6a57ce8504049114461bead4aa27b03f70262726a948ca568312a874b1f5916643e5ee3f3e9e89ad3b0c2eb55005427f8bdbd6639ff8e
   languageName: node
   linkType: hard
 

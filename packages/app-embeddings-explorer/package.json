@@ -37,7 +37,7 @@
 		"@uifabric/icons": "^7.5.12",
 		"@visual-analytics-components/datatable-component": "workspace:packages/component-datatable",
 		"@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip",
-		"@visual-analytics-components/graph-component": "workspace:packages/component-graph",		
+		"@visual-analytics-components/graph-component": "workspace:packages/component-graph",
 		"@visual-analytics-components/ranklist-component": "workspace:packages/component-ranklist",
 		"@visual-analytics-components/react": "workspace:packages/lib-react",
 		"@visual-analytics-components/search-component": "workspace:packages/component-search",
