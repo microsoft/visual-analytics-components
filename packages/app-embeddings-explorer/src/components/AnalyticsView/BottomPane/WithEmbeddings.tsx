@@ -66,12 +66,12 @@ export const WithEmbeddings: React.FC = memo(function WithEmbeddings() {
 					onChangeSelected={setDimIndices}
 				/>
 				<Component>
-					<GraphComponent configuration={graphConfig} />
+					<GraphComponent configuration={graphConfig} manager={manager} />
 				</Component>
 			</TabPanel>
 			<TabPanel>
 				<Component>
-					<DatatableComponent />
+					<DatatableComponent manager={manager} />
 				</Component>
 			</TabPanel>
 		</Tabs>

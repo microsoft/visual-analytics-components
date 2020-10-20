@@ -4,6 +4,10 @@
  */
 import { Configuration } from '../interfaces'
 import { Graph } from './Graph'
-import { createComponent } from '@visual-analytics-components/react'
+import {
+	createComponent,
+	ManagerContext,
+} from '@visual-analytics-components/react'
+console.log('InGraphComponent', ManagerContext)
 
 export const GraphComponent = createComponent<Configuration>(Graph)

@@ -18,6 +18,7 @@ export interface ContainerProps {
 	className?: string
 	style?: React.CSSProperties
 	configuration: any
+	manager?: Manager
 	datamap?: DataMapping
 
 	/**
@@ -31,8 +32,9 @@ export const Container: React.FC<ContainerProps> = memo(function Container({
 	datamap,
 	className,
 	style,
+	manager: propManager,
 }) {
-	const manager = useManager(datamap)
+	const manager = useManager(propManager, datamap)
 	const rendered = useMemo(() => manager && renderComponent(manager), [manager, renderComponent])
 	return manager == null ? null : (
 		<ShadowDiv className={className} style={style}>

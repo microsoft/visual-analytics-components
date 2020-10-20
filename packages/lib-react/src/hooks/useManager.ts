@@ -8,13 +8,15 @@ import { Manager, DataMapping } from 'visual-analytics-components'
 
 /**
  * Use a VAC Manager instance from context, and apply a given data mapping (if present)
+	* @param manager The optional manager from props
  * @param datamap The optional datamapping to apply
  */
-export function useManager(datamap?: DataMapping): Manager | undefined {
-	const manager = useContext(ManagerContext)	
+export function useManager(manager?: Manager, datamap?: DataMapping): Manager | undefined {
+	const managerFromContext = useContext(ManagerContext)	
+	const managerToUse = manager || managerFromContext
 	return useMemo(() => {
-		return manager != null && datamap != null
-			? manager.applyMapping(datamap)
-			: manager
-	}, [manager, datamap])
+		return managerToUse != null && datamap != null
+			? managerToUse.applyMapping(datamap)
+			: managerToUse
+	}, [managerToUse, datamap])
 }
