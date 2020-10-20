@@ -1749,15 +1749,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:11.0.0":
-  version: 11.0.0
-  resolution: "@commitlint/config-conventional@npm:11.0.0"
-  dependencies:
-    conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: 2c5288d2686660976cb272c190704be14d7117c5723982b9ff586b2fb958260760d3d56506a702ab65f344cb95231b40c0d0e7248b657c450e5bb93c48bcee7a
-  languageName: node
-  linkType: hard
-
 "@commitlint/ensure@npm:^9.1.2":
   version: 9.1.2
   resolution: "@commitlint/ensure@npm:9.1.2"
@@ -2097,21 +2088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-audit@npm:^10.0.1":
-  version: 10.0.1
-  resolution: "@essex/build-step-audit@npm:10.0.1"
-  dependencies:
-    "@essex/build-utils": ^10.0.1
-    "@essex/shellrunner": ^10.0.1
-    "@essex/tasklogger": ^10.0.1
-  peerDependencies:
-    audit-ci: ">= 3.1"
-    license-to-fail: ">= 4.0"
-  checksum: 7847b6472252c25d335b2cf720c35b7239607b606de8e3343f7e0f932de93a011bf31c505f182fdec2ce0bab96e3ad6c58907136502f638aa674be539a7fc1d8
-  languageName: node
-  linkType: hard
-
-"@essex/build-step-azure@npm:^10.0.1":
+"@essex/build-step-azure@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-azure@npm:10.0.2"
   dependencies:
@@ -2123,7 +2100,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-babel@npm:^10.0.1":
+"@essex/build-step-babel@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-babel@npm:10.0.2"
   dependencies:
@@ -2140,7 +2117,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-clean@npm:^10.0.1":
+"@essex/build-step-clean@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-clean@npm:10.0.2"
   dependencies:
@@ -2150,20 +2127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-commitlint@npm:^10.0.1":
-  version: 10.0.1
-  resolution: "@essex/build-step-commitlint@npm:10.0.1"
-  dependencies:
-    "@commitlint/config-conventional": 11.0.0
-    "@essex/build-utils": ^10.0.1
-    "@essex/shellrunner": ^10.0.1
-  peerDependencies:
-    "@commitlint/cli": ">= 11.0.0"
-  checksum: db2cd40e053507dfeaf951f459d834ad7f90a21edb64bc80a5cfa13bafc6a8e3e02aa67313cfbf0f9193fe3960bae93145c50392290392d84588dbaba707e881
-  languageName: node
-  linkType: hard
-
-"@essex/build-step-docs@npm:^10.0.1":
+"@essex/build-step-docs@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-docs@npm:10.0.2"
   dependencies:
@@ -2184,7 +2148,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-eslint@npm:^10.0.1":
+"@essex/build-step-eslint@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-eslint@npm:10.0.2"
   dependencies:
@@ -2199,18 +2163,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-init@npm:^10.0.1":
-  version: 10.0.1
-  resolution: "@essex/build-step-init@npm:10.0.1"
+"@essex/build-step-init@npm:11.0.1":
+  version: 11.0.1
+  resolution: "@essex/build-step-init@npm:11.0.1"
   dependencies:
-    "@essex/build-step-recipes": ^10.0.1
-    "@essex/build-utils": ^10.0.1
-    "@essex/tasklogger": ^10.0.1
-  checksum: f9d8690b2152a348d003ff039fdd2450ea84f4e25c8e3c659d9585bbb1b938e9bc64971387b5ce291043b2c02cd6cddf97e82db698ccb8a0a0288e6b8ad78df2
+    "@essex/build-step-recipes": 10.0.2
+    "@essex/build-utils": 10.0.2
+    "@essex/tasklogger": 10.0.2
+  checksum: ca02ad18e41b0a97c24b598b5240df1e6eb4770de991c33811ad25bfc1023adf347ccb7cac2e2136a9e71cdb4b332f636ff8af2be6477eb5ffe9867dbbf5e2cc
   languageName: node
   linkType: hard
 
-"@essex/build-step-jest@npm:^10.0.1":
+"@essex/build-step-jest@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-jest@npm:10.0.2"
   dependencies:
@@ -2226,7 +2190,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-lint-staged@npm:^10.0.1":
+"@essex/build-step-lint-staged@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-lint-staged@npm:10.0.2"
   dependencies:
@@ -2238,7 +2202,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-pretty-quick@npm:^10.0.1":
+"@essex/build-step-pretty-quick@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-pretty-quick@npm:10.0.2"
   dependencies:
@@ -2251,7 +2215,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-recipes@npm:^10.0.1":
+"@essex/build-step-recipes@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-recipes@npm:10.0.2"
   dependencies:
@@ -2260,7 +2224,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-rollup@npm:^10.0.1":
+"@essex/build-step-rollup@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-rollup@npm:10.0.2"
   dependencies:
@@ -2273,7 +2237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-storybook@npm:^10.0.1":
+"@essex/build-step-storybook@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-storybook@npm:10.0.2"
   dependencies:
@@ -2289,7 +2253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-typedoc@npm:^10.0.1":
+"@essex/build-step-typedoc@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-typedoc@npm:10.0.2"
   dependencies:
@@ -2303,7 +2267,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-typescript@npm:^10.0.1":
+"@essex/build-step-typescript@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-typescript@npm:10.0.2"
   dependencies:
@@ -2320,7 +2284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-webpack@npm:^10.0.1":
+"@essex/build-step-webpack@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-webpack@npm:10.0.2"
   dependencies:
@@ -2333,7 +2297,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-step-zip@npm:^10.0.1":
+"@essex/build-step-zip@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-step-zip@npm:10.0.2"
   dependencies:
@@ -2350,7 +2314,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/build-utils@npm:10.0.2, @essex/build-utils@npm:^10.0.1":
+"@essex/build-utils@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/build-utils@npm:10.0.2"
   dependencies:
@@ -2376,7 +2340,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/eslint-plugin@npm:10.0.1, @essex/eslint-plugin@npm:^10.0.0, @essex/eslint-plugin@npm:^10.0.1":
+"@essex/eslint-plugin@npm:10.0.1, @essex/eslint-plugin@npm:^10.0.1":
   version: 10.0.1
   resolution: "@essex/eslint-plugin@npm:10.0.1"
   dependencies:
@@ -2431,33 +2395,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/scripts@npm:^10.0.1":
-  version: 10.0.1
-  resolution: "@essex/scripts@npm:10.0.1"
+"@essex/scripts@npm:^11.0.1":
+  version: 11.0.1
+  resolution: "@essex/scripts@npm:11.0.1"
   dependencies:
-    "@essex/build-step-audit": ^10.0.1
-    "@essex/build-step-azure": ^10.0.1
-    "@essex/build-step-babel": ^10.0.1
-    "@essex/build-step-clean": ^10.0.1
-    "@essex/build-step-commitlint": ^10.0.1
-    "@essex/build-step-docs": ^10.0.1
-    "@essex/build-step-eslint": ^10.0.1
-    "@essex/build-step-init": ^10.0.1
-    "@essex/build-step-jest": ^10.0.1
-    "@essex/build-step-lint-staged": ^10.0.1
-    "@essex/build-step-pretty-quick": ^10.0.1
-    "@essex/build-step-recipes": ^10.0.1
-    "@essex/build-step-rollup": ^10.0.1
-    "@essex/build-step-storybook": ^10.0.1
-    "@essex/build-step-typedoc": ^10.0.1
-    "@essex/build-step-typescript": ^10.0.1
-    "@essex/build-step-webpack": ^10.0.1
-    "@essex/build-step-zip": ^10.0.1
-    "@essex/build-utils": ^10.0.1
-    "@essex/eslint-plugin": ^10.0.0
-    "@essex/shellrunner": ^10.0.1
-    "@essex/tasklogger": ^10.0.1
-    "@essex/webpack-config": ^10.0.1
+    "@essex/build-step-azure": 10.0.2
+    "@essex/build-step-babel": 10.0.2
+    "@essex/build-step-clean": 10.0.2
+    "@essex/build-step-docs": 10.0.2
+    "@essex/build-step-eslint": 10.0.2
+    "@essex/build-step-init": 11.0.1
+    "@essex/build-step-jest": 10.0.2
+    "@essex/build-step-lint-staged": 10.0.2
+    "@essex/build-step-pretty-quick": 10.0.2
+    "@essex/build-step-recipes": 10.0.2
+    "@essex/build-step-rollup": 10.0.2
+    "@essex/build-step-storybook": 10.0.2
+    "@essex/build-step-typedoc": 10.0.2
+    "@essex/build-step-typescript": 10.0.2
+    "@essex/build-step-webpack": 10.0.2
+    "@essex/build-step-zip": 10.0.2
+    "@essex/build-utils": 10.0.2
+    "@essex/eslint-plugin": 10.0.1
+    "@essex/shellrunner": 10.0.2
+    "@essex/tasklogger": 10.0.2
+    "@essex/webpack-config": 10.0.2
     chalk: ^4.1.0
     commander: ^6.1.0
     core-js: ^3.6.5
@@ -2469,24 +2431,19 @@ __metadata:
     regenerator-runtime: ^0.13.7
     supports-color: ^7.2.0
   peerDependencies:
-    "@commitlint/cli": ">= 11.0.0"
-    "@essex/eslint-config": ">=10.0.0"
-    "@essex/jest-config": ">=10.0.1"
+    "@essex/eslint-config": ">=10.0.1"
+    "@essex/jest-config": ">=10.0.2"
     "@essex/prettier-config": ">=10.0.0"
     "@storybook/react": ">= 6"
     "@typescript-eslint/eslint-plugin": ">= 4.4.1"
     "@typescript-eslint/parser": ">= 4.4.1"
-    audit-ci: ">= 3.1"
     eslint-import-resolver-node: ">= 0.3.4"
     husky: ">= 4.2.5"
-    license-to-fail: ">= 4.0"
     lint-staged: "*"
     react: ">= 16.13.1"
     react-dom: ">= 16.13.1"
     rollup: ">= 2"
   peerDependenciesMeta:
-    "@commitlint/cli":
-      optional: true
     "@essex/eslint-config":
       optional: true
     "@essex/jest-config":
@@ -2514,11 +2471,11 @@ __metadata:
   bin:
     essex: ./lib/index.js
     essex-scripts: ./lib/index.js
-  checksum: 742ff96f91b3fff4cebce841c21e12d047923418efb01a8449b9c2fbe7fe84267e16588912a6e577e359009c8c684e83bb4fd1637e741eced4661c167c566f9b
+  checksum: 11eaaf898eb0de6683f8977f0014f1a5e26e9c06c620390c38b95a5d4d241802facf292a214179a9a73a503b8232a9b482de230d4a009d0c877cb705361f0ef2
   languageName: node
   linkType: hard
 
-"@essex/shellrunner@npm:10.0.2, @essex/shellrunner@npm:^10.0.1":
+"@essex/shellrunner@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/shellrunner@npm:10.0.2"
   dependencies:
@@ -2563,7 +2520,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/tasklogger@npm:10.0.2, @essex/tasklogger@npm:^10.0.1":
+"@essex/tasklogger@npm:10.0.2":
   version: 10.0.2
   resolution: "@essex/tasklogger@npm:10.0.2"
   dependencies:
@@ -2572,7 +2529,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/webpack-config@npm:10.0.2, @essex/webpack-config@npm:^10.0.1, @essex/webpack-config@npm:^10.0.2":
+"@essex/webpack-config@npm:10.0.2, @essex/webpack-config@npm:^10.0.2":
   version: 10.0.2
   resolution: "@essex/webpack-config@npm:10.0.2"
   dependencies:
@@ -8229,7 +8186,7 @@ __metadata:
     shx: ^0.3.2
     styled-components: ^5.2.0
     tsne-js: ^1.0.3
-    typescript: ^3.9.7
+    typescript: ^4.0.3
     umap-js: ^1.3.3
     visual-analytics-components: "workspace:packages/lib-vac"
     worker-loader: ^3.0.5
@@ -8369,7 +8326,7 @@ __metadata:
     "@essex/eslint-plugin": ^10.0.1
     "@essex/jest-config": ^10.0.2
     "@essex/prettier-config": ^10.0.0
-    "@essex/scripts": ^10.0.1
+    "@essex/scripts": ^11.0.1
     "@types/enzyme": ^3.10.7
     enzyme: ^3.11.0
     enzyme-adapter-react-16: ^1.15.5
@@ -12575,17 +12532,6 @@ __metadata:
     compare-func: ^2.0.0
     q: ^1.5.1
   checksum: aecf4183da548e678341c2ff77e48b9d523e9c43a99522dc36f0b8a58fdf34bd4959f4ce341bb220634ee9f5af450d64b11b3ae743fbde2537be686b6615f7c6
-  languageName: node
-  linkType: hard
-
-"conventional-changelog-conventionalcommits@npm:^4.3.1":
-  version: 4.4.0
-  resolution: "conventional-changelog-conventionalcommits@npm:4.4.0"
-  dependencies:
-    compare-func: ^2.0.0
-    lodash: ^4.17.15
-    q: ^1.5.1
-  checksum: ceafd0f505b7e1ec1c090c5f0bcd36a44aa53dcb8979667b24aa7aeada5a81585c088a11a1227b50ea1f3717e18f5aede3318ae8ebff9daed6af9a7c4b5f0aaf
   languageName: node
   linkType: hard
 
@@ -32593,16 +32539,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-typescript@^3.9.7:
-  version: 3.9.7
-  resolution: "typescript@npm:3.9.7"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10848a9c35fd8c70a8792b8bd9485317534bcd58768793d3b7d9c7486e9fd30cf345f83fa2a324e0bf6088bc8a4d8d061d58fda38b18c2ff187cf01fbbff6267
-  languageName: node
-  linkType: hard
-
 typescript@^4.0.3:
   version: 4.0.3
   resolution: "typescript@npm:4.0.3"
@@ -32610,16 +32546,6 @@ typescript@^4.0.3:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 5c892e132756a83d22030d7fb38be47cde27613f71d233dbe7faf79e4a92852c5146bfddcaf8c2da1a37d35ae8bf7b8c888fdcd763d5ad184cea6b21e7466838
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^3.9.7#builtin<compat/typescript>":
-  version: 3.9.7
-  resolution: "typescript@patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=5bf698"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: f0d3d9c987860c7c458229ab6dd7e3d322405db36b70abccba610b5efd9f9451e4e67a3fc7983c0d3741033c1f1a8d7aa859a1510caa8f20fad762fc39648bfa
   languageName: node
   linkType: hard
 

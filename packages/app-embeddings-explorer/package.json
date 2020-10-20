@@ -63,7 +63,7 @@
 		"shx": "^0.3.2",
 		"styled-components": "^5.2.0",
 		"tsne-js": "^1.0.3",
-		"typescript": "^3.9.7",
+		"typescript": "^4.0.3",
 		"umap-js": "^1.3.3",
 		"visual-analytics-components": "workspace:packages/lib-vac",
 		"worker-loader": "^3.0.5"
