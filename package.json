@@ -26,13 +26,17 @@
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"license": "MIT",
 	"devDependencies": {
+		"@essex/eslint-config": "^10.0.1",
 		"@essex/eslint-plugin": "^10.0.1",
 		"@essex/jest-config": "^10.0.2",
 		"@essex/prettier-config": "^10.0.0",
 		"@essex/scripts": "^11.0.1",
 		"@types/enzyme": "^3.10.7",
+		"@typescript-eslint/eslint-plugin": "^4.4.1",
+		"@typescript-eslint/parser": "^4.4.1",
 		"enzyme": "^3.11.0",
 		"enzyme-adapter-react-16": "^1.15.5",
+		"eslint-import-resolver-node": "^0.3.4",
 		"husky": "^4.3.0",
 		"lerna": "^3.22.1",
 		"lint-staged": "^10.4.2",
@@ -40,7 +44,8 @@
 		"react": "^16.14.0",
 		"react-dom": "^16.14.0",
 		"regenerator-runtime": "^0.13.7",
-		"shx": "^0.3.2"
+		"shx": "^0.3.2",
+		"typescript": "^4.0.3"
 	},
 	"dependencies": {
 		"@commitlint/cli": "^9.1.2"
