@@ -8,8 +8,8 @@ import {
 	GraphComponent,
 	Configuration,
 } from '@visual-analytics-components/graph-component'
-import { DataMapping } from 'visual-analytics-components'
 import { ManagerContext } from '@visual-analytics-components/react'
+import { DataMapping } from 'visual-analytics-components'
 
 export const TopPane: React.FC = memo(function TopPane() {
 	const manager = useContext(ManagerContext)
