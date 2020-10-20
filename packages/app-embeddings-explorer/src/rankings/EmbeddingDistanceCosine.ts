@@ -32,7 +32,6 @@ export class EmbeddingNeighborsCosine extends RelatedToSelectionRanking
 	public id = 'EN_COSINE'
 	public label = 'Embedding Distance (Cosine)'
 	public isVisible = true
-	public groups: RankedRow[][] = []
 	public metricScale: ((input: number) => number) | undefined
 
 	public connect = (): Unsubscribe => {
@@ -82,9 +81,9 @@ export class EmbeddingNeighborsCosine extends RelatedToSelectionRanking
 		}
 
 		if (numMetrics > 0) {
-			this.metricScale = scaleLinear().domain([minValue, maxValue])
+			this.metricScale = scaleLinear().domain([minValue, maxValue]) as (input: number) => number
 		}
-		this.groups = [rows]
+		this._groups = [rows]
 		this.onChangeSubject.next()
 	}
 

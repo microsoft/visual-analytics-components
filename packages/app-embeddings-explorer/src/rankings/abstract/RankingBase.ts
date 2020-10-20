@@ -29,7 +29,7 @@ export abstract class RankingBase implements Ranking {
 		return NO_OP
 	}
 
-	private _groups: RankedRow[][] = []
+	protected _groups: RankedRow[][] = []
 	protected onChangeSubject = new Subject<void>()
 
 	public set groups(value: RankedRow[][]) {

@@ -30,7 +30,6 @@ export class InCommunityRanking extends RelatedToSelectionRanking
 	public id = 'INCOMMUNITY'
 	public label = 'In Community with Selected'
 	public isVisible = true
-	public groups: RankedRow[][] = []
 
 	public connect = (): Unsubscribe => {
 		const manager = this.manager!
@@ -46,7 +45,7 @@ export class InCommunityRanking extends RelatedToSelectionRanking
 
 	private readSlice(vertexSlice: TableSlice<Vertex>): void {
 		if (this.selectedVertex == null || this.selectedVertex.community == null) {
-			this.groups = []
+			this._groups = []
 		} else {
 			const communityVertices: RankedRow[] = []
 			for (const vertex of vertexSlice) {
@@ -64,7 +63,7 @@ export class InCommunityRanking extends RelatedToSelectionRanking
 				}
 			}
 
-			this.groups = [communityVertices]
+			this._groups = [communityVertices]
 		}
 
 		this.onChangeSubject.next()

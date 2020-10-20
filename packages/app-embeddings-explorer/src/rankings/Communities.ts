@@ -66,11 +66,11 @@ export class CommunityRanking extends RankingBase implements Ranking {
 		}
 
 		if (numSizedCommunities > 0) {
-			this.metricScale = scaleLinear().domain([minSize, maxSize])
+			this.metricScale = scaleLinear().domain([minSize, maxSize]) as (input: number) => number
 		}
 
 		if (numCoverageCommunities > 0) {
-			this.submetricScale = scaleLinear().domain([0, 1])
+			this.submetricScale = scaleLinear().domain([0, 1]) as (input: number) => number
 		}
 
 		this.groups = [rows]

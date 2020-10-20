@@ -33,7 +33,6 @@ export class EmbeddingNeighborsEuclidean extends RelatedToSelectionRanking
 	public id = 'EN_EUCLIDEAN'
 	public label = 'Embedding Distance (Euclidean)'
 	public isVisible = true
-	public groups: RankedRow[][] = []
 	public metricScale: ((input: number) => number) | undefined
 
 	public constructor() {
@@ -88,9 +87,9 @@ export class EmbeddingNeighborsEuclidean extends RelatedToSelectionRanking
 		}
 
 		if (numMetrics > 0) {
-			this.metricScale = scaleLinear().domain([minValue, maxValue])
+			this.metricScale = scaleLinear().domain([minValue, maxValue]) as (input: number) => number
 		}
-		this.groups = [rows]
+		this._groups = [rows]
 		this.onChangeSubject.next()
 	}
 

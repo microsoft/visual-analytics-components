@@ -31,7 +31,6 @@ export class NeighborsRanking extends RelatedToSelectionRanking
 	public id = 'NEIGHBORS'
 	public label = 'Neighbors of Selected'
 	public isVisible = true
-	public groups: RankedRow[][] = []
 	public metricScale: ((input: number) => number) | undefined
 
 	public connect = (): Unsubscribe => {
@@ -95,8 +94,8 @@ export class NeighborsRanking extends RelatedToSelectionRanking
 				}
 			}
 
-			this.metricScale = scaleLinear().domain([minWeight, maxWeight])
-			this.groups = Object.values(neighborVertices)
+			this.metricScale = scaleLinear().domain([minWeight, maxWeight]) as (input: number) => number
+			this._groups = Object.values(neighborVertices)
 		}
 
 		this.onChangeSubject.next()
