@@ -4,6 +4,9 @@
  */
 import { mount } from 'enzyme'
 import * as React from 'react'
+import { Vertex } from '../../../app-embeddings-explorer/src/interfaces'
+import { ManagerContext } from '../context'
+import { createComponent } from '../createComponent'
 import {
 	ManagerImpl,
 	PlainObjectDataSet,
@@ -12,9 +15,6 @@ import {
 	DataMapping,
 	SliceType,
 } from 'visual-analytics-components'
-import { Vertex } from '../../../../apps/embeddings-explorer/src/interfaces'
-import { ManagerContext } from '../context'
-import { createComponent } from '../createComponent'
 
 describe('createComponent', () => {
 	it('creates a vac react component', () => {

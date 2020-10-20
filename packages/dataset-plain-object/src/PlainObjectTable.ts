@@ -2,13 +2,6 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { AbstractTable } from '@visual-analytics-components/abstract-dataset'
-import {
-	Table,
-	ColumnSpecification,
-	SliceType,
-	FilterExpression,
-} from '@visual-analytics-components/types'
 import { TableData } from './PlainObjectDataSet'
 import { PlainObjectRowProxy, RowProxy } from './PlainObjectRowProxy'
 import { PlainObjectTableSlice } from './PlainObjectTableSlice'
@@ -16,6 +9,13 @@ import {
 	applyFilterExpression,
 	applyInverseFilterExpression,
 } from './applyFilterExpression'
+import { AbstractTable } from '@visual-analytics-components/abstract-dataset'
+import {
+	Table,
+	ColumnSpecification,
+	SliceType,
+	FilterExpression,
+} from '@visual-analytics-components/types'
 
 function createDefaultSlices<T>(
 	tableName: string,

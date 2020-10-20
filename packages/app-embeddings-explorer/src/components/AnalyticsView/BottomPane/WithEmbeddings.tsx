@@ -2,15 +2,8 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { DatatableComponent } from '@visual-analytics-components/datatable-component'
-import {
-	GraphComponent,
-	Configuration,
-} from '@visual-analytics-components/graph-component'
-import { ManagerContext } from '@visual-analytics-components/react'
 import React, { memo, useContext, useState, useMemo, useCallback } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import { DataMapping } from 'visual-analytics-components'
 import {
 	getDRAlgorithm,
 	DimensionalityReduction,
@@ -18,6 +11,13 @@ import {
 import { EmbeddingsConfiguration } from '../EmbeddingsConfiguration'
 import { Component } from '../common'
 import { getMapping } from './getMapping'
+import { DatatableComponent } from '@visual-analytics-components/datatable-component'
+import {
+	GraphComponent,
+	Configuration,
+} from '@visual-analytics-components/graph-component'
+import { ManagerContext } from '@visual-analytics-components/react'
+import { DataMapping } from 'visual-analytics-components'
 import 'react-tabs/style/react-tabs.css'
 import './react-tabs.css'
 

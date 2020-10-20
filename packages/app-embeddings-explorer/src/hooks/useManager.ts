@@ -4,9 +4,9 @@
  */
 import { Theme } from '@thematic/core'
 import { useMemo } from 'react'
-import { ManagerImpl, Manager } from 'visual-analytics-components'
 import { createDataset } from '../createDataset'
 import { Graph } from '../interfaces'
+import { ManagerImpl, Manager } from 'visual-analytics-components'
 
 export function useManager(
 	data: Graph | undefined,

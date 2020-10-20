@@ -31,7 +31,6 @@ import {
 	RefObject,
 } from 'react'
 import useResizeObserver from 'use-resize-observer'
-import { Manager } from 'visual-analytics-components'
 // import { LayoutSettings } from '@graspologic/layout-react'
 import { Configuration, DEFAULT_INSTANCE_ID, COMPONENT_ID } from '../interfaces'
 import { GlobalStyles } from './GlobalStyles'
@@ -41,6 +40,7 @@ import { useHoverHandler } from './hooks/useHoverHandler'
 import { usePositionChanges } from './hooks/usePositionChanges'
 import { useVertexClickHandler } from './hooks/useVertexClickHandler'
 import { useHighlightedVertices, useSelectedVertices } from './hooks/vac'
+import { Manager } from 'visual-analytics-components'
 // eslint-disable-next-line  @typescript-eslint/ban-ts-comment
 // @ts-ignore
 

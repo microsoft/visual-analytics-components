@@ -3,8 +3,8 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { useMemo } from 'react'
-import { Manager, SliceType, TableSlice } from 'visual-analytics-components'
 import { Vertex } from '../../interfaces'
+import { Manager, SliceType, TableSlice } from 'visual-analytics-components'
 
 export function useSlice(
 	manager: Manager | undefined,

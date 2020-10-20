@@ -2,13 +2,13 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { PlainObjectTable } from './PlainObjectTable'
 import {
 	DataSet,
 	Table,
 	ColumnSpecification,
 	MessageHub,
 } from '@visual-analytics-components/types'
-import { PlainObjectTable } from './PlainObjectTable'
 
 export interface TableData {
 	columns: ColumnSpecification[]

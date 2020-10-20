@@ -4,6 +4,12 @@
  */
 
 import { storiesOf } from '@storybook/react'
+import { scaleLinear } from 'd3-scale'
+import React from 'react'
+import { Observable, Subject } from 'rxjs'
+import { filter } from 'rxjs/operators'
+import styled from 'styled-components'
+import { createManager, lesMisDataset } from '../util'
 import { Edge } from '@visual-analytics-components/graph-component'
 import {
 	RankListComponent,
@@ -13,11 +19,6 @@ import {
 } from '@visual-analytics-components/ranklist-component'
 import { ManagerContext } from '@visual-analytics-components/react'
 import { SearchComponent } from '@visual-analytics-components/search-component'
-import { scaleLinear } from 'd3-scale'
-import React from 'react'
-import { Observable, Subject } from 'rxjs'
-import { filter } from 'rxjs/operators'
-import styled from 'styled-components'
 import {
 	Message,
 	SliceType,
@@ -28,7 +29,6 @@ import {
 	DataChangedMessagePayload,
 	NO_OP,
 } from 'visual-analytics-components'
-import { createManager, lesMisDataset } from '../util'
 
 storiesOf('Ranklist Component', module).add('basic example', () => {
 	return (

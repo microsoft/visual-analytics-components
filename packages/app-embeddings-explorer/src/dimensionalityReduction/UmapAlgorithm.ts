@@ -3,13 +3,13 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 /* eslint-disable import/no-webpack-loader-syntax */
-import { Message } from 'visual-analytics-components'
 import { BaseDRAlgorithm } from './BaseDRAlgorithm'
 import { DimensionalityReduction, UmapResult, UmapOptions } from './types'
 import { UmapMessageType } from './umap/types'
 /* eslint-disable @typescript-eslint/ban-ts-comment, import/no-unresolved */
 // @ts-ignore
 import UmapWorker from '!!worker-loader!./umap/umap-worker'
+import { Message } from 'visual-analytics-components'
 /* eslint-enable @typescript-eslint/ban-ts-comment, import/no-unresolved */
 
 export class UmapAlgorithm extends BaseDRAlgorithm<UmapOptions, UmapResult> {

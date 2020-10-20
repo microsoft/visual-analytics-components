@@ -2,8 +2,8 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { ColumnSpecification, DatumType } from 'visual-analytics-components'
 import { Graph, Vertex, Edge, Community } from '../interfaces'
+import { ColumnSpecification, DatumType } from 'visual-analytics-components'
 
 function inferColumnType(name: string, value: any): DatumType {
 	let type = DatumType.Any

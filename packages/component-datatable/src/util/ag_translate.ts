@@ -4,6 +4,12 @@
  */
 import { ColDef } from 'ag-grid-community'
 import {
+	AGFilter,
+	AGFilterCondition,
+	AGCombinedFilter,
+	AGFieldFilter,
+} from './ag_interfaces'
+import {
 	BooleanClause,
 	DatumType,
 	ColumnSpecification,
@@ -11,13 +17,6 @@ import {
 	BooleanOperation,
 	FilterOperation,
 } from 'visual-analytics-components'
-
-import {
-	AGFilter,
-	AGFilterCondition,
-	AGCombinedFilter,
-	AGFieldFilter,
-} from './ag_interfaces'
 
 export function transformColumnDefinitionsIntoAgGrid(
 	columns: ColumnSpecification[],

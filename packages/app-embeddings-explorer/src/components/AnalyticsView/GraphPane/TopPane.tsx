@@ -2,13 +2,13 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import React, { memo } from 'react'
+import { Component } from '../common'
 import {
 	GraphComponent,
 	Configuration,
 } from '@visual-analytics-components/graph-component'
-import React, { memo } from 'react'
 import { DataMapping } from 'visual-analytics-components'
-import { Component } from '../common'
 
 export const TopPane: React.FC = memo(function TopPane() {
 	return (

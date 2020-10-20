@@ -3,8 +3,8 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { useContext, useMemo } from 'react'
-import { Manager, DataMapping } from 'visual-analytics-components'
 import { ManagerContext } from '../context'
+import { Manager, DataMapping } from 'visual-analytics-components'
 
 /**
  * Use a VAC Manager instance from context, and apply a given data mapping (if present)

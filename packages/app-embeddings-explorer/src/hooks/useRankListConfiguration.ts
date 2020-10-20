@@ -2,7 +2,6 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { Configuration } from '@visual-analytics-components/ranklist-component'
 import { useMemo } from 'react'
 import {
 	VerticesRanking,
@@ -12,6 +11,7 @@ import {
 	EmbeddingNeighborsCosine,
 	EmbeddingNeighborsEuclidean,
 } from '../rankings'
+import { Configuration } from '@visual-analytics-components/ranklist-component'
 
 export function useRankListConfiguration(
 	hasEmbeddings: boolean,

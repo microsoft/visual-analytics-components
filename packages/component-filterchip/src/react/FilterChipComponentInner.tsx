@@ -5,13 +5,13 @@
 import * as React from 'react'
 import { memo, useMemo, useCallback } from 'react'
 import styled from 'styled-components'
+import { FilterChip } from './FilterChip'
+import { useFilterChips } from './useFilterChips'
 import {
 	Manager,
 	FilterLocation,
 	MessageCreators,
 } from 'visual-analytics-components'
-import { FilterChip } from './FilterChip'
-import { useFilterChips } from './useFilterChips'
 
 export interface FilterChipComponentInnerProps {
 	manager: Manager

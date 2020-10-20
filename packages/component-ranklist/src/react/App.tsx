@@ -5,13 +5,13 @@
 import * as React from 'react'
 import { useEffect, memo, useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'
-import { Manager } from 'visual-analytics-components'
 import { Configuration, Ranking } from '../interfaces'
 import { isSearchScopeEvent } from '../util/predicates'
 import { DataRanking } from './DataRanking'
 import { GlobalStyles } from './GlobalStyles'
 import { RankingSelector } from './RankingSelector'
 import { useCategoricalScale, useSearchTerm } from './hooks'
+import { Manager } from 'visual-analytics-components'
 
 export interface AppProps {
 	manager: Manager

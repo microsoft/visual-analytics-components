@@ -2,6 +2,8 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { MappedIterator } from './MappedIterator'
+import { RowMapper } from './RowMapper'
 import {
 	FieldMapping,
 	TableSlice,
@@ -9,8 +11,6 @@ import {
 	MessageHub,
 	FilterExpression,
 } from '@visual-analytics-components/types'
-import { MappedIterator } from './MappedIterator'
-import { RowMapper } from './RowMapper'
 
 /**
  * Class that applies a data-map to a Table Slice

@@ -8373,8 +8373,10 @@ __metadata:
   resolution: "@visual-analytics-components/react@workspace:packages/lib-react"
   dependencies:
     "@thematic/react": ^0.9.0
+    "@types/enzyme": ^3.10.7
     "@types/node": ~14.14.0
     "@types/react": ^16.9.53
+    enzyme: ^3.11.0
     react: ^16.14.0
     react-shadow: ^18.4.2
     visual-analytics-components: "workspace:packages/lib-vac"
@@ -8422,7 +8424,7 @@ __metadata:
     "@storybook/react": ^5.3.21
     "@thematic/core": ^0.9.0
     "@thematic/react": ^0.9.0
-    "@types/d3-scale": ^2.2.4
+    "@types/react": ^16.9.53
     "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
     "@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip"
     "@visual-analytics-components/graph-component": "workspace:packages/component-graph"
@@ -8431,6 +8433,7 @@ __metadata:
     "@visual-analytics-components/search-component": "workspace:packages/component-search"
     "@visual-analytics-components/title-component": "workspace:packages/component-title"
     d3-scale: ^3.2.3
+    react: ^17.0.0
     react-markdown: ^4.3.1
     rxjs: ^6.6.3
     styled-components: ^5.2.0
@@ -28119,6 +28122,16 @@ fsevents@^1.2.7:
     object-assign: ^4.1.1
     prop-types: ^15.6.2
   checksum: 2769580b22952a52de3b5b2ea0f09cb904030b762d759739f49ab4da0b1f550e5c087ce3728c4be90f423d09481e0c075483c0c30b1ea9c549445c8b12020fd3
+  languageName: node
+  linkType: hard
+
+"react@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "react@npm:17.0.0"
+  dependencies:
+    loose-envify: ^1.1.0
+    object-assign: ^4.1.1
+  checksum: 7dc305794dfcd4b7b20ba0a0e320b701544487fffb3dc64b31712c04989b36fc73fbe7e23b31913d811f5e7030385b468db2c25109608dd5402e5ff94dcbc68f
   languageName: node
   linkType: hard
 

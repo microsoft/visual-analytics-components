@@ -3,13 +3,13 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 /* eslint-disable import/no-webpack-loader-syntax */
-import { Message } from 'visual-analytics-components'
 import { BaseDRAlgorithm } from './BaseDRAlgorithm'
 import { TsneMessageType } from './tsne/types'
 import { DimensionalityReduction, TsneConfig, TsneResult } from './types'
 /* eslint-disable @typescript-eslint/ban-ts-comment, import/no-unresolved */
 // @ts-ignore
 import TsneWorker from '!!worker-loader!./tsne/tsne-worker'
+import { Message } from 'visual-analytics-components'
 /* eslint-enable @typescript-eslint/ban-ts-comment, import/no-unresolved */
 
 const DEFAULT_TSNE_CONFIG: TsneConfig = {

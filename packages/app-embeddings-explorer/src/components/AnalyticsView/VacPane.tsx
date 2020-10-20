@@ -3,7 +3,6 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { useThematic } from '@thematic/react'
-import { ManagerContext } from '@visual-analytics-components/react'
 import React, { memo, useEffect, useState, useCallback } from 'react'
 import styled from 'styled-components'
 import { useManager } from '../../hooks/useManager'
@@ -14,6 +13,7 @@ import { GraphPane } from './GraphPane'
 // @ts-ignore
 import { Sidebar } from './Sidebar'
 import { TitleBar } from './TitleBar'
+import { ManagerContext } from '@visual-analytics-components/react'
 
 export interface VacPaneProps {
 	data: Graph

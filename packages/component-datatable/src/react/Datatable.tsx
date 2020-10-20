@@ -7,6 +7,10 @@ import { memo, useState, useCallback, useMemo, useEffect } from 'react'
 import { filter } from 'rxjs/operators'
 
 import styled from 'styled-components'
+import { AgFilterStore } from '../util/AgFilterStore'
+import { Controls } from './Controls'
+import { GlobalStyles } from './GlobalStyles'
+import { Grid } from './Grid'
 import {
 	SliceType,
 	Manager,
@@ -17,10 +21,6 @@ import {
 	Message,
 	Table,
 } from 'visual-analytics-components'
-import { AgFilterStore } from '../util/AgFilterStore'
-import { Controls } from './Controls'
-import { GlobalStyles } from './GlobalStyles'
-import { Grid } from './Grid'
 
 export interface DatatableProps {
 	manager: Manager

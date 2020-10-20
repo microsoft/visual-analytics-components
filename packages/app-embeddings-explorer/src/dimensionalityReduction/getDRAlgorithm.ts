@@ -2,11 +2,11 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { Manager } from 'visual-analytics-components'
 import { PcaAlgorithm } from './PcaAlgorithm'
 import { TsneAlgorithm } from './TsneAlgorithm'
 import { UmapAlgorithm } from './UmapAlgorithm'
 import { DimensionalityReduction, DRAlgorithm } from './types'
+import { Manager } from 'visual-analytics-components'
 type ManagerId = string
 
 const DR_CACHE: Record<

@@ -4,11 +4,11 @@
  */
 
 import { storiesOf } from '@storybook/react'
-import { ManagerContext } from '@visual-analytics-components/react'
-import { TitleComponent } from '@visual-analytics-components/title-component'
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
 import { createManager, lesMisDataset } from '../util'
+import { ManagerContext } from '@visual-analytics-components/react'
+import { TitleComponent } from '@visual-analytics-components/title-component'
 
 storiesOf('Title Component', module).add('basic example', () => {
 	const manager = createManager(lesMisDataset())

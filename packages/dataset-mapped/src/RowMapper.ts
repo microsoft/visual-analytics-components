@@ -2,8 +2,8 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { FieldMapping } from '@visual-analytics-components/types'
 import { set, get } from 'lodash'
+import { FieldMapping } from '@visual-analytics-components/types'
 
 /**
  * Class that performs row-mapping duties,

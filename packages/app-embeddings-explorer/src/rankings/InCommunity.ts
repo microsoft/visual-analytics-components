@@ -2,17 +2,7 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import {
-	Ranking,
-	RankedRow,
-} from '@visual-analytics-components/ranklist-component'
 import { filter } from 'rxjs/operators'
-import {
-	Message,
-	SliceType,
-	TableSlice,
-	Unsubscribe,
-} from 'visual-analytics-components'
 import { Vertex } from '../interfaces'
 import { RelatedToSelectionRanking } from './abstract/RelatedToSelection'
 import {
@@ -20,12 +10,23 @@ import {
 	isVertexSelectionChangeEvent,
 } from './util/eventPredicates'
 import { setSelectedVertex, setHighlightedVertex } from './util/handlers'
+import {
+	Ranking,
+	RankedRow,
+} from '@visual-analytics-components/ranklist-component'
+import {
+	Message,
+	SliceType,
+	TableSlice,
+	Unsubscribe,
+} from 'visual-analytics-components'
 
 function isReadSliceEvent(event: Message<any>): boolean {
 	return isVertexTableChangeEvent(event) || isVertexSelectionChangeEvent(event)
 }
 
-export class InCommunityRanking extends RelatedToSelectionRanking
+export class InCommunityRanking
+	extends RelatedToSelectionRanking
 	implements Ranking {
 	public id = 'INCOMMUNITY'
 	public label = 'In Community with Selected'

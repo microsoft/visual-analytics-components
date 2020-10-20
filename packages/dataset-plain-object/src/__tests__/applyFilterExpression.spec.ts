@@ -3,14 +3,14 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import {
+	applyFilterExpression,
+	applyInverseFilterExpression,
+} from '../applyFilterExpression'
+import {
 	FilterOperation,
 	BooleanOperation,
 	FilterExpression,
 } from '@visual-analytics-components/types'
-import {
-	applyFilterExpression,
-	applyInverseFilterExpression,
-} from '../applyFilterExpression'
 
 describe('Filter Expressions', () => {
 	it('can perform a contains expression on an array', () => {

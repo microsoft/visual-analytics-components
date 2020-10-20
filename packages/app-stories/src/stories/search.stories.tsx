@@ -4,11 +4,11 @@
  */
 
 import { storiesOf } from '@storybook/react'
-import { ManagerContext } from '@visual-analytics-components/react'
-import { SearchComponent } from '@visual-analytics-components/search-component'
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { createManager, lesMisDataset } from '../util'
+import { ManagerContext } from '@visual-analytics-components/react'
+import { SearchComponent } from '@visual-analytics-components/search-component'
 
 storiesOf('Search Component', module).add('basic example', () => {
 	const manager = createManager(lesMisDataset())

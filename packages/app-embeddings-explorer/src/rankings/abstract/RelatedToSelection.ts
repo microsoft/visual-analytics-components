@@ -2,19 +2,20 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { Ranking } from '@visual-analytics-components/ranklist-component'
 import { filter } from 'rxjs/operators'
+import { Vertex } from '../../interfaces'
+import { isVertexSelectionChangeEvent } from '../util/eventPredicates'
+import { RankingBase } from './RankingBase'
+import { Ranking } from '@visual-analytics-components/ranklist-component'
 import {
 	SliceType,
 	Unsubscribe,
 	TableSlice,
 	Manager,
 } from 'visual-analytics-components'
-import { Vertex } from '../../interfaces'
-import { isVertexSelectionChangeEvent } from '../util/eventPredicates'
-import { RankingBase } from './RankingBase'
 
-export abstract class RelatedToSelectionRanking extends RankingBase
+export abstract class RelatedToSelectionRanking
+	extends RankingBase
 	implements Ranking {
 	public abstract id: string
 	public abstract connect(): Unsubscribe

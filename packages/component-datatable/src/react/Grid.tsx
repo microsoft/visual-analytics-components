@@ -8,17 +8,17 @@ import { isEqual } from 'lodash'
 import * as React from 'react'
 import { memo, useMemo, useEffect, useCallback, useState } from 'react'
 import styled from 'styled-components'
+import { TableDataSource } from '../TableDataSource'
+import {
+	translateAgGridFilter,
+	transformColumnDefinitionsIntoAgGrid,
+} from '../util/ag_translate'
 import {
 	TableSlice,
 	ColumnSpecification,
 	BooleanClause,
 	FilterClause,
 } from 'visual-analytics-components'
-import { TableDataSource } from '../TableDataSource'
-import {
-	translateAgGridFilter,
-	transformColumnDefinitionsIntoAgGrid,
-} from '../util/ag_translate'
 
 export interface GridProps {
 	dataVersion: any

@@ -4,8 +4,8 @@
  */
 import * as React from 'react'
 import { memo } from 'react'
-import { Manager, DataMapping } from 'visual-analytics-components'
 import { useManager } from './hooks/useManager'
+import { Manager, DataMapping } from 'visual-analytics-components'
 /* eslint-disable-next-line @typescript-eslint/no-var-requires */
 const root = require('react-shadow/styled-components').default
 

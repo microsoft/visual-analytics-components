@@ -2,6 +2,7 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { MappedSlice } from './MappedTableSlice'
 import {
 	Table,
 	FieldMapping,
@@ -10,7 +11,6 @@ import {
 	MessageHub,
 	TableSlice,
 } from '@visual-analytics-components/types'
-import { MappedSlice } from './MappedTableSlice'
 
 /**
  * Class that applies a data-map to a Table

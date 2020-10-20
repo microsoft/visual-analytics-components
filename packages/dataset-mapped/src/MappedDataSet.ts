@@ -2,13 +2,13 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { MappedTable } from './MappedTable'
 import {
 	DataSet,
 	Table,
 	DataMapping,
 	MessageHub,
 } from '@visual-analytics-components/types'
-import { MappedTable } from './MappedTable'
 
 /**
  * Class that applies a data-map to a DataSet

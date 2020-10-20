@@ -2,10 +2,10 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { Vertex } from '../../../app-embeddings-explorer/src/interfaces'
 import { MappedDataSet } from '@visual-analytics-components/mapped-dataset'
 import { PlainObjectDataSet } from '@visual-analytics-components/plain-object-dataset'
 import { DatumType, SliceType } from '@visual-analytics-components/types'
-import { Vertex } from '../../../../apps/embeddings-explorer/src/interfaces'
 
 describe('the mapped DataSet', () => {
 	it('can map a table name', () => {

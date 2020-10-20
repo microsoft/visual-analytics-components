@@ -5,9 +5,9 @@
 import { debounce } from 'lodash'
 import * as React from 'react'
 import { memo, useCallback, useMemo } from 'react'
-import { Manager, MessageCreators } from 'visual-analytics-components'
 import { Configuration } from '../interfaces'
 import { GlobalStyles } from './GlobalStyles'
+import { Manager, MessageCreators } from 'visual-analytics-components'
 
 interface SearchProps {
 	manager: Manager

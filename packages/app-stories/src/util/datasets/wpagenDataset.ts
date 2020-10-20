@@ -2,8 +2,8 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { PlainObjectDataSet, DataSet } from 'visual-analytics-components'
 import data from '../../data/wpagen.json'
+import { PlainObjectDataSet, DataSet } from 'visual-analytics-components'
 
 export function wpagenDataset(): DataSet {
 	;(data as any).nodes.data.forEach((d: any) => {

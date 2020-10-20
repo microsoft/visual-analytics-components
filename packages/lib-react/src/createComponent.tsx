@@ -5,8 +5,8 @@
 import { ThematicProvider } from '@thematic/react'
 import * as React from 'react'
 import { memo, useCallback } from 'react'
-import { Manager, ComponentConfiguration } from 'visual-analytics-components'
 import { Container } from './Container'
+import { Manager, ComponentConfiguration } from 'visual-analytics-components'
 
 export interface InnerComponentProps<
 	Configuration extends ComponentConfiguration

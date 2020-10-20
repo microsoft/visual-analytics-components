@@ -2,6 +2,8 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { filter } from 'rxjs/operators'
+import { AbstractTableSlice } from './AbstractTableSlice'
 import {
 	MessageTypes,
 	MessageCreators,
@@ -17,8 +19,6 @@ import {
 	FilterLocation,
 	FilterExpression,
 } from '@visual-analytics-components/types'
-import { filter } from 'rxjs/operators'
-import { AbstractTableSlice } from './AbstractTableSlice'
 
 export abstract class AbstractTable<T, TableSlice extends AbstractTableSlice<T>>
 	implements Table<T> {

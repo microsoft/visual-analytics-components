@@ -6,8 +6,8 @@
 import * as React from 'react'
 import { memo } from 'react'
 import styled from 'styled-components'
-import { SliceType } from 'visual-analytics-components'
 import { Dropdown } from './Dropdown'
+import { SliceType } from 'visual-analytics-components'
 
 const SLICE_OPTIONS = [
 	{ value: SliceType.All, name: 'All' },

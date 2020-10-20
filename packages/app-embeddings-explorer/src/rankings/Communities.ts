@@ -2,17 +2,17 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import {
-	Ranking,
-	RankedRow,
-} from '@visual-analytics-components/ranklist-component'
 import { scaleLinear } from 'd3-scale'
 import { filter } from 'rxjs/operators'
-import { SliceType, TableSlice, Unsubscribe } from 'visual-analytics-components'
 import { Community } from '../interfaces'
 import { RankingBase } from './abstract/RankingBase'
 import { isVertexTableChangeEvent } from './util/eventPredicates'
 import { filterToVerticesInCommunity } from './util/handlers'
+import {
+	Ranking,
+	RankedRow,
+} from '@visual-analytics-components/ranklist-component'
+import { SliceType, TableSlice, Unsubscribe } from 'visual-analytics-components'
 
 export class CommunityRanking extends RankingBase implements Ranking {
 	public id = 'COMMUNITIES'
@@ -66,11 +66,15 @@ export class CommunityRanking extends RankingBase implements Ranking {
 		}
 
 		if (numSizedCommunities > 0) {
-			this.metricScale = scaleLinear().domain([minSize, maxSize]) as (input: number) => number
+			this.metricScale = scaleLinear().domain([minSize, maxSize]) as (
+				input: number,
+			) => number
 		}
 
 		if (numCoverageCommunities > 0) {
-			this.submetricScale = scaleLinear().domain([0, 1]) as (input: number) => number
+			this.submetricScale = scaleLinear().domain([0, 1]) as (
+				input: number,
+			) => number
 		}
 
 		this.groups = [rows]
