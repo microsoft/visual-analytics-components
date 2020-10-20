@@ -1479,7 +1479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/polyfill@npm:^7.10.4":
+"@babel/polyfill@npm:^7.12.1":
   version: 7.12.1
   resolution: "@babel/polyfill@npm:7.12.1"
   dependencies:
@@ -2376,7 +2376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/eslint-plugin@npm:10.0.1, @essex/eslint-plugin@npm:^10.0.0":
+"@essex/eslint-plugin@npm:10.0.1, @essex/eslint-plugin@npm:^10.0.0, @essex/eslint-plugin@npm:^10.0.1":
   version: 10.0.1
   resolution: "@essex/eslint-plugin@npm:10.0.1"
   dependencies:
@@ -2404,7 +2404,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/jest-config@npm:10.0.2, @essex/jest-config@npm:^10.0.0":
+"@essex/jest-config@npm:10.0.2, @essex/jest-config@npm:^10.0.2":
   version: 10.0.2
   resolution: "@essex/jest-config@npm:10.0.2"
   dependencies:
@@ -2431,7 +2431,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/scripts@npm:^10.0.0":
+"@essex/scripts@npm:^10.0.1":
   version: 10.0.1
   resolution: "@essex/scripts@npm:10.0.1"
   dependencies:
@@ -2572,7 +2572,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@essex/webpack-config@npm:10.0.2, @essex/webpack-config@npm:^10.0.0, @essex/webpack-config@npm:^10.0.1":
+"@essex/webpack-config@npm:10.0.2, @essex/webpack-config@npm:^10.0.1, @essex/webpack-config@npm:^10.0.2":
   version: 10.0.2
   resolution: "@essex/webpack-config@npm:10.0.2"
   dependencies:
@@ -2745,7 +2745,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/react@npm:^7.124.2":
+"@fluentui/react@npm:^7.147.1":
   version: 7.147.1
   resolution: "@fluentui/react@npm:7.147.1"
   dependencies:
@@ -4779,7 +4779,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/mdx@npm:1.6.18, @mdx-js/mdx@npm:^1.5.1, @mdx-js/mdx@npm:^1.6.16":
+"@mdx-js/mdx@npm:1.6.18, @mdx-js/mdx@npm:^1.5.1, @mdx-js/mdx@npm:^1.6.18":
   version: 1.6.18
   resolution: "@mdx-js/mdx@npm:1.6.18"
   dependencies:
@@ -4835,7 +4835,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:1.6.18, @mdx-js/react@npm:^1.5.1, @mdx-js/react@npm:^1.5.2, @mdx-js/react@npm:^1.6.16":
+"@mdx-js/react@npm:1.6.18, @mdx-js/react@npm:^1.5.1, @mdx-js/react@npm:^1.5.2, @mdx-js/react@npm:^1.6.18":
   version: 1.6.18
   resolution: "@mdx-js/react@npm:1.6.18"
   peerDependencies:
@@ -6161,7 +6161,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:^5":
+"@storybook/react@npm:^5.3.21":
   version: 5.3.21
   resolution: "@storybook/react@npm:5.3.21"
   dependencies:
@@ -6710,58 +6710,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thematic/color@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "@thematic/color@npm:0.8.0"
+"@thematic/color@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@thematic/color@npm:0.9.0"
   dependencies:
     "@types/node": ^14.0.13
     chroma-js: ^2.0.3
     color-blind: ^0.1.1
     hsluv: ^0.1.0
-  checksum: 2bea042ae1f1356338a9e3e5d9018e46434ca4ca3a219e60d258c828ec23d2b38a0b3cb170bf7b0cb34958d3b0e62e4326523451f950e625414a19d666466801
+  checksum: ac007606bad9f08cce9930bfc437763f9e914c758739e0093ee7296ff91358a765c349f19bc92bc4afccd7f48cac84bc2b690346921e0c0fa132c3484e44cf12
   languageName: node
   linkType: hard
 
-"@thematic/core@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "@thematic/core@npm:0.8.0"
+"@thematic/core@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@thematic/core@npm:0.9.0"
   dependencies:
-    "@thematic/color": ^0.8.0
+    "@thematic/color": ^0.9.0
     "@types/d3-scale": ^2.2.0
     "@types/lodash": ^4.14.156
     "@types/murmurhash-js": ^1.0.3
     d3-scale: ^3.0.0
     lodash: ^4.17.11
     murmurhash-js: ^1.0.0
-  checksum: 6b191333106c32b1527e2dab75b08fbabc5e22b503695f37ee783987391852a8dfc6a189f42f0bd5e0b9aeab6f34e33bf2da2b9d1cb3f9e1a9fc541960ebbae2
+  checksum: d6fbced600d484ab010b7f134a74265f93292fce6e2e28ae8195dfa33de24e5e1f9f2752f254ffa833d06c689f5ce12ed3f4330bf89dc024825d7bd8439515ce
   languageName: node
   linkType: hard
 
-"@thematic/fluent@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "@thematic/fluent@npm:0.8.0"
+"@thematic/fluent@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@thematic/fluent@npm:0.9.0"
   dependencies:
-    "@thematic/color": ^0.8.0
-    "@thematic/core": ^0.8.0
-    "@thematic/react": ^0.8.0
+    "@thematic/color": ^0.9.0
+    "@thematic/core": ^0.9.0
+    "@thematic/react": ^0.9.0
     "@types/react": ^16.9.38
   peerDependencies:
     "@fluentui/react": ">= 7.121.2"
     react: ">= 16.8.0"
-  checksum: bcee04fff550a7b3330b2233d4017911b075db55142bd1ca6b980b22023f336f27564cdf362fbb2456b871ed97ba16c8de101d43d8fb1b276831e5a3b0248825
+  checksum: 434fc33b8c387ba6189edc24bf60c71e57cadc4be8ccf01d5721a1d4a8645d727ab01504c27ba0085ab8a379af504b5a719ea7c9d2e4a3960d341e5e07521986
   languageName: node
   linkType: hard
 
-"@thematic/react@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "@thematic/react@npm:0.8.0"
+"@thematic/react@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@thematic/react@npm:0.9.0"
   dependencies:
-    "@thematic/color": ^0.8.0
-    "@thematic/core": ^0.8.0
+    "@thematic/color": ^0.9.0
+    "@thematic/core": ^0.9.0
     "@types/react": ^16.9.38
   peerDependencies:
     react: ">= 16.13.1"
-  checksum: 62677dccee55415c41064283e65d1d55eeba6baedba5f0f4ab2de6f56cbe5a798a8a5fe8e97d30eff71d43fdcf184f400c26749085e1ca0e827e1470a4094ee4
+  checksum: b068688ce762439a6b17b5350a75ffdb7b1ec06da5e397c63802f2adf2ae06a94ba674f1628eefc6f91bca25200086ae724f7783f0fa040fda4c65568ab60435
   languageName: node
   linkType: hard
 
@@ -6897,7 +6897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/d3-scale@npm:^2.2.0":
+"@types/d3-scale@npm:^2.2.0, @types/d3-scale@npm:^2.2.4":
   version: 2.2.4
   resolution: "@types/d3-scale@npm:2.2.4"
   dependencies:
@@ -6934,7 +6934,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/enzyme@npm:^3.10.5":
+"@types/enzyme@npm:^3.10.7":
   version: 3.10.7
   resolution: "@types/enzyme@npm:3.10.7"
   dependencies:
@@ -7218,7 +7218,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:*, @types/lodash@npm:^4.14.156, @types/lodash@npm:^4.14.158, @types/lodash@npm:^4.14.92":
+"@types/lodash@npm:*, @types/lodash@npm:^4.14.156, @types/lodash@npm:^4.14.162, @types/lodash@npm:^4.14.92":
   version: 4.14.162
   resolution: "@types/lodash@npm:4.14.162"
   checksum: 16205a12995d659ac556f25405cfeec3b9fb427364ed8e24e4e4ab84f646b1a2f6f08f6aee155ebc6127ac6791fd7755fc15be10b6c8dd5a3ab3d3f4917f7173
@@ -7299,7 +7299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^14.0.13, @types/node@npm:~14.0.27":
+"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^14.0.13":
   version: 14.0.27
   resolution: "@types/node@npm:14.0.27"
   checksum: 54ecf408eb94f44685e12ef395d8d9d5789cb9e209f171153b6b951272af6b8da099778d09d66454aa5d35ce246f3922ebd7476ed768bf3bd4267306c12a6703
@@ -7317,6 +7317,13 @@ __metadata:
   version: 8.10.65
   resolution: "@types/node@npm:8.10.65"
   checksum: c7d8bb4a1a31172d705f89f7831ec90be051295db6d885a45cb5e55f9a550395791bdca378676bcbc110b91aeae74cd6c41258b5071da39ac5790ad05169c5f2
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:~14.14.0":
+  version: 14.14.0
+  resolution: "@types/node@npm:14.14.0"
+  checksum: 5ebd04788f3e800914d45de32f5007dc688ca0e6d3424910949be50cf2cf1a5048cc11093771a23d211b8c7ea46ebed91db0e586d491c82df91de422b2eabbab
   languageName: node
   linkType: hard
 
@@ -7428,7 +7435,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-helmet@npm:^6.0.0":
+"@types/react-helmet@npm:^6.1.0":
   version: 6.1.0
   resolution: "@types/react-helmet@npm:6.1.0"
   dependencies:
@@ -7446,7 +7453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-router-dom@npm:^5.1.5":
+"@types/react-router-dom@npm:^5.1.6":
   version: 5.1.6
   resolution: "@types/react-router-dom@npm:5.1.6"
   dependencies:
@@ -7512,7 +7519,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^16.9.38, @types/react@npm:^16.9.43, @types/react@npm:^16.9.44":
+"@types/react@npm:*, @types/react@npm:^16.9.38, @types/react@npm:^16.9.43, @types/react@npm:^16.9.53":
   version: 16.9.53
   resolution: "@types/react@npm:16.9.53"
   dependencies:
@@ -7574,7 +7581,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.2":
+"@types/styled-components@npm:^5.1.4":
   version: 5.1.4
   resolution: "@types/styled-components@npm:5.1.4"
   dependencies:
@@ -8067,10 +8074,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/abstract-dataset@workspace:packages/dataset-abstract"
   dependencies:
-    "@types/node": ~14.0.27
+    "@types/node": ~14.14.0
     "@visual-analytics-components/messages": "workspace:packages/lib-messages"
     "@visual-analytics-components/types": "workspace:packages/lib-types"
-    rxjs: ^6.6.2
+    rxjs: ^6.6.3
   peerDependencies:
     "@types/node": ">= 14"
   languageName: unknown
@@ -8080,22 +8087,22 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/datatable-component@workspace:packages/component-datatable"
   dependencies:
-    "@thematic/core": ^0.8.0
-    "@thematic/react": ^0.8.0
-    "@types/lodash": ^4.14.158
-    "@types/node": ~14.0.27
-    "@types/react": ^16.9.44
+    "@thematic/core": ^0.9.0
+    "@thematic/react": ^0.9.0
+    "@types/lodash": ^4.14.162
+    "@types/node": ~14.14.0
+    "@types/react": ^16.9.53
     "@types/react-dom": ^16.9.8
-    "@types/styled-components": ^5.1.2
+    "@types/styled-components": ^5.1.4
     "@visual-analytics-components/react": "workspace:packages/lib-react"
     ag-grid-community: ^23.2.1
     ag-grid-react: ^23.2.1
-    lodash: ^4.17.19
-    raw-loader: ^4.0.1
-    react: ^16.13.1
-    react-dom: ^16.13.1
-    rxjs: ^6.6.2
-    styled-components: ^5.1.1
+    lodash: ^4.17.20
+    raw-loader: ^4.0.2
+    react: ^16.14.0
+    react-dom: ^16.14.0
+    rxjs: ^6.6.3
+    styled-components: ^5.2.0
     visual-analytics-components: ^0.3.0
   peerDependencies:
     "@thematic/core": "*"
@@ -8113,17 +8120,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/docsite@workspace:packages/app-docsite"
   dependencies:
-    "@mdx-js/mdx": ^1.6.16
-    "@mdx-js/react": ^1.6.16
+    "@mdx-js/mdx": ^1.6.18
+    "@mdx-js/react": ^1.6.18
     "@mikaelkristiansson/domready": ^1.0.10
     "@reach/router": ^1.3.4
     "@types/debug": ^4.1.5
     "@types/gsap": ^1.20.2
-    "@types/react": ^16.9.44
+    "@types/react": ^16.9.53
     "@types/react-dom": ^16.9.8
-    "@types/react-helmet": ^6.0.0
+    "@types/react-helmet": ^6.1.0
     "@types/react-tabs": ^2.3.2
-    "@types/styled-components": ^5.1.2
+    "@types/styled-components": ^5.1.4
     "@visual-analytics-components/datatable-component": ^0.3.0
     "@visual-analytics-components/embeddings-explorer": ^0.3.0
     "@visual-analytics-components/filterchip-component": ^0.3.0
@@ -8131,39 +8138,39 @@ __metadata:
     "@visual-analytics-components/ranklist-component": ^0.3.0
     "@visual-analytics-components/search-component": ^0.3.0
     "@visual-analytics-components/title-component": ^0.3.0
-    debug: ^4.1.1
-    event-source-polyfill: ^1.0.17
-    gatsby: ^2.24.11
-    gatsby-legacy-polyfills: ^0.0.4
-    gatsby-link: ^2.4.13
-    gatsby-plugin-mdx: ^1.2.32
-    gatsby-plugin-react-helmet: ^3.3.10
-    gatsby-plugin-styled-components: ^3.3.10
-    gatsby-plugin-typescript: ^2.4.16
-    gatsby-plugin-typography: ^2.5.10
-    gatsby-react-router-scroll: ^3.0.12
-    gatsby-remark-autolink-headers: ^2.3.11
-    gatsby-remark-copy-linked-files: ^2.3.12
-    gatsby-remark-images: ^3.3.24
-    gatsby-remark-prismjs: ^3.5.10
-    gatsby-source-filesystem: ^2.3.23
-    gatsby-transformer-remark: ^2.8.27
-    gsap: ^3.4.2
+    debug: ^4.2.0
+    event-source-polyfill: ^1.0.21
+    gatsby: ^2.24.83
+    gatsby-legacy-polyfills: ^0.0.5
+    gatsby-link: ^2.4.16
+    gatsby-plugin-mdx: ^1.2.49
+    gatsby-plugin-react-helmet: ^3.3.14
+    gatsby-plugin-styled-components: ^3.3.14
+    gatsby-plugin-typescript: ^2.4.23
+    gatsby-plugin-typography: ^2.5.13
+    gatsby-react-router-scroll: ^3.0.15
+    gatsby-remark-autolink-headers: ^2.3.15
+    gatsby-remark-copy-linked-files: ^2.3.19
+    gatsby-remark-images: ^3.3.37
+    gatsby-remark-prismjs: ^3.5.16
+    gatsby-source-filesystem: ^2.3.35
+    gatsby-transformer-remark: ^2.8.44
+    gsap: ^3.5.1
     mitt: ^2.1.0
-    prismjs: ^1.21.0
+    prismjs: ^1.22.0
     prop-types: ^15.7.2
-    query-string: ^6.13.1
-    react: ^16.13.1
-    react-dom: ^16.13.1
+    query-string: ^6.13.6
+    react: ^16.14.0
+    react-dom: ^16.14.0
     react-error-overlay: ^6.0.7
     react-helmet: ^6.1.0
-    react-icons: ^3.10.0
+    react-icons: ^3.11.0
     react-tabs: ^3.1.1
     react-typography: ^0.16.19
     react-use-dimensions: ^1.2.1
     rehype-react: ^5.0.1
     shallow-compare: ^1.2.2
-    styled-components: ^5.1.1
+    styled-components: ^5.2.0
     typography: ^0.16.19
     typography-theme-github: ^0.16.19
     vfile: ^4.2.0
@@ -8175,19 +8182,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/embeddings-explorer@workspace:packages/app-embeddings-explorer"
   dependencies:
-    "@babel/polyfill": ^7.10.4
-    "@essex/webpack-config": ^10.0.0
-    "@fluentui/react": ^7.124.2
-    "@thematic/core": ^0.8.0
-    "@thematic/fluent": ^0.8.0
-    "@thematic/react": ^0.8.0
+    "@babel/polyfill": ^7.12.1
+    "@essex/webpack-config": ^10.0.2
+    "@fluentui/react": ^7.147.1
+    "@thematic/core": ^0.9.0
+    "@thematic/fluent": ^0.9.0
+    "@thematic/react": ^0.9.0
     "@types/classnames": ^2.2.10
-    "@types/d3-scale": ^2.2.0
-    "@types/react": ^16.9.44
+    "@types/d3-scale": ^2.2.4
+    "@types/react": ^16.9.53
     "@types/react-beautiful-dnd": ^12.1.3
     "@types/react-dom": ^16.9.8
-    "@types/react-helmet": ^6.0.0
-    "@types/react-router-dom": ^5.1.5
+    "@types/react-helmet": ^6.1.0
+    "@types/react-router-dom": ^5.1.6
     "@types/react-tabs": ^2.3.2
     "@uncharted.software/kruda": ^0.1.3
     "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
@@ -8201,32 +8208,32 @@ __metadata:
     azure-storage: ^2.10.3
     classnames: ^2.2.6
     cross-env: ^7.0.2
-    csv-parse: ^4.11.1
-    d3-scale: ^3.2.2
+    csv-parse: ^4.12.0
+    d3-scale: ^3.2.3
     dat.gui: ^0.7.7
     lodash: ^4.17.20
     npm-run-all: ^4.1.5
     numericjs: ^1.2.6
-    query-string: ^6.13.1
-    react: ^16.13.1
+    query-string: ^6.13.6
+    react: ^16.14.0
     react-app-polyfill: ^1.0.6
     react-beautiful-dnd: ^13.0.0
-    react-dom: ^16.13.1
-    react-dropzone: ^11.0.2
+    react-dom: ^16.14.0
+    react-dropzone: ^11.2.0
     react-helmet: ^6.1.0
-    react-icons: ^3.10.0
+    react-icons: ^3.11.0
     react-router-dom: ^5.2.0
     react-tabs: ^3.1.1
     regenerator-runtime: ^0.13.7
-    rxjs: ^6.6.2
+    rxjs: ^6.6.3
     shortid: ^2.2.15
     shx: ^0.3.2
-    styled-components: ^5.1.1
+    styled-components: ^5.2.0
     tsne-js: ^1.0.3
     typescript: ^3.9.7
-    umap-js: ^1.3.2
+    umap-js: ^1.3.3
     visual-analytics-components: ^0.3.0
-    worker-loader: ^3.0.0
+    worker-loader: ^3.0.5
   languageName: unknown
   linkType: soft
 
@@ -8234,17 +8241,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/filterchip-component@workspace:packages/component-filterchip"
   dependencies:
-    "@thematic/core": ^0.8.0
-    "@thematic/react": ^0.8.0
-    "@types/node": ~14.0.27
-    "@types/react": ^16.9.44
+    "@thematic/core": ^0.9.0
+    "@thematic/react": ^0.9.0
+    "@types/node": ~14.14.0
+    "@types/react": ^16.9.53
     "@types/react-dom": ^16.9.8
-    "@types/styled-components": ^5.1.2
+    "@types/styled-components": ^5.1.4
     "@visual-analytics-components/react": "workspace:packages/lib-react"
-    react: ^16.13.1
-    react-dom: ^16.13.1
-    rxjs: ^6.6.2
-    styled-components: ^5.1.1
+    react: ^16.14.0
+    react-dom: ^16.14.0
+    rxjs: ^6.6.3
+    styled-components: ^5.2.0
     visual-analytics-components: ^0.3.0
   peerDependencies:
     "@thematic/core": ">= 0.8"
@@ -8268,19 +8275,19 @@ __metadata:
     "@graspologic/render-controls": ^0.4.0
     "@graspologic/render-controls-react": ^0.4.0
     "@graspologic/renderer": ^0.4.0
-    "@thematic/core": ^0.8.0
+    "@thematic/core": ^0.9.0
     "@types/debug": ^4.1.5
-    "@types/lodash": ^4.14.158
-    "@types/node": ~14.0.27
+    "@types/lodash": ^4.14.162
+    "@types/node": ~14.14.0
     "@visual-analytics-components/react": "workspace:packages/lib-react"
     dat.gui: ^0.7.7
-    debug: ^4.1.1
+    debug: ^4.2.0
     indefinitely-typed: ^1.1.0
-    lodash: ^4.17.19
-    raw-loader: ^4.0.1
-    react: ^16.13.1
-    react-dom: ^16.13.1
-    rxjs: ^6.6.2
+    lodash: ^4.17.20
+    raw-loader: ^4.0.2
+    react: ^16.14.0
+    react-dom: ^16.14.0
+    rxjs: ^6.6.3
     use-resize-observer: ^6.1.0
     visual-analytics-components: ^0.3.0
   peerDependencies:
@@ -8294,12 +8301,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/kruda-dataset@workspace:packages/dataset-kruda"
   dependencies:
-    "@types/lodash": ^4.14.158
+    "@types/lodash": ^4.14.162
     "@uncharted.software/kruda": ^0.1.3
     "@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract"
     boolean-json-cnf: ^3.0.2
     boolean-json-prune: ^1.1.1
-    lodash: ^4.17.19
+    lodash: ^4.17.20
     visual-analytics-components: ^0.3.0
   peerDependencies:
     "@types/lodash": ">= 4.14.157"
@@ -8310,12 +8317,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/manager@workspace:packages/lib-manager"
   dependencies:
-    "@thematic/core": ^0.8.0
-    "@types/node": ~14.0.27
+    "@thematic/core": ^0.9.0
+    "@types/node": ~14.14.0
     "@visual-analytics-components/mapped-dataset": "workspace:packages/dataset-mapped"
     "@visual-analytics-components/plain-object-dataset": "workspace:packages/dataset-plain-object"
     "@visual-analytics-components/types": "workspace:packages/lib-types"
-    rxjs: ^6.6.2
+    rxjs: ^6.6.3
     symbol-observable: ^1.2.0
   peerDependencies:
     "@thematic/core": ">= 0.8.0"
@@ -8327,9 +8334,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/mapped-dataset@workspace:packages/dataset-mapped"
   dependencies:
-    "@types/lodash": ^4.14.158
+    "@types/lodash": ^4.14.162
     "@visual-analytics-components/types": "workspace:packages/lib-types"
-    lodash: ^4.17.19
+    lodash: ^4.17.20
   peerDependencies:
     "@types/lodash": ">= 4.14.155"
   languageName: unknown
@@ -8358,19 +8365,19 @@ __metadata:
   resolution: "@visual-analytics-components/project@workspace:."
   dependencies:
     "@commitlint/cli": ^9.1.2
-    "@essex/eslint-plugin": ^10.0.0
-    "@essex/jest-config": ^10.0.0
+    "@essex/eslint-plugin": ^10.0.1
+    "@essex/jest-config": ^10.0.2
     "@essex/prettier-config": ^10.0.0
-    "@essex/scripts": ^10.0.0
-    "@types/enzyme": ^3.10.5
+    "@essex/scripts": ^10.0.1
+    "@types/enzyme": ^3.10.7
     enzyme: ^3.11.0
-    enzyme-adapter-react-16: ^1.15.2
-    husky: ^4.2.5
+    enzyme-adapter-react-16: ^1.15.5
+    husky: ^4.3.0
     lerna: ^3.22.1
-    lint-staged: ^10.2.11
+    lint-staged: ^10.4.2
     npm-run-all: ^4.1.5
-    react: ^16.13.1
-    react-dom: ^16.13.1
+    react: ^16.14.0
+    react-dom: ^16.14.0
     regenerator-runtime: ^0.13.7
     shx: ^0.3.2
   languageName: unknown
@@ -8380,28 +8387,28 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/ranklist-component@workspace:packages/component-ranklist"
   dependencies:
-    "@thematic/core": ^0.8.0
-    "@thematic/react": ^0.8.0
+    "@thematic/core": ^0.9.0
+    "@thematic/react": ^0.9.0
     "@types/classnames": ^2.2.10
-    "@types/d3-scale": ^2.2.0
-    "@types/lodash": ^4.14.158
-    "@types/node": ~14.0.27
-    "@types/react": ^16.9.44
+    "@types/d3-scale": ^2.2.4
+    "@types/lodash": ^4.14.162
+    "@types/node": ~14.14.0
+    "@types/react": ^16.9.53
     "@types/react-dom": ^16.9.8
     "@types/react-virtualized-auto-sizer": ^1.0.0
     "@types/react-window": ^1.8.2
-    "@types/styled-components": ^5.1.2
+    "@types/styled-components": ^5.1.4
     "@visual-analytics-components/react": "workspace:packages/lib-react"
-    camelcase: ^6.0.0
+    camelcase: ^6.1.0
     classnames: ^2.2.6
-    d3-scale: ^3.2.1
-    lodash: ^4.17.19
-    react: ^16.13.1
-    react-dom: ^16.13.1
+    d3-scale: ^3.2.3
+    lodash: ^4.17.20
+    react: ^16.14.0
+    react-dom: ^16.14.0
     react-virtualized-auto-sizer: ^1.0.2
     react-window: ^1.8.5
-    rxjs: ^6.6.2
-    styled-components: ^5.1.1
+    rxjs: ^6.6.3
+    styled-components: ^5.2.0
     visual-analytics-components: ^0.3.0
   peerDependencies:
     "@thematic/core": ">= 0.8"
@@ -8422,11 +8429,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/react@workspace:packages/lib-react"
   dependencies:
-    "@thematic/react": ^0.8.0
-    "@types/node": ~14.0.27
-    "@types/react": ^16.9.44
-    react: ^16.13.1
-    react-shadow: ^18.2.4
+    "@thematic/react": ^0.9.0
+    "@types/node": ~14.14.0
+    "@types/react": ^16.9.53
+    react: ^16.14.0
+    react-shadow: ^18.4.2
     visual-analytics-components: ^0.3.0
   peerDependencies:
     "@thematic/react": "> 0.8"
@@ -8440,16 +8447,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/search-component@workspace:packages/component-search"
   dependencies:
-    "@thematic/core": ^0.8.0
-    "@thematic/react": ^0.8.0
-    "@types/lodash": ^4.14.158
-    "@types/node": ~14.0.27
-    "@types/react": ^16.9.44
+    "@thematic/core": ^0.9.0
+    "@thematic/react": ^0.9.0
+    "@types/lodash": ^4.14.162
+    "@types/node": ~14.14.0
+    "@types/react": ^16.9.53
     "@types/react-dom": ^16.9.8
     "@visual-analytics-components/react": "workspace:packages/lib-react"
-    lodash: ^4.17.19
-    react: ^16.13.1
-    react-dom: ^16.13.1
+    lodash: ^4.17.20
+    react: ^16.14.0
+    react-dom: ^16.14.0
     visual-analytics-components: ^0.3.0
   peerDependencies:
     "@thematic/core": ">= 0.8"
@@ -8467,10 +8474,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/stories@workspace:packages/app-stories"
   dependencies:
-    "@storybook/react": ^5
-    "@thematic/core": ^0.8.0
-    "@thematic/react": ^0.8.0
-    "@types/d3-scale": ^2.2.0
+    "@storybook/react": ^5.3.21
+    "@thematic/core": ^0.9.0
+    "@thematic/react": ^0.9.0
+    "@types/d3-scale": ^2.2.4
     "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
     "@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip"
     "@visual-analytics-components/graph-component": "workspace:packages/component-graph"
@@ -8478,10 +8485,10 @@ __metadata:
     "@visual-analytics-components/react": "workspace:packages/lib-react"
     "@visual-analytics-components/search-component": "workspace:packages/component-search"
     "@visual-analytics-components/title-component": "workspace:packages/component-title"
-    d3-scale: ^3.2.2
+    d3-scale: ^3.2.3
     react-markdown: ^4.3.1
-    rxjs: ^6.6.2
-    styled-components: ^5.1.1
+    rxjs: ^6.6.3
+    styled-components: ^5.2.0
     visual-analytics-components: ^0.3.0
   languageName: unknown
   linkType: soft
@@ -8490,15 +8497,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/title-component@workspace:packages/component-title"
   dependencies:
-    "@thematic/core": ^0.8.0
-    "@thematic/react": ^0.8.0
-    "@types/node": ~14.0.27
-    "@types/react": ^16.9.44
+    "@thematic/core": ^0.9.0
+    "@thematic/react": ^0.9.0
+    "@types/node": ~14.14.0
+    "@types/react": ^16.9.53
     "@types/react-dom": ^16.9.8
     "@visual-analytics-components/react": "workspace:packages/lib-react"
-    react: ^16.13.1
-    react-dom: ^16.13.1
-    rxjs: ^6.6.2
+    react: ^16.14.0
+    react-dom: ^16.14.0
+    rxjs: ^6.6.3
     visual-analytics-components: ^0.3.0
   peerDependencies:
     "@thematic/core": ">= 0.8.0"
@@ -8515,8 +8522,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/types@workspace:packages/lib-types"
   dependencies:
-    "@thematic/core": ^0.8.0
-    rxjs: ^6.6.2
+    "@thematic/core": ^0.9.0
+    rxjs: ^6.6.3
   peerDependencies:
     "@thematic/core": ">= 0.8.0"
   languageName: unknown
@@ -13403,7 +13410,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csv-parse@npm:^4.11.1":
+"csv-parse@npm:^4.12.0":
   version: 4.12.0
   resolution: "csv-parse@npm:4.12.0"
   checksum: ed6d90b1a600b24d151f01aa0bd822bc1eea61874ec4546c3afe87e22f2f462f0839527d5d67f556dbb29b1623ad947b53761ec9c3d739b949a8e2af3d32200c
@@ -13494,7 +13501,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3-scale@npm:^3.0.0, d3-scale@npm:^3.2.1, d3-scale@npm:^3.2.2":
+"d3-scale@npm:^3.0.0, d3-scale@npm:^3.2.3":
   version: 3.2.3
   resolution: "d3-scale@npm:3.2.3"
   dependencies:
@@ -14713,7 +14720,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enzyme-adapter-react-16@npm:^1.15.2":
+"enzyme-adapter-react-16@npm:^1.15.5":
   version: 1.15.5
   resolution: "enzyme-adapter-react-16@npm:1.15.5"
   dependencies:
@@ -15562,7 +15569,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"event-source-polyfill@npm:^1.0.15, event-source-polyfill@npm:^1.0.17":
+"event-source-polyfill@npm:^1.0.15, event-source-polyfill@npm:^1.0.21":
   version: 1.0.21
   resolution: "event-source-polyfill@npm:1.0.21"
   checksum: 073ca3eacc91626b9cc1be81c7da52e9fc47b4174ed4afb74b590fddc9201858f38d9483e08815a7808272b5391c1bfe7c12b7d686793238fc325818a26445d3
@@ -16929,15 +16936,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-legacy-polyfills@npm:^0.0.4":
-  version: 0.0.4
-  resolution: "gatsby-legacy-polyfills@npm:0.0.4"
-  dependencies:
-    core-js-compat: ^3.6.5
-  checksum: 8ca94d53a208e8956affe46e9a2f975714c65800ba8c4b6a27d4a1cc3a7c6539aca917734675422fa8dfd207afb7102f5e3a7f3e443571ebf0c92945c0cdca3d
-  languageName: node
-  linkType: hard
-
 "gatsby-legacy-polyfills@npm:^0.0.5":
   version: 0.0.5
   resolution: "gatsby-legacy-polyfills@npm:0.0.5"
@@ -16947,7 +16945,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-link@npm:^2.4.13, gatsby-link@npm:^2.4.16":
+"gatsby-link@npm:^2.4.16":
   version: 2.4.16
   resolution: "gatsby-link@npm:2.4.16"
   dependencies:
@@ -16978,7 +16976,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-mdx@npm:^1.2.32":
+"gatsby-plugin-mdx@npm:^1.2.49":
   version: 1.2.49
   resolution: "gatsby-plugin-mdx@npm:1.2.49"
   dependencies:
@@ -17043,7 +17041,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-react-helmet@npm:^3.3.10":
+"gatsby-plugin-react-helmet@npm:^3.3.14":
   version: 3.3.14
   resolution: "gatsby-plugin-react-helmet@npm:3.3.14"
   dependencies:
@@ -17055,7 +17053,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-styled-components@npm:^3.3.10":
+"gatsby-plugin-styled-components@npm:^3.3.14":
   version: 3.3.14
   resolution: "gatsby-plugin-styled-components@npm:3.3.14"
   dependencies:
@@ -17068,7 +17066,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-typescript@npm:^2.4.16, gatsby-plugin-typescript@npm:^2.4.23":
+"gatsby-plugin-typescript@npm:^2.4.23":
   version: 2.4.23
   resolution: "gatsby-plugin-typescript@npm:2.4.23"
   dependencies:
@@ -17083,7 +17081,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-typography@npm:^2.5.10":
+"gatsby-plugin-typography@npm:^2.5.13":
   version: 2.5.13
   resolution: "gatsby-plugin-typography@npm:2.5.13"
   dependencies:
@@ -17109,7 +17107,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-react-router-scroll@npm:^3.0.12, gatsby-react-router-scroll@npm:^3.0.15":
+"gatsby-react-router-scroll@npm:^3.0.15":
   version: 3.0.15
   resolution: "gatsby-react-router-scroll@npm:3.0.15"
   dependencies:
@@ -17216,7 +17214,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-remark-autolink-headers@npm:^2.3.11":
+"gatsby-remark-autolink-headers@npm:^2.3.15":
   version: 2.3.15
   resolution: "gatsby-remark-autolink-headers@npm:2.3.15"
   dependencies:
@@ -17231,7 +17229,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-remark-copy-linked-files@npm:^2.3.12":
+"gatsby-remark-copy-linked-files@npm:^2.3.19":
   version: 2.3.19
   resolution: "gatsby-remark-copy-linked-files@npm:2.3.19"
   dependencies:
@@ -17249,7 +17247,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images@npm:^3.3.24":
+"gatsby-remark-images@npm:^3.3.37":
   version: 3.3.37
   resolution: "gatsby-remark-images@npm:3.3.37"
   dependencies:
@@ -17271,7 +17269,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-remark-prismjs@npm:^3.5.10":
+"gatsby-remark-prismjs@npm:^3.5.16":
   version: 3.5.16
   resolution: "gatsby-remark-prismjs@npm:3.5.16"
   dependencies:
@@ -17285,7 +17283,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^2.3.23":
+"gatsby-source-filesystem@npm:^2.3.35":
   version: 2.3.35
   resolution: "gatsby-source-filesystem@npm:2.3.35"
   dependencies:
@@ -17332,7 +17330,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-remark@npm:^2.8.27":
+"gatsby-transformer-remark@npm:^2.8.44":
   version: 2.8.44
   resolution: "gatsby-transformer-remark@npm:2.8.44"
   dependencies:
@@ -17363,7 +17361,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby@npm:^2.24.11":
+"gatsby@npm:^2.24.83":
   version: 2.24.83
   resolution: "gatsby@npm:2.24.83"
   dependencies:
@@ -18255,7 +18253,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gsap@npm:^3.4.2":
+"gsap@npm:^3.5.1":
   version: 3.5.1
   resolution: "gsap@npm:3.5.1"
   checksum: e4a95c74610ccebe2ef94efd97547e29cc0f5d9dd9030378d3061fb65e2a0283ba0cd70d87d129c9304eb924ef633f9cb1274b9b64a0d6ee988292cf094e3b80
@@ -19315,7 +19313,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"husky@npm:^4.2.5":
+"husky@npm:^4.3.0":
   version: 4.3.0
   resolution: "husky@npm:4.3.0"
   dependencies:
@@ -21997,7 +21995,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^10.2.11":
+"lint-staged@npm:^10.4.2":
   version: 10.4.2
   resolution: "lint-staged@npm:10.4.2"
   dependencies:
@@ -26779,7 +26777,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prismjs@npm:^1.21.0, prismjs@npm:^1.8.4":
+"prismjs@npm:^1.22.0, prismjs@npm:^1.8.4":
   version: 1.22.0
   resolution: "prismjs@npm:1.22.0"
   dependencies:
@@ -27175,7 +27173,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"query-string@npm:^6.13.1, query-string@npm:^6.13.3":
+"query-string@npm:^6.13.1, query-string@npm:^6.13.3, query-string@npm:^6.13.6":
   version: 6.13.6
   resolution: "query-string@npm:6.13.6"
   dependencies:
@@ -27354,7 +27352,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"raw-loader@npm:^4.0.1":
+"raw-loader@npm:^4.0.1, raw-loader@npm:^4.0.2":
   version: 4.0.2
   resolution: "raw-loader@npm:4.0.2"
   dependencies:
@@ -27593,7 +27591,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.13.1, react-dom@npm:^16.8.3":
+"react-dom@npm:^16.14.0, react-dom@npm:^16.8.3":
   version: 16.14.0
   resolution: "react-dom@npm:16.14.0"
   dependencies:
@@ -27617,7 +27615,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-dropzone@npm:^11.0.2":
+"react-dropzone@npm:^11.2.0":
   version: 11.2.0
   resolution: "react-dropzone@npm:11.2.0"
   dependencies:
@@ -27751,7 +27749,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-icons@npm:^3.0.1, react-icons@npm:^3.10.0":
+"react-icons@npm:^3.0.1, react-icons@npm:^3.11.0":
   version: 3.11.0
   resolution: "react-icons@npm:3.11.0"
   dependencies:
@@ -27995,7 +27993,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-shadow@npm:^18.2.4":
+"react-shadow@npm:^18.4.2":
   version: 18.4.2
   resolution: "react-shadow@npm:18.4.2"
   dependencies:
@@ -28224,7 +28222,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react@npm:^16.13.1, react@npm:^16.8.0, react@npm:^16.8.3":
+"react@npm:^16.14.0, react@npm:^16.8.0, react@npm:^16.8.3":
   version: 16.14.0
   resolution: "react@npm:16.14.0"
   dependencies:
@@ -29552,7 +29550,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.4.0, rxjs@npm:^6.5.2, rxjs@npm:^6.5.3, rxjs@npm:^6.6.0, rxjs@npm:^6.6.2":
+"rxjs@npm:^6.4.0, rxjs@npm:^6.5.2, rxjs@npm:^6.5.3, rxjs@npm:^6.6.0, rxjs@npm:^6.6.2, rxjs@npm:^6.6.3":
   version: 6.6.3
   resolution: "rxjs@npm:6.6.3"
   dependencies:
@@ -31379,7 +31377,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.1.1":
+"styled-components@npm:^5.2.0":
   version: 5.2.0
   resolution: "styled-components@npm:5.2.0"
   dependencies:
@@ -32716,7 +32714,7 @@ typescript@^4.0.3:
   languageName: node
   linkType: hard
 
-"umap-js@npm:^1.3.2":
+"umap-js@npm:^1.3.3":
   version: 1.3.3
   resolution: "umap-js@npm:1.3.3"
   dependencies:
@@ -33888,15 +33886,15 @@ typescript@^4.0.3:
   version: 0.0.0-use.local
   resolution: "visual-analytics-components@workspace:packages/lib-vac"
   dependencies:
-    "@thematic/core": ^0.8.0
-    "@types/lodash": ^4.14.158
-    "@types/node": ~14.0.27
+    "@thematic/core": ^0.9.0
+    "@types/lodash": ^4.14.162
+    "@types/node": ~14.14.0
     "@visual-analytics-components/manager": "workspace:packages/lib-manager"
     "@visual-analytics-components/mapped-dataset": "workspace:packages/dataset-mapped"
     "@visual-analytics-components/messages": "workspace:packages/lib-messages"
     "@visual-analytics-components/plain-object-dataset": "workspace:packages/dataset-plain-object"
     "@visual-analytics-components/types": "workspace:packages/lib-types"
-    rxjs: ^6.6.2
+    rxjs: ^6.6.3
   peerDependencies:
     "@thematic/core": ">= 0.8"
     "@types/lodash": ">= 4.14.157"
@@ -34415,7 +34413,7 @@ typescript@^4.0.3:
   languageName: node
   linkType: hard
 
-"worker-loader@npm:^3.0.0":
+"worker-loader@npm:^3.0.5":
   version: 3.0.5
   resolution: "worker-loader@npm:3.0.5"
   dependencies:

@@ -15,10 +15,10 @@
 		"watch": "essex watch"
 	},
 	"dependencies": {
-		"rxjs": "^6.6.2"
+		"rxjs": "^6.6.3"
 	},
 	"devDependencies": {
-		"@thematic/core": "^0.8.0"
+		"@thematic/core": "^0.9.0"
 	},
 	"peerDependencies": {
 		"@thematic/core": ">= 0.8.0"

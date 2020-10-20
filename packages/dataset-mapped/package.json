@@ -16,10 +16,10 @@
 	},
 	"dependencies": {
 		"@visual-analytics-components/types": "workspace:packages/lib-types",
-		"lodash": "^4.17.19"
+		"lodash": "^4.17.20"
 	},
 	"devDependencies": {
-		"@types/lodash": "^4.14.158"
+		"@types/lodash": "^4.14.162"
 	},
 	"peerDependencies": {
 		"@types/lodash": ">= 4.14.155"

@@ -23,13 +23,13 @@
 		"@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract",
 		"boolean-json-cnf": "^3.0.2",
 		"boolean-json-prune": "^1.1.1",
-		"lodash": "^4.17.19",
+		"lodash": "^4.17.20",
 		"visual-analytics-components": "^0.3.0"
 	},
 	"peerDependencies": {
 		"@types/lodash": ">= 4.14.157"
 	},
 	"devDependencies": {
-		"@types/lodash": "^4.14.158"
+		"@types/lodash": "^4.14.162"
 	}
 }

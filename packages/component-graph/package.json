@@ -47,21 +47,21 @@
 		"@graspologic/renderer": "^0.4.0",
 		"@visual-analytics-components/react": "workspace:packages/lib-react",
 		"dat.gui": "^0.7.7",
-		"debug": "^4.1.1",
-		"lodash": "^4.17.19",
-		"rxjs": "^6.6.2",
+		"debug": "^4.2.0",
+		"lodash": "^4.17.20",
+		"rxjs": "^6.6.3",
 		"use-resize-observer": "^6.1.0",
 		"visual-analytics-components": "^0.3.0"
 	},
 	"devDependencies": {
-		"@thematic/core": "^0.8.0",
+		"@thematic/core": "^0.9.0",
 		"@types/debug": "^4.1.5",
-		"@types/lodash": "^4.14.158",
-		"@types/node": "~14.0.27",
+		"@types/lodash": "^4.14.162",
+		"@types/node": "~14.14.0",
 		"indefinitely-typed": "^1.1.0",
-		"raw-loader": "^4.0.1",
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1"
+		"raw-loader": "^4.0.2",
+		"react": "^16.14.0",
+		"react-dom": "^16.14.0"
 	},
 	"peerDependencies": {
 		"@types/debug": ">= 4.1.5",

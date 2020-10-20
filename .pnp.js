@@ -10125,10 +10125,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@thematic/color", [
-        ["npm:0.8.0", {
-          "packageLocation": "./.yarn/cache/@thematic-color-npm-0.8.0-f8d19454fc-2bea042ae1.zip/node_modules/@thematic/color/",
+        ["npm:0.9.0", {
+          "packageLocation": "./.yarn/cache/@thematic-color-npm-0.9.0-e241fdb3a3-ac007606ba.zip/node_modules/@thematic/color/",
           "packageDependencies": [
-            ["@thematic/color", "npm:0.8.0"],
+            ["@thematic/color", "npm:0.9.0"],
             ["@types/node", "npm:14.0.27"],
             ["chroma-js", "npm:2.1.0"],
             ["color-blind", "npm:0.1.1"],
@@ -10138,11 +10138,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@thematic/core", [
-        ["npm:0.8.0", {
-          "packageLocation": "./.yarn/cache/@thematic-core-npm-0.8.0-8548895247-6b19133310.zip/node_modules/@thematic/core/",
+        ["npm:0.9.0", {
+          "packageLocation": "./.yarn/cache/@thematic-core-npm-0.9.0-785d7a96dc-d6fbced600.zip/node_modules/@thematic/core/",
           "packageDependencies": [
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/color", "npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/color", "npm:0.9.0"],
             ["@types/d3-scale", "npm:2.2.4"],
             ["@types/lodash", "npm:4.14.162"],
             ["@types/murmurhash-js", "npm:1.0.3"],
@@ -10154,14 +10154,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@thematic/fluent", [
-        ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0", {
-          "packageLocation": "./.yarn/$$virtual/@thematic-fluent-virtual-47c4865edb/0/cache/@thematic-fluent-npm-0.8.0-bcdd1f6dd9-bcee04fff5.zip/node_modules/@thematic/fluent/",
+        ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0", {
+          "packageLocation": "./.yarn/$$virtual/@thematic-fluent-virtual-ff29c0f0d2/0/cache/@thematic-fluent-npm-0.9.0-f616c34671-434fc33b8c.zip/node_modules/@thematic/fluent/",
           "packageDependencies": [
-            ["@thematic/fluent", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/fluent", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@fluentui/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:7.147.1"],
-            ["@thematic/color", "npm:0.8.0"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/color", "npm:0.9.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/fluentui__react", null],
             ["@types/react", "npm:16.9.53"],
             ["react", "npm:16.14.0"]
@@ -10176,12 +10176,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@thematic/react", [
-        ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0", {
-          "packageLocation": "./.yarn/$$virtual/@thematic-react-virtual-a641860f02/0/cache/@thematic-react-npm-0.8.0-613724461b-62677dccee.zip/node_modules/@thematic/react/",
+        ["virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0", {
+          "packageLocation": "./.yarn/$$virtual/@thematic-react-virtual-2d039cfcc4/0/cache/@thematic-react-npm-0.9.0-4adefcc253-b068688ce7.zip/node_modules/@thematic/react/",
           "packageDependencies": [
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@thematic/color", "npm:0.8.0"],
-            ["@thematic/core", "npm:0.8.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@thematic/color", "npm:0.9.0"],
+            ["@thematic/core", "npm:0.9.0"],
             ["@types/react", "npm:16.9.53"],
             ["react", "npm:16.14.0"]
           ],
@@ -10191,12 +10191,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.8.0", {
-          "packageLocation": "./.yarn/$$virtual/@thematic-react-virtual-79da9c7c40/0/cache/@thematic-react-npm-0.8.0-613724461b-62677dccee.zip/node_modules/@thematic/react/",
+        ["virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.9.0", {
+          "packageLocation": "./.yarn/$$virtual/@thematic-react-virtual-3943ff7c06/0/cache/@thematic-react-npm-0.9.0-4adefcc253-b068688ce7.zip/node_modules/@thematic/react/",
           "packageDependencies": [
-            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.8.0"],
-            ["@thematic/color", "npm:0.8.0"],
-            ["@thematic/core", "npm:0.8.0"],
+            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.9.0"],
+            ["@thematic/color", "npm:0.9.0"],
+            ["@thematic/core", "npm:0.9.0"],
             ["@types/react", "npm:16.9.53"],
             ["react", null]
           ],
@@ -10830,6 +10830,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-14.0.27-d33df6dc81-54ecf408eb.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:14.0.27"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:14.14.0", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.14.0-d908eabfc0-5ebd04788f.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:14.14.0"]
           ],
           "linkType": "HARD",
         }],
@@ -11770,7 +11777,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-abstract-dataset-virtual-f117037c9d/1/packages/dataset-abstract/",
           "packageDependencies": [
             ["@visual-analytics-components/abstract-dataset", "virtual:3eb97e64612b44c3f4bfc3db21be8aee539ee03109d2353b1486d833acb1981fc5d8458ca0c5111e66ee2f28e22b07207b82970c97a0457b15f1a1220ff6367e#workspace:packages/dataset-abstract"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/types__node", null],
             ["@visual-analytics-components/messages", "workspace:packages/lib-messages"],
             ["@visual-analytics-components/types", "virtual:2d0dc55f483c9fc71989d557bb4d367267c8587515e11df367f9811f736abd2a721c6bda04b64a87c122f02929686f04988254c67782e39ec2976f11d388f1cd#workspace:packages/lib-types"],
@@ -11785,7 +11792,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/dataset-abstract/",
           "packageDependencies": [
             ["@visual-analytics-components/abstract-dataset", "workspace:packages/dataset-abstract"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@visual-analytics-components/messages", "workspace:packages/lib-messages"],
             ["@visual-analytics-components/types", "virtual:2d0dc55f483c9fc71989d557bb4d367267c8587515e11df367f9811f736abd2a721c6bda04b64a87c122f02929686f04988254c67782e39ec2976f11d388f1cd#workspace:packages/lib-types"],
             ["rxjs", "npm:6.6.3"]
@@ -11798,10 +11805,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-datatable-component-virtual-be4b57e488/1/packages/component-datatable/",
           "packageDependencies": [
             ["@visual-analytics-components/datatable-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-datatable"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/styled-components", "npm:5.1.4"],
@@ -11842,10 +11849,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-datatable-component-virtual-1a8d2fa81e/1/packages/component-datatable/",
           "packageDependencies": [
             ["@visual-analytics-components/datatable-component", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-datatable"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/styled-components", "npm:5.1.4"],
@@ -11882,10 +11889,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-datatable-component-virtual-6d11836abc/1/packages/component-datatable/",
           "packageDependencies": [
             ["@visual-analytics-components/datatable-component", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#workspace:packages/component-datatable"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/styled-components", "npm:5.1.4"],
@@ -11924,10 +11931,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/component-datatable/",
           "packageDependencies": [
             ["@visual-analytics-components/datatable-component", "workspace:packages/component-datatable"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/styled-components", "npm:5.1.4"],
@@ -11971,7 +11978,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:55a84facd72074e953826b351ed20515903931a8f9c0395fcae97bf432227038269c316d17b1fb33558ff269580e9b378d5f6b5e41a2f9b2c38d9b1dab1e71e8#npm:4.3.0"],
             ["event-source-polyfill", "npm:1.0.21"],
             ["gatsby", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:2.24.83"],
-            ["gatsby-legacy-polyfills", "npm:0.0.4"],
+            ["gatsby-legacy-polyfills", "npm:0.0.5"],
             ["gatsby-link", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:2.4.16"],
             ["gatsby-plugin-mdx", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:1.2.49"],
             ["gatsby-plugin-react-helmet", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:3.3.14"],
@@ -12017,9 +12024,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/polyfill", "npm:7.12.1"],
             ["@essex/webpack-config", "virtual:c6e0a1caf6eb0038cf482e5cccb3974f58dee780a8f04bb4c0ed8bf0a59395aa744b9594db75ce68d1acc1e72fdf7cb6203019c7b1b5e818f2afdc9dbce6dfd6#npm:10.0.2"],
             ["@fluentui/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:7.147.1"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/fluent", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/fluent", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/classnames", "npm:2.2.10"],
             ["@types/d3-scale", "npm:2.2.4"],
             ["@types/react", "npm:16.9.53"],
@@ -12075,9 +12082,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-filterchip-component-virtual-1a1713435b/1/packages/component-filterchip/",
           "packageDependencies": [
             ["@visual-analytics-components/filterchip-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-filterchip"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/styled-components", "npm:5.1.4"],
@@ -12112,9 +12119,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-filterchip-component-virtual-21103f5438/1/packages/component-filterchip/",
           "packageDependencies": [
             ["@visual-analytics-components/filterchip-component", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-filterchip"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/styled-components", "npm:5.1.4"],
@@ -12145,9 +12152,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-filterchip-component-virtual-f55cc2f338/1/packages/component-filterchip/",
           "packageDependencies": [
             ["@visual-analytics-components/filterchip-component", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#workspace:packages/component-filterchip"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/styled-components", "npm:5.1.4"],
@@ -12180,9 +12187,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/component-filterchip/",
           "packageDependencies": [
             ["@visual-analytics-components/filterchip-component", "workspace:packages/component-filterchip"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/styled-components", "npm:5.1.4"],
@@ -12208,10 +12215,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@graspologic/render-controls", "npm:0.4.0"],
             ["@graspologic/render-controls-react", "virtual:a5ec6f404081683c35cdeec14f7c26a214a03ce64d0c9dc7f0fcd27e4e6eb2c58daf4477080589bedf4f36ed8eb8114330cbcdc6c8f10c968b2d1397de6f9cfc#npm:0.4.0"],
             ["@graspologic/renderer", "npm:0.4.0"],
-            ["@thematic/core", "npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
             ["@types/debug", "npm:4.1.5"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/types__debug", null],
             ["@types/types__lodash", null],
             ["@types/types__node", null],
@@ -12245,10 +12252,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@graspologic/render-controls", "npm:0.4.0"],
             ["@graspologic/render-controls-react", "virtual:a5ec6f404081683c35cdeec14f7c26a214a03ce64d0c9dc7f0fcd27e4e6eb2c58daf4477080589bedf4f36ed8eb8114330cbcdc6c8f10c968b2d1397de6f9cfc#npm:0.4.0"],
             ["@graspologic/renderer", "npm:0.4.0"],
-            ["@thematic/core", "npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
             ["@types/debug", "npm:4.1.5"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@visual-analytics-components/react", "virtual:a5ec6f404081683c35cdeec14f7c26a214a03ce64d0c9dc7f0fcd27e4e6eb2c58daf4477080589bedf4f36ed8eb8114330cbcdc6c8f10c968b2d1397de6f9cfc#workspace:packages/lib-react"],
             ["dat.gui", "npm:0.7.7"],
             ["debug", "virtual:55a84facd72074e953826b351ed20515903931a8f9c0395fcae97bf432227038269c316d17b1fb33558ff269580e9b378d5f6b5e41a2f9b2c38d9b1dab1e71e8#npm:4.3.0"],
@@ -12303,8 +12310,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-manager-virtual-adc44138cb/1/packages/lib-manager/",
           "packageDependencies": [
             ["@visual-analytics-components/manager", "virtual:a1f0881b551556672c23a48e89f712b89f5da6889e4a56ad94610cc8350e50722b581aa50b2d289fe5239badb64ed37b5f0928af7a75cd19720ecf670d3da8d6#workspace:packages/lib-manager"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/thematic__core", null],
             ["@types/types__node", null],
             ["@visual-analytics-components/mapped-dataset", "virtual:a1f0881b551556672c23a48e89f712b89f5da6889e4a56ad94610cc8350e50722b581aa50b2d289fe5239badb64ed37b5f0928af7a75cd19720ecf670d3da8d6#workspace:packages/dataset-mapped"],
@@ -12325,8 +12332,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/lib-manager/",
           "packageDependencies": [
             ["@visual-analytics-components/manager", "workspace:packages/lib-manager"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@visual-analytics-components/mapped-dataset", "virtual:a1f0881b551556672c23a48e89f712b89f5da6889e4a56ad94610cc8350e50722b581aa50b2d289fe5239badb64ed37b5f0928af7a75cd19720ecf670d3da8d6#workspace:packages/dataset-mapped"],
             ["@visual-analytics-components/plain-object-dataset", "workspace:packages/dataset-plain-object"],
             ["@visual-analytics-components/types", "virtual:2d0dc55f483c9fc71989d557bb4d367267c8587515e11df367f9811f736abd2a721c6bda04b64a87c122f02929686f04988254c67782e39ec2976f11d388f1cd#workspace:packages/lib-types"],
@@ -12415,12 +12422,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-ranklist-component-virtual-cad18babfa/1/packages/component-ranklist/",
           "packageDependencies": [
             ["@visual-analytics-components/ranklist-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-ranklist"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/classnames", "npm:2.2.10"],
             ["@types/d3-scale", "npm:2.2.4"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/react-virtualized-auto-sizer", "npm:1.0.0"],
@@ -12472,12 +12479,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-ranklist-component-virtual-02530fdf31/1/packages/component-ranklist/",
           "packageDependencies": [
             ["@visual-analytics-components/ranklist-component", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-ranklist"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/classnames", "npm:2.2.10"],
             ["@types/d3-scale", "npm:2.2.4"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/react-virtualized-auto-sizer", "npm:1.0.0"],
@@ -12524,12 +12531,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/component-ranklist/",
           "packageDependencies": [
             ["@visual-analytics-components/ranklist-component", "workspace:packages/component-ranklist"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/classnames", "npm:2.2.10"],
             ["@types/d3-scale", "npm:2.2.4"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/react-virtualized-auto-sizer", "npm:1.0.0"],
@@ -12556,8 +12563,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-react-virtual-175552a3f1/1/packages/lib-react/",
           "packageDependencies": [
             ["@visual-analytics-components/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/lib-react"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/thematic__react", null],
             ["@types/types__node", null],
@@ -12580,8 +12587,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-react-virtual-26f39a99ea/1/packages/lib-react/",
           "packageDependencies": [
             ["@visual-analytics-components/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/lib-react"],
-            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/thematic__react", null],
             ["@types/types__node", null],
@@ -12602,8 +12609,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-react-virtual-d3c7990411/1/packages/lib-react/",
           "packageDependencies": [
             ["@visual-analytics-components/react", "virtual:a5ec6f404081683c35cdeec14f7c26a214a03ce64d0c9dc7f0fcd27e4e6eb2c58daf4477080589bedf4f36ed8eb8114330cbcdc6c8f10c968b2d1397de6f9cfc#workspace:packages/lib-react"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/thematic__react", null],
             ["@types/types__node", null],
@@ -12625,8 +12632,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/lib-react/",
           "packageDependencies": [
             ["@visual-analytics-components/react", "workspace:packages/lib-react"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["react", "npm:16.14.0"],
             ["react-shadow", "virtual:d3c79904111233554031e0eaf321facc7acabdcaf8f779c5b75851ea65765c70c4c4e26934b126302ba182dc5685079c22e9252c1539dc3e148366118c0d6b94#npm:18.4.2"],
@@ -12640,10 +12647,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-search-component-virtual-ecab17e335/1/packages/component-search/",
           "packageDependencies": [
             ["@visual-analytics-components/search-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-search"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/thematic__core", null],
@@ -12678,10 +12685,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-search-component-virtual-d095c1f3c2/1/packages/component-search/",
           "packageDependencies": [
             ["@visual-analytics-components/search-component", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-search"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/thematic__core", null],
@@ -12712,10 +12719,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-search-component-virtual-2b8ce3028d/1/packages/component-search/",
           "packageDependencies": [
             ["@visual-analytics-components/search-component", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#workspace:packages/component-search"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/thematic__core", null],
@@ -12748,10 +12755,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/component-search/",
           "packageDependencies": [
             ["@visual-analytics-components/search-component", "workspace:packages/component-search"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@visual-analytics-components/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/lib-react"],
@@ -12769,8 +12776,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@visual-analytics-components/stories", "workspace:packages/app-stories"],
             ["@storybook/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:5.3.21"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.9.0"],
             ["@types/d3-scale", "npm:2.2.4"],
             ["@visual-analytics-components/datatable-component", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-datatable"],
             ["@visual-analytics-components/filterchip-component", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-filterchip"],
@@ -12793,9 +12800,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-title-component-virtual-bd90fcc482/1/packages/component-title/",
           "packageDependencies": [
             ["@visual-analytics-components/title-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-title"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/thematic__core", null],
@@ -12828,9 +12835,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-title-component-virtual-55a4f3f516/1/packages/component-title/",
           "packageDependencies": [
             ["@visual-analytics-components/title-component", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#workspace:packages/component-title"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:9db4d2e233ad6f1f4fabf6126c198731209fad72fe76a787e6792683386f2b2a9ab3ef999613f475666d34a43e8c4bacd571f46ba3a02580ea3b09f84fbe265a#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/thematic__core", null],
@@ -12859,9 +12866,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-title-component-virtual-ddf35ad848/1/packages/component-title/",
           "packageDependencies": [
             ["@visual-analytics-components/title-component", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#workspace:packages/component-title"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@types/thematic__core", null],
@@ -12892,9 +12899,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/component-title/",
           "packageDependencies": [
             ["@visual-analytics-components/title-component", "workspace:packages/component-title"],
-            ["@thematic/core", "npm:0.8.0"],
-            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.8.0"],
-            ["@types/node", "npm:14.0.27"],
+            ["@thematic/core", "npm:0.9.0"],
+            ["@thematic/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:0.9.0"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/react", "npm:16.9.53"],
             ["@types/react-dom", "npm:16.9.8"],
             ["@visual-analytics-components/react", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/lib-react"],
@@ -12911,7 +12918,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@visual-analytics-components-types-virtual-77c1e9501f/1/packages/lib-types/",
           "packageDependencies": [
             ["@visual-analytics-components/types", "virtual:2d0dc55f483c9fc71989d557bb4d367267c8587515e11df367f9811f736abd2a721c6bda04b64a87c122f02929686f04988254c67782e39ec2976f11d388f1cd#workspace:packages/lib-types"],
-            ["@thematic/core", "npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
             ["@types/thematic__core", null],
             ["rxjs", "npm:6.6.3"]
           ],
@@ -12924,7 +12931,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/lib-types/",
           "packageDependencies": [
             ["@visual-analytics-components/types", "workspace:packages/lib-types"],
-            ["@thematic/core", "npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
             ["rxjs", "npm:6.6.3"]
           ],
           "linkType": "SOFT",
@@ -22911,14 +22918,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["gatsby-legacy-polyfills", [
-        ["npm:0.0.4", {
-          "packageLocation": "./.yarn/cache/gatsby-legacy-polyfills-npm-0.0.4-5b39f71548-8ca94d53a2.zip/node_modules/gatsby-legacy-polyfills/",
-          "packageDependencies": [
-            ["gatsby-legacy-polyfills", "npm:0.0.4"],
-            ["core-js-compat", "npm:3.6.5"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:0.0.5", {
           "packageLocation": "./.yarn/cache/gatsby-legacy-polyfills-npm-0.0.5-2c364ad765-9da9106088.zip/node_modules/gatsby-legacy-polyfills/",
           "packageDependencies": [
@@ -41821,9 +41820,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/visual-analytics-components-virtual-a1f0881b55/1/packages/lib-vac/",
           "packageDependencies": [
             ["visual-analytics-components", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/lib-vac"],
-            ["@thematic/core", "npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@types/thematic__core", null],
             ["@types/types__lodash", null],
             ["@types/types__node", null],
@@ -41846,9 +41845,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/lib-vac/",
           "packageDependencies": [
             ["visual-analytics-components", "workspace:packages/lib-vac"],
-            ["@thematic/core", "npm:0.8.0"],
+            ["@thematic/core", "npm:0.9.0"],
             ["@types/lodash", "npm:4.14.162"],
-            ["@types/node", "npm:14.0.27"],
+            ["@types/node", "npm:14.14.0"],
             ["@visual-analytics-components/manager", "virtual:a1f0881b551556672c23a48e89f712b89f5da6889e4a56ad94610cc8350e50722b581aa50b2d289fe5239badb64ed37b5f0928af7a75cd19720ecf670d3da8d6#workspace:packages/lib-manager"],
             ["@visual-analytics-components/mapped-dataset", "virtual:a1f0881b551556672c23a48e89f712b89f5da6889e4a56ad94610cc8350e50722b581aa50b2d289fe5239badb64ed37b5f0928af7a75cd19720ecf670d3da8d6#workspace:packages/dataset-mapped"],
             ["@visual-analytics-components/messages", "workspace:packages/lib-messages"],
