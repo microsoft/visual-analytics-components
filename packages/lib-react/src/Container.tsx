@@ -3,7 +3,7 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import * as React from 'react'
-import { memo } from 'react'
+import { memo, useMemo } from 'react'
 import { useManager } from './hooks/useManager'
 import { Manager, DataMapping } from 'visual-analytics-components'
 /* eslint-disable-next-line @typescript-eslint/no-var-requires */
@@ -33,9 +33,10 @@ export const Container: React.FC<ContainerProps> = memo(function Container({
 	style,
 }) {
 	const manager = useManager(datamap)
+	const rendered = useMemo(() => manager && renderComponent(manager), [manager])
 	return manager == null ? null : (
 		<ShadowDiv className={className} style={style}>
-			{renderComponent(manager)}
+			{rendered}
 		</ShadowDiv>
 	)
 })
