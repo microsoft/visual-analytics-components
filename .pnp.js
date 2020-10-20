@@ -12945,6 +12945,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@visual-analytics-components/ranklist-component", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#workspace:packages/component-ranklist"],
             ["@visual-analytics-components/search-component", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#workspace:packages/component-search"],
             ["@visual-analytics-components/title-component", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#workspace:packages/component-title"],
+            ["babel-plugin-styled-components", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:1.11.1"],
             ["debug", "virtual:55a84facd72074e953826b351ed20515903931a8f9c0395fcae97bf432227038269c316d17b1fb33558ff269580e9b378d5f6b5e41a2f9b2c38d9b1dab1e71e8#npm:4.3.0"],
             ["event-source-polyfill", "npm:1.0.21"],
             ["gatsby", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:2.24.83"],
@@ -16313,6 +16314,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-syntax-jsx", "npm:6.18.0"],
             ["lodash", "npm:4.17.20"],
             ["styled-components", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:5.2.0"]
+          ],
+          "packagePeers": [
+            "@types/styled-components",
+            "styled-components"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:1.11.1", {
+          "packageLocation": "./.yarn/$$virtual/babel-plugin-styled-components-virtual-44f9ff52b2/0/cache/babel-plugin-styled-components-npm-1.11.1-9e78975a1c-4b545bed54.zip/node_modules/babel-plugin-styled-components/",
+          "packageDependencies": [
+            ["babel-plugin-styled-components", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:1.11.1"],
+            ["@babel/helper-annotate-as-pure", "npm:7.10.4"],
+            ["@babel/helper-module-imports", "npm:7.12.1"],
+            ["@types/styled-components", "npm:5.1.4"],
+            ["babel-plugin-syntax-jsx", "npm:6.18.0"],
+            ["lodash", "npm:4.17.20"],
+            ["styled-components", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:5.2.0"]
+          ],
+          "packagePeers": [
+            "@types/styled-components",
+            "styled-components"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:c8995d80cd7c4f522d0cf61dc5771e038e18e0332adcd9995728cd698822b33e7620e930c5ccab79e351491c01a10a1ee1c1c26969a430a4afbdfa3812f9e694#npm:1.11.1", {
+          "packageLocation": "./.yarn/$$virtual/babel-plugin-styled-components-virtual-2b615cc53b/0/cache/babel-plugin-styled-components-npm-1.11.1-9e78975a1c-4b545bed54.zip/node_modules/babel-plugin-styled-components/",
+          "packageDependencies": [
+            ["babel-plugin-styled-components", "virtual:c8995d80cd7c4f522d0cf61dc5771e038e18e0332adcd9995728cd698822b33e7620e930c5ccab79e351491c01a10a1ee1c1c26969a430a4afbdfa3812f9e694#npm:1.11.1"],
+            ["@babel/helper-annotate-as-pure", "npm:7.10.4"],
+            ["@babel/helper-module-imports", "npm:7.12.1"],
+            ["@types/styled-components", null],
+            ["babel-plugin-syntax-jsx", "npm:6.18.0"],
+            ["lodash", "npm:4.17.20"],
+            ["styled-components", null]
           ],
           "packagePeers": [
             "@types/styled-components",
@@ -23814,6 +23849,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-dynamic-import-node", "npm:2.3.3"],
             ["babel-plugin-lodash", "npm:3.3.4"],
             ["babel-plugin-remove-graphql-queries", "virtual:c8995d80cd7c4f522d0cf61dc5771e038e18e0332adcd9995728cd698822b33e7620e930c5ccab79e351491c01a10a1ee1c1c26969a430a4afbdfa3812f9e694#npm:2.9.20"],
+            ["babel-plugin-styled-components", "virtual:c8995d80cd7c4f522d0cf61dc5771e038e18e0332adcd9995728cd698822b33e7620e930c5ccab79e351491c01a10a1ee1c1c26969a430a4afbdfa3812f9e694#npm:1.11.1"],
             ["babel-preset-gatsby", "virtual:c8995d80cd7c4f522d0cf61dc5771e038e18e0332adcd9995728cd698822b33e7620e930c5ccab79e351491c01a10a1ee1c1c26969a430a4afbdfa3812f9e694#npm:0.5.14"],
             ["better-opn", "npm:2.1.0"],
             ["better-queue", "npm:3.8.10"],
@@ -24252,7 +24288,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel-plugin-styled-components", null],
             ["@types/gatsby", null],
             ["@types/styled-components", "npm:5.1.4"],
-            ["babel-plugin-styled-components", null],
+            ["babel-plugin-styled-components", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:1.11.1"],
             ["gatsby", "virtual:a2e1739a6342517e578e904c2ae091b11c9cb3c97aabd7e9cb07181b22f4f4a82642273a69691f48b8726d1dda77b55b9765182c674d4237fd19cc8df34515b7#npm:2.24.83"],
             ["styled-components", "virtual:1284dc2196eefd3b4e6c7028cd21ade835a121ac3c19b264db464bab5611efdf46a492087cc39c71641615a1664d541f666746eb0b31db4e5adbb3bb70fcaa9e#npm:5.2.0"]
           ],

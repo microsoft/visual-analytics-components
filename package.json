@@ -20,7 +20,8 @@
 		"lint": "essex lint --strict --docs",
 		"test": "essex test",
 		"test:ci": "essex test --ci",
-		"ci": "CHOKIDAR_USEPOLLING=1 CI=true NODE_OPTIONS=\"--unhandled-rejections=strict --max-old-space-size=4124\" run-s build_all lint bundle_all test:ci"
+		"gitisclean": "essex git-is-clean",
+		"ci": "CHOKIDAR_USEPOLLING=1 CI=true run-s build_all lint bundle_all test:ci gitisclean"
 	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"license": "MIT",

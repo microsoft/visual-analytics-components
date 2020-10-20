@@ -48,6 +48,7 @@
 		"@visual-analytics-components/ranklist-component": "workspace:packages/component-ranklist",
 		"@visual-analytics-components/search-component": "workspace:packages/component-search",
 		"@visual-analytics-components/title-component": "workspace:packages/component-title",
+		"babel-plugin-styled-components": "^1.11.1",
 		"debug": "^4.2.0",
 		"event-source-polyfill": "^1.0.21",
 		"gatsby": "^2.24.83",
