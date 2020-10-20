@@ -22,7 +22,7 @@
 		"test": "essex test",
 		"test:ci": "essex test --ci",
 		"gitisclean": "essex git-is-clean",
-		"ci": "CI=true npm-run-all -p build_all lint test:ci bundle_all -s gitisclean"
+		"ci": "CI=true npm-run-all -p build_all lint test:ci -s bundle_all gitisclean"
 	},
 	"author": "Chris Trevino <chtrevin@microsoft.com>",
 	"license": "MIT",
