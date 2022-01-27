@@ -2,7 +2,6 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { MessageTypes } from './messageTypes'
 import {
 	Message,
 	makeSelectionFilter,
@@ -15,6 +14,7 @@ import {
 	BooleanClause,
 	FilterClause,
 } from '@visual-analytics-components/types'
+import { MessageTypes } from './messageTypes'
 
 /**
  * A namespace of action creators

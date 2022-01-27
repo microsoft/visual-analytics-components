@@ -2,8 +2,18 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import {
+	Ranking,
+	RankedRow,
+} from '@visual-analytics-components/ranklist-component'
 import { scaleLinear } from 'd3-scale'
 import { filter } from 'rxjs/operators'
+import {
+	Message,
+	SliceType,
+	TableSlice,
+	Unsubscribe,
+} from 'visual-analytics-components'
 import { Edge, Vertex } from '../interfaces'
 import { RelatedToSelectionRanking } from './abstract/RelatedToSelection'
 import {
@@ -11,16 +21,6 @@ import {
 	isVertexSelectionChangeEvent,
 } from './util/eventPredicates'
 import { setSelectedVertex, setHighlightedVertex } from './util/handlers'
-import {
-	Ranking,
-	RankedRow,
-} from '@visual-analytics-components/ranklist-component'
-import {
-	Message,
-	SliceType,
-	TableSlice,
-	Unsubscribe,
-} from 'visual-analytics-components'
 
 function isReadSliceEvent(event: Message<any>): boolean {
 	return isVertexTableChangeEvent(event) || isVertexSelectionChangeEvent(event)
@@ -28,7 +28,8 @@ function isReadSliceEvent(event: Message<any>): boolean {
 
 export class NeighborsRanking
 	extends RelatedToSelectionRanking
-	implements Ranking {
+	implements Ranking
+{
 	public id = 'NEIGHBORS'
 	public label = 'Neighbors of Selected'
 	public isVisible = true

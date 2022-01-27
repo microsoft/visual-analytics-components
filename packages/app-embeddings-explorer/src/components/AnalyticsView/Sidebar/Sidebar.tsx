@@ -2,12 +2,12 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { RankListComponent } from '@visual-analytics-components/ranklist-component'
+import { SearchComponent } from '@visual-analytics-components/search-component'
 import React, { memo } from 'react'
 import styled from 'styled-components'
 import { useRankListConfiguration } from '../../../hooks/useRankListConfiguration'
 import { Component } from '../common'
-import { RankListComponent } from '@visual-analytics-components/ranklist-component'
-import { SearchComponent } from '@visual-analytics-components/search-component'
 
 export interface SidebarProps {
 	hasEmbeddings: boolean

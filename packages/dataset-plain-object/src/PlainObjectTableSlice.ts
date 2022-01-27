@@ -2,8 +2,6 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { PlainIterator } from './PlainIterator'
-import { RowProxy } from './PlainObjectRowProxy'
 import { AbstractTableSlice } from '@visual-analytics-components/abstract-dataset'
 import { MessageCreators } from '@visual-analytics-components/messages'
 import {
@@ -11,10 +9,13 @@ import {
 	SliceType,
 	Unsubscribe,
 } from '@visual-analytics-components/types'
+import { PlainIterator } from './PlainIterator'
+import { RowProxy } from './PlainObjectRowProxy'
 
 export class PlainObjectTableSlice<T>
 	extends AbstractTableSlice<T>
-	implements TableSlice<T> {
+	implements TableSlice<T>
+{
 	private unsubscribes: Unsubscribe[] = []
 	private _data: RowProxy<T>[] = []
 	private pendingDataChangeEvent = false
@@ -60,7 +61,7 @@ export class PlainObjectTableSlice<T>
 	}
 
 	public get(rowNum: number): T | undefined {
-		return (this._data[rowNum] as any) as T
+		return this._data[rowNum] as any as T
 	}
 
 	public [Symbol.iterator](): Iterator<T> {

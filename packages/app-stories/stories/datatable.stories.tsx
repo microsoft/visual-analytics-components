@@ -3,11 +3,11 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { storiesOf } from '@storybook/react'
+import { DatatableComponent } from '@visual-analytics-components/datatable-component'
+import { ManagerContext } from '@visual-analytics-components/react'
 import React from 'react'
 import styled from 'styled-components'
 import { createManager, lesMisDataset } from './util'
-import { DatatableComponent } from '@visual-analytics-components/datatable-component'
-import { ManagerContext } from '@visual-analytics-components/react'
 
 storiesOf('Datatable Component', module).add('basic example', () => {
 	return (

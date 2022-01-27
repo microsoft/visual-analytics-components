@@ -3,11 +3,6 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { Theme } from '@thematic/core'
-import { Observable } from 'rxjs'
-import { StringAuditLog } from './AuditLog'
-import { MessageHubImpl } from './MessageHub'
-import { StateManagerImpl } from './StateManager'
-import { generateUniqueId } from './generateUniqueId'
 import { MappedDataSet } from '@visual-analytics-components/mapped-dataset'
 import {
 	Message,
@@ -19,6 +14,11 @@ import {
 	DataMapping,
 	StateManager,
 } from '@visual-analytics-components/types'
+import { Observable } from 'rxjs'
+import { StringAuditLog } from './AuditLog'
+import { MessageHubImpl } from './MessageHub'
+import { StateManagerImpl } from './StateManager'
+import { generateUniqueId } from './generateUniqueId'
 
 /**
  * A facade class for the VAC component management runtime

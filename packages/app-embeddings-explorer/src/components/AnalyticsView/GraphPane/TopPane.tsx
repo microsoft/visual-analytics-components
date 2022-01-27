@@ -2,14 +2,14 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import React, { memo, useContext } from 'react'
-import { Component } from '../common'
 import {
 	GraphComponent,
 	Configuration,
 } from '@visual-analytics-components/graph-component'
 import { ManagerContext } from '@visual-analytics-components/react'
+import React, { memo, useContext } from 'react'
 import { DataMapping } from 'visual-analytics-components'
+import { Component } from '../common'
 
 export const TopPane: React.FC = memo(function TopPane() {
 	const manager = useContext(ManagerContext)

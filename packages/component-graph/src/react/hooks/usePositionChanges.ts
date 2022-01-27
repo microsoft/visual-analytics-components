@@ -5,11 +5,11 @@
 import { PositionMap, GraphRenderer } from '@graspologic/renderer'
 import { useEffect } from 'react'
 import { filter, throttleTime } from 'rxjs/operators'
+import { Manager, SliceType, Message } from 'visual-analytics-components'
 import { Configuration, DEFAULT_INSTANCE_ID } from '../../interfaces'
 
 import { GraphMessageType } from '../../types'
 import { useVertexTable } from './tables'
-import { Manager, SliceType, Message } from 'visual-analytics-components'
 
 export function usePositionChanges(
 	api: GraphRenderer | undefined,
@@ -39,8 +39,8 @@ export function usePositionChanges(
 	}, [api, config, manager, vertexTable])
 }
 
-const isPositionChange = (config: Configuration) => (
-	evt: Message<any>,
-): boolean =>
-	evt.type === GraphMessageType.PositionsChanged &&
-	evt.payload.instanceId === (config.instanceId || DEFAULT_INSTANCE_ID)
+const isPositionChange =
+	(config: Configuration) =>
+	(evt: Message<any>): boolean =>
+		evt.type === GraphMessageType.PositionsChanged &&
+		evt.payload.instanceId === (config.instanceId || DEFAULT_INSTANCE_ID)

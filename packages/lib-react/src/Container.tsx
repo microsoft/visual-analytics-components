@@ -4,8 +4,8 @@
  */
 import * as React from 'react'
 import { memo, useMemo } from 'react'
-import { useManager } from './hooks/useManager'
 import { Manager, DataMapping } from 'visual-analytics-components'
+import { useManager } from './hooks/useManager'
 /* eslint-disable-next-line @typescript-eslint/no-var-requires */
 const root = require('react-shadow/styled-components').default
 
@@ -28,14 +28,17 @@ export interface ContainerProps {
 }
 
 export const Container: React.FC<ContainerProps> = memo(function Container({
-	renderComponent,	
+	renderComponent,
 	datamap,
 	className,
 	style,
 	manager: propManager,
 }) {
 	const manager = useManager(propManager, datamap)
-	const rendered = useMemo(() => manager && renderComponent(manager), [manager, renderComponent])
+	const rendered = useMemo(
+		() => manager && renderComponent(manager),
+		[manager, renderComponent],
+	)
 	return manager == null ? null : (
 		<ShadowDiv className={className} style={style}>
 			{rendered}

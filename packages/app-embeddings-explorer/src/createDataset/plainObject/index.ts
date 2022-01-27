@@ -2,12 +2,12 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { Graph } from '../../interfaces'
 import {
 	PlainObjectDataSet,
 	DataSet,
 	DatumType,
 } from 'visual-analytics-components'
+import { Graph } from '../../interfaces'
 
 export function createPlainObjectDataset(input: Graph): DataSet {
 	return new PlainObjectDataSet({

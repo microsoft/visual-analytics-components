@@ -9,8 +9,8 @@
 		"start:storybook": "yarn start"
 	},
 	"dependencies": {
-		"@essex/scripts": "^11.0.1",
-		"@essex/storybook-config": "^11.0.0",
+		"@essex/scripts": "^19.0.5",
+		"@essex/storybook-config": "^11.0.3",
 		"@storybook/react": "^6.0.26",
 		"@thematic/core": "^0.9.0",
 		"@thematic/react": "^0.9.0",

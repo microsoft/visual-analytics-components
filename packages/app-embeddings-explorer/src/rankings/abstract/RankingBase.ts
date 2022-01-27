@@ -2,11 +2,11 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { Subject, Observable } from 'rxjs'
 import {
 	Ranking,
 	RankedRow,
 } from '@visual-analytics-components/ranklist-component'
+import { Subject, Observable } from 'rxjs'
 import { Manager, Unsubscribe, NO_OP } from 'visual-analytics-components'
 
 export enum SortOrder {

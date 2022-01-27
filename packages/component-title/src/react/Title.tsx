@@ -4,10 +4,10 @@
  */
 import * as React from 'react'
 import { memo } from 'react'
+import { Manager } from 'visual-analytics-components'
 import { Configuration } from '../interfaces'
 import { GlobalStyles } from './GlobalStyles'
 import { useLatestInteractionTitle } from './useLatestInteractionTitle'
-import { Manager } from 'visual-analytics-components'
 
 export interface TitleProps {
 	configuration: Configuration

@@ -2,16 +2,16 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { filter } from 'rxjs/operators'
-import { Vertex } from '../interfaces'
-import { RankingBase } from './abstract/RankingBase'
-import { isVertexTableChangeEvent } from './util/eventPredicates'
-import { setSelectedVertex, setHighlightedVertex } from './util/handlers'
 import {
 	Ranking,
 	RankedRow,
 } from '@visual-analytics-components/ranklist-component'
+import { filter } from 'rxjs/operators'
 import { SliceType, TableSlice, Unsubscribe } from 'visual-analytics-components'
+import { Vertex } from '../interfaces'
+import { RankingBase } from './abstract/RankingBase'
+import { isVertexTableChangeEvent } from './util/eventPredicates'
+import { setSelectedVertex, setHighlightedVertex } from './util/handlers'
 
 export class VerticesRanking extends RankingBase implements Ranking {
 	public id = 'VERTICES'

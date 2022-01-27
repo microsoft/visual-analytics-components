@@ -18,17 +18,17 @@ describe('the plain object dataset', () => {
 		tables.receiveMessageHub(hub)
 
 		const slice = tables.table('nodes')!.slice(SliceType.Selected)
-		expect(slice.length()).toEqual(0)
+		expect(slice.length()).toBe(0)
 
 		// Selecting a node  results in a valid selection length
 		hub.publish(
 			MessageCreators.Selection.replaceWithIds({ table: 'nodes' }, ['abc']),
 		)
-		expect(slice.length()).toEqual(1)
+		expect(slice.length()).toBe(1)
 
 		// Clearing the selection goes back to empty set
 		hub.publish(MessageCreators.Selection.clear({ table: 'nodes' }))
-		expect(slice.length()).toEqual(0)
+		expect(slice.length()).toBe(0)
 	})
 
 	it('set and clear a highlight', () => {
@@ -37,17 +37,17 @@ describe('the plain object dataset', () => {
 		tables.receiveMessageHub(hub)
 
 		const slice = tables.table('nodes')!.slice(SliceType.Highlighted)
-		expect(slice.length()).toEqual(0)
+		expect(slice.length()).toBe(0)
 
 		// Selecting a node  results in a valid selection length
 		hub.publish(
 			MessageCreators.Highlight.replaceWithIds({ table: 'nodes' }, ['abc']),
 		)
-		expect(slice.length()).toEqual(1)
+		expect(slice.length()).toBe(1)
 
 		// Clearing the selection goes back to empty set
 		hub.publish(MessageCreators.Highlight.clear({ table: 'nodes' }))
-		expect(slice.length()).toEqual(0)
+		expect(slice.length()).toBe(0)
 	})
 })
 
@@ -57,7 +57,7 @@ it('set and clear a filter', () => {
 	tables.receiveMessageHub(hub)
 
 	const slice = tables.table('nodes')!.slice(SliceType.FilteredIn)
-	expect(slice.length()).toEqual(3)
+	expect(slice.length()).toBe(3)
 
 	// Selecting a node  results in a valid selection length
 	hub.publish(
@@ -66,11 +66,11 @@ it('set and clear a filter', () => {
 			{ field: 'id', operation: FilterOperation.In, value: ['abc'] },
 		),
 	)
-	expect(slice.length()).toEqual(1)
+	expect(slice.length()).toBe(1)
 
 	// Clearing the selection goes back to empty set
 	hub.publish(MessageCreators.Filter.clear({ table: 'nodes' }))
-	expect(slice.length()).toEqual(3)
+	expect(slice.length()).toBe(3)
 })
 
 function createDataset(): PlainObjectDataSet {

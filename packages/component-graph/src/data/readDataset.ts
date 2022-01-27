@@ -4,9 +4,9 @@
  */
 import { InputNode, InputEdge, GraphContainer } from '@graspologic/graph'
 import debug from 'debug'
+import { DataSet, SliceType } from 'visual-analytics-components'
 import { Vertex, Edge } from '../interfaces'
 import { isLayoutRequired } from './isLayoutRequired'
-import { DataSet, SliceType } from 'visual-analytics-components'
 const log = debug('vac:graph')
 
 /**

@@ -32,6 +32,7 @@ import {
 } from 'react'
 import useResizeObserver from 'use-resize-observer'
 // import { LayoutSettings } from '@graspologic/layout-react'
+import { Manager } from 'visual-analytics-components'
 import { Configuration, DEFAULT_INSTANCE_ID, COMPONENT_ID } from '../interfaces'
 import { GlobalStyles } from './GlobalStyles'
 import { useColorizer } from './hooks/useColorizer'
@@ -40,7 +41,6 @@ import { useHoverHandler } from './hooks/useHoverHandler'
 import { usePositionChanges } from './hooks/usePositionChanges'
 import { useVertexClickHandler } from './hooks/useVertexClickHandler'
 import { useHighlightedVertices, useSelectedVertices } from './hooks/vac'
-import { Manager } from 'visual-analytics-components'
 // eslint-disable-next-line  @typescript-eslint/ban-ts-comment
 // @ts-ignore
 
@@ -62,12 +62,14 @@ export const Graph: React.FC<GraphProps> = memo(function GraphComponentInner({
 }) {
 	const showControls =
 		configuration.showControls != null ? configuration.showControls : true
-	const renderSettings = useMemo(() => configuration.rendering || {}, [
-		configuration,
-	])
-	const controlsSettings = useMemo(() => configuration.controls || {}, [
-		configuration,
-	])
+	const renderSettings = useMemo(
+		() => configuration.rendering || {},
+		[configuration],
+	)
+	const controlsSettings = useMemo(
+		() => configuration.controls || {},
+		[configuration],
+	)
 	const [api, setApi] = useState<GraphRenderer>()
 	const is3D = Boolean(renderSettings.is3D)
 	const colorizer = useColorizer(manager, configuration)

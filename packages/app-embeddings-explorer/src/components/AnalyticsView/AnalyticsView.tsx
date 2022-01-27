@@ -3,6 +3,7 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { useThematic } from '@thematic/react'
+import { ManagerContext } from '@visual-analytics-components/react'
 import React, { memo, useEffect, useState, useCallback } from 'react'
 import styled from 'styled-components'
 import { useManager } from '../../hooks/useManager'
@@ -13,7 +14,6 @@ import { GraphPane } from './GraphPane'
 // @ts-ignore
 import { Sidebar } from './Sidebar'
 import { TitleBar } from './TitleBar'
-import { ManagerContext } from '@visual-analytics-components/react'
 
 export interface AnalyticsViewProps {
 	data: Graph
@@ -25,7 +25,7 @@ export const AnalyticsView: React.FC<AnalyticsViewProps> = memo(
 		const manager = useManager(data, theme)
 		const hasEmbeddings = Boolean(data.hasEmbeddings)
 		const vertexListConfiguration = useRankListConfiguration(hasEmbeddings)
-				
+
 		// Initialize Ranking Classes
 		useEffect(() => {
 			if (manager && vertexListConfiguration.rankings) {
@@ -35,9 +35,10 @@ export const AnalyticsView: React.FC<AnalyticsViewProps> = memo(
 
 		const [isTopOpen, setTopOpen] = useState(true)
 		const [isBottomOpen, setBottomOpen] = useState(true)
-		const onToggleTop = useCallback((expanded: boolean) => setTopOpen(expanded), [
-			setTopOpen,
-		])
+		const onToggleTop = useCallback(
+			(expanded: boolean) => setTopOpen(expanded),
+			[setTopOpen],
+		)
 		const onToggleBottom = useCallback(
 			(expanded: boolean) => setBottomOpen(expanded),
 			[setBottomOpen],

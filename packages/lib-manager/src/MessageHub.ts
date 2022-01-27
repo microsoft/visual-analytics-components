@@ -2,9 +2,9 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { Message, MessageHub } from '@visual-analytics-components/types'
 import { Subject, asyncScheduler, Observable } from 'rxjs'
 import { observeOn } from 'rxjs/operators'
-import { Message, MessageHub } from '@visual-analytics-components/types'
 
 export class MessageHubImpl implements MessageHub {
 	public readonly _messages = new Subject<Message<any>>()

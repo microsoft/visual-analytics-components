@@ -2,12 +2,12 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { lesMis } from '../data'
 import {
 	PlainObjectDataSet,
 	DatumType,
 	DataSet,
 } from 'visual-analytics-components'
+import { lesMis } from '../data'
 
 export function lesMisDataset(): DataSet {
 	return new PlainObjectDataSet({

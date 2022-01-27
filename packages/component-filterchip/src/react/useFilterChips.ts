@@ -4,7 +4,6 @@
  */
 import { useState, useEffect } from 'react'
 import { filter } from 'rxjs/operators'
-import { FilterChipData } from './interfaces'
 import {
 	Manager,
 	Message,
@@ -12,6 +11,7 @@ import {
 	DataChangedMessagePayload,
 	SliceType,
 } from 'visual-analytics-components'
+import { FilterChipData } from './interfaces'
 
 export function useFilterChips(manager: Manager): FilterChipData[] {
 	const [chipData, setChipData] = useState<FilterChipData[]>([])

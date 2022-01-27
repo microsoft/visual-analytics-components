@@ -18,8 +18,8 @@
 	},
 	"dependencies": {
 		"@babel/polyfill": "^7.12.1",
-		"@essex/scripts": "^11.0.1",
-		"@essex/webpack-config": "^10.0.2",
+		"@essex/scripts": "^19.0.5",
+		"@essex/webpack-config": "^10.0.5",
 		"@fluentui/react": "^7.147.1",
 		"@thematic/core": "^0.9.0",
 		"@thematic/fluent": "^0.9.0",

@@ -3,11 +3,11 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { storiesOf } from '@storybook/react'
+import { GraphComponent } from '@visual-analytics-components/graph-component'
+import { ManagerContext } from '@visual-analytics-components/react'
 import React from 'react'
 import styled from 'styled-components'
 import { createManager, lesMisDataset, wpagenDataset } from './util'
-import { GraphComponent } from '@visual-analytics-components/graph-component'
-import { ManagerContext } from '@visual-analytics-components/react'
 
 storiesOf('Graph Component', module)
 	.add('lesmis example', () => {

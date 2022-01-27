@@ -2,10 +2,10 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { Vertex } from '../../../app-embeddings-explorer/src/interfaces'
 import { MappedDataSet } from '@visual-analytics-components/mapped-dataset'
 import { PlainObjectDataSet } from '@visual-analytics-components/plain-object-dataset'
 import { DatumType, SliceType } from '@visual-analytics-components/types'
+import { Vertex } from '../../../app-embeddings-explorer/src/interfaces'
 
 describe('the mapped DataSet', () => {
 	it('can map a table name', () => {
@@ -35,12 +35,12 @@ describe('the mapped DataSet', () => {
 
 		const allData = vertexTable.slice(SliceType.All)
 		const length = allData.length()
-		expect(length).toEqual(3)
+		expect(length).toBe(3)
 
 		const firstRow = allData.get(0)!
-		expect(firstRow.id).toEqual('abc')
-		expect(firstRow.x).toEqual(0.0)
-		expect(firstRow.y).toEqual(5.0)
+		expect(firstRow.id).toBe('abc')
+		expect(firstRow.x).toBe(0.0)
+		expect(firstRow.y).toBe(5.0)
 	})
 
 	it('can map table fields', () => {
@@ -83,7 +83,7 @@ describe('the mapped DataSet', () => {
 		const vertexTable = mappedTables.table<Vertex>('vertices')
 		const allData = vertexTable.slice(SliceType.All)
 		const length = allData.length()
-		expect(length).toEqual(3)
+		expect(length).toBe(3)
 
 		const firstRow = allData.get(0)!
 		expect(firstRow).toBeDefined()
@@ -94,31 +94,31 @@ describe('the mapped DataSet', () => {
 		expect(rowKeys).toContain('id')
 		expect(rowKeys).toContain('category')
 		expect(rowKeys).toContain('color')
-		expect(firstRow.id).toEqual('abc')
-		expect(firstRow.x).toEqual(0.0)
-		expect(firstRow.y).toEqual(0.5)
-		expect(firstRow.z).toEqual(0.75)
-		expect(firstRow.color).toEqual(1)
-		expect(firstRow.category).toEqual(1)
+		expect(firstRow.id).toBe('abc')
+		expect(firstRow.x).toBe(0.0)
+		expect(firstRow.y).toBe(0.5)
+		expect(firstRow.z).toBe(0.75)
+		expect(firstRow.color).toBe(1)
+		expect(firstRow.category).toBe(1)
 
 		const secondRow = allData.get(1)!
-		expect(secondRow.id).toEqual('def')
-		expect(secondRow.x).toEqual(0.3)
-		expect(secondRow.y).toEqual(1.0)
-		expect(secondRow.z).toEqual(0.123)
-		expect(secondRow.color).toEqual(2)
+		expect(secondRow.id).toBe('def')
+		expect(secondRow.x).toBe(0.3)
+		expect(secondRow.y).toBe(1.0)
+		expect(secondRow.z).toBe(0.123)
+		expect(secondRow.color).toBe(2)
 
 		const thirdRow = allData.get(2)!
-		expect(thirdRow.id).toEqual('hij')
-		expect(thirdRow.x).toEqual(0.0)
-		expect(thirdRow.y).toEqual(1.0)
-		expect(thirdRow.z).toEqual(0.8)
-		expect(thirdRow.color).toEqual(3)
+		expect(thirdRow.id).toBe('hij')
+		expect(thirdRow.x).toBe(0.0)
+		expect(thirdRow.y).toBe(1.0)
+		expect(thirdRow.z).toBe(0.8)
+		expect(thirdRow.color).toBe(3)
 
 		// check property mutability
 		thirdRow.x = 100
-		expect(thirdRow.x).toEqual(100)
+		expect(thirdRow.x).toBe(100)
 		thirdRow.color = 4
-		expect(thirdRow.color).toEqual(4)
+		expect(thirdRow.color).toBe(4)
 	})
 })

@@ -5,11 +5,11 @@
 import { ThematicProvider } from '@thematic/react'
 import * as React from 'react'
 import { memo, useCallback } from 'react'
-import { Container } from './Container'
 import { Manager, ComponentConfiguration } from 'visual-analytics-components'
+import { Container } from './Container'
 
 export interface InnerComponentProps<
-	Configuration extends ComponentConfiguration
+	Configuration extends ComponentConfiguration,
 > {
 	manager: Manager
 	configuration: Configuration
@@ -34,7 +34,6 @@ export function createComponent<Configuration extends ComponentConfiguration>(
 			manager,
 			configuration = {} as Configuration,
 		}) {
-
 			return (
 				<Container
 					className={className}

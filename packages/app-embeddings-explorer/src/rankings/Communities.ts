@@ -2,17 +2,17 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { scaleLinear } from 'd3-scale'
-import { filter } from 'rxjs/operators'
-import { Community } from '../interfaces'
-import { RankingBase } from './abstract/RankingBase'
-import { isVertexTableChangeEvent } from './util/eventPredicates'
-import { filterToVerticesInCommunity } from './util/handlers'
 import {
 	Ranking,
 	RankedRow,
 } from '@visual-analytics-components/ranklist-component'
+import { scaleLinear } from 'd3-scale'
+import { filter } from 'rxjs/operators'
 import { SliceType, TableSlice, Unsubscribe } from 'visual-analytics-components'
+import { Community } from '../interfaces'
+import { RankingBase } from './abstract/RankingBase'
+import { isVertexTableChangeEvent } from './util/eventPredicates'
+import { filterToVerticesInCommunity } from './util/handlers'
 
 export class CommunityRanking extends RankingBase implements Ranking {
 	public id = 'COMMUNITIES'

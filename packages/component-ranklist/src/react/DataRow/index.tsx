@@ -5,11 +5,11 @@
 import * as React from 'react'
 import { memo, useMemo } from 'react'
 import styled from 'styled-components'
+import { NO_OP } from 'visual-analytics-components'
 import { useHoverState } from '../hooks'
 import { CategoryStripe } from './CategoryStripe'
 import { Label } from './Label'
 import { MetricBar } from './MetricBar'
-import { NO_OP } from 'visual-analytics-components'
 
 export interface DataRowProps {
 	label: string
@@ -50,10 +50,10 @@ export const DataRow: React.FC<DataRowProps> = memo(function DataRow({
 	tabIndex = 0,
 }) {
 	const [hovered, startHover, endHover] = useHoverState(onStartHover)
-	const labelHover = useMemo(() => hovered || highlighted, [
-		hovered,
-		highlighted,
-	])
+	const labelHover = useMemo(
+		() => hovered || highlighted,
+		[hovered, highlighted],
+	)
 
 	return hidden ? null : (
 		<Item

@@ -2,9 +2,9 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { ManagerImpl } from '../ManagerImpl'
 import { PlainObjectDataSet } from '@visual-analytics-components/plain-object-dataset'
 import { DatumType, DataMapping } from '@visual-analytics-components/types'
+import { ManagerImpl } from '../ManagerImpl'
 
 describe('VAC Manager', () => {
 	it('can apply a data mapping', async () => {

@@ -2,8 +2,8 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
-import { DimensionalityReduction } from '../../../dimensionalityReduction'
 import { DataMapping } from 'visual-analytics-components'
+import { DimensionalityReduction } from '../../../dimensionalityReduction'
 
 export function getMapping(
 	technique: DimensionalityReduction,

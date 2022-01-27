@@ -1,5 +1,6 @@
 {
-	"extends": "plugin:@essex/eslint-plugin/release",
+	"extends": "@essex/eslint-config",
+	"parser": "@typescript-eslint/parser",
 	"rules": {
 		"@typescript-eslint/no-explicit-any": 0,
 		"@typescript-eslint/no-non-null-assertion": 0,

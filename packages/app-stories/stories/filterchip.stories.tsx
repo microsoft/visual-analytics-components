@@ -4,11 +4,11 @@
  */
 
 import { storiesOf } from '@storybook/react'
+import { FilterChipComponent } from '@visual-analytics-components/filterchip-component'
+import { ManagerContext } from '@visual-analytics-components/react'
 import React from 'react'
 import styled from 'styled-components'
 import { createManager, lesMisDataset } from './util'
-import { FilterChipComponent } from '@visual-analytics-components/filterchip-component'
-import { ManagerContext } from '@visual-analytics-components/react'
 
 storiesOf('Filterchip Component', module).add('basic example', () => {
 	return (

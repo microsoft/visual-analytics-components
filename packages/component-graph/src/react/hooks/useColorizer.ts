@@ -4,8 +4,8 @@
  */
 import { ColorVector, Colorizer } from '@graspologic/renderer'
 import { useMemo } from 'react'
-import { Configuration } from '../../interfaces'
 import { Manager } from 'visual-analytics-components'
+import { Configuration } from '../../interfaces'
 
 export function useColorizer(
 	manager: Manager,

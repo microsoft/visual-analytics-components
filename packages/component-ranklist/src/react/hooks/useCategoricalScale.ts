@@ -3,8 +3,8 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { useMemo } from 'react'
-import { Configuration, RankedRow } from '../../interfaces'
 import { Manager } from 'visual-analytics-components'
+import { Configuration, RankedRow } from '../../interfaces'
 
 export function useCategoricalScale(
 	manager: Manager,

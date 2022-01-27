@@ -15,12 +15,12 @@ describe('The plain object row proxy', () => {
 		const source = { x: 0, y: true, z: 'abc' }
 		const proxy = PlainObjectRowProxy.create<TestItem>(source, ['x', 'y', 'z'])
 
-		expect(proxy['x']).toEqual(0)
-		expect(proxy['y']).toEqual(true)
-		expect(proxy['z']).toEqual('abc')
+		expect(proxy['x']).toBe(0)
+		expect(proxy['y']).toBe(true)
+		expect(proxy['z']).toBe('abc')
 
 		// Object splat works
-		expect({ ...proxy }).toEqual(source)
+		expect({ ...proxy }).toBe(source)
 	})
 
 	it('can enumerate on defined keys', () => {
@@ -28,13 +28,13 @@ describe('The plain object row proxy', () => {
 		const proxy = PlainObjectRowProxy.create<TestItem>(source, ['x', 'y', 'z'])
 
 		// no datachange handlers present
-		expect(Object.keys(proxy)).toEqual(['x', 'y', 'z'])
+		expect(Object.keys(proxy)).toBe(['x', 'y', 'z'])
 	})
 
 	it('can splat out object properties', () => {
 		const source = { x: 0, y: true, z: 'abc' }
 		const proxy = PlainObjectRowProxy.create<TestItem>(source, ['x', 'y', 'z'])
-		expect({ ...proxy }).toEqual(source)
+		expect({ ...proxy }).toBe(source)
 	})
 
 	it('can emit datachange events', () => {
@@ -45,8 +45,8 @@ describe('The plain object row proxy', () => {
 		row.onDataChange(() => dataChangeFirings++)
 
 		row['x'] = 1
-		expect(row['x']).toEqual(1)
+		expect(row['x']).toBe(1)
 
-		expect(dataChangeFirings).toEqual(1)
+		expect(dataChangeFirings).toBe(1)
 	})
 })

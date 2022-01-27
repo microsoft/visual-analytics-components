@@ -2,11 +2,11 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { GraphMessageType } from '@visual-analytics-components/graph-component'
 import { Subject } from 'rxjs'
+import { Manager, SliceType, TableSlice } from 'visual-analytics-components'
 import { Vertex } from '../interfaces'
 import { EmbeddingVector, DRAlgorithm, DimensionalityReduction } from './types'
-import { GraphMessageType } from '@visual-analytics-components/graph-component'
-import { Manager, SliceType, TableSlice } from 'visual-analytics-components'
 
 interface VectorizedEmbeddings {
 	embeddings: EmbeddingVector
@@ -35,7 +35,8 @@ function getVectorizedEmbeddings(
 }
 
 export abstract class BaseDRAlgorithm<Config, Result>
-	implements DRAlgorithm<Config, Result> {
+	implements DRAlgorithm<Config, Result>
+{
 	private _result: Result | undefined = undefined
 
 	public constructor(private readonly _manager: Manager) {

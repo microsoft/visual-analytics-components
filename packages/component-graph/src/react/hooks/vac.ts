@@ -4,7 +4,6 @@
  */
 import { useState, useEffect } from 'react'
 import { filter, throttleTime } from 'rxjs/operators'
-import { useSlice } from './useSlice'
 import {
 	Manager,
 	TableSlice,
@@ -12,6 +11,7 @@ import {
 	Message,
 	MessageTypes,
 } from 'visual-analytics-components'
+import { useSlice } from './useSlice'
 
 export function useHighlightedVertices(manager: Manager | undefined): string[] {
 	const vertices = useSlice(manager, SliceType.Highlighted)

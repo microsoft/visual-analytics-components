@@ -2,11 +2,11 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import { FilterChipComponent } from '@visual-analytics-components/filterchip-component'
+import { TitleComponent } from '@visual-analytics-components/title-component'
 import React, { memo } from 'react'
 import styled from 'styled-components'
 import { Toggle } from './Toggle'
-import { FilterChipComponent } from '@visual-analytics-components/filterchip-component'
-import { TitleComponent } from '@visual-analytics-components/title-component'
 
 export interface TitleBarProps {
 	isTopOpen: boolean
