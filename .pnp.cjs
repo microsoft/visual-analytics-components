@@ -17102,6 +17102,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.20"],
             ["npm-run-all", "npm:4.1.5"],
             ["numericjs", "npm:1.2.6"],
+            ["process", "npm:0.11.10"],
             ["query-string", "npm:6.13.6"],
             ["react", "npm:16.14.0"],
             ["react-app-polyfill", "npm:1.0.6"],

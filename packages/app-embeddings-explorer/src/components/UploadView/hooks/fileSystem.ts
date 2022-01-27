@@ -18,7 +18,7 @@ export function useIngestDataFilesCallback(
 	onError: (message: string) => void,
 	onGraphLoaded: (input: Graph) => void,
 ): () => void {
-	return useCallback(async () => {
+	return useCallback(async function ingest() {
 		const graphBuilder = new GraphBuilder()
 		graphBuilder.setErrorCallback(onError)
 		if (files) {
@@ -42,26 +42,27 @@ export enum FileStatus {
 	Rejected = 'rejected',
 }
 
-export const getStatus = (
+export function getStatus(
 	file: DataRecord,
 	acceptedFiles: DataRecord[],
-): FileStatus =>
-	acceptedFiles && acceptedFiles.some(f => f.name === file.name)
+): FileStatus {
+	return acceptedFiles?.some(f => f.name === file.name)
 		? FileStatus.Accepted
 		: FileStatus.Rejected
+}
 
-const compareFiles = (
+function compareFiles(
 	file: DataRecord,
 	acceptedFiles: DataRecord[],
-): number => {
+): number {
 	const status = getStatus(file, acceptedFiles)
 	return status === FileStatus.Accepted ? 1 : 100
 }
 
-export const sortFiles = (
+export function sortFiles(
 	avaliableFiles: DataRecord[],
 	acceptedFiles: DataRecord[],
-): DataRecord[] => {
+): DataRecord[] {
 	return avaliableFiles.sort(
 		(fileA: DataRecord, fileB: DataRecord) =>
 			compareFiles(fileA, acceptedFiles)! - compareFiles(fileB, acceptedFiles)!,

@@ -25,10 +25,12 @@ webpackConfig.stats = 'errors-only'
 webpackConfig.resolve.fallback = {
 	"stream": require.resolve("stream-browserify"),
 	events: require.resolve('events/'),
-	buffer: require.resolve('buffer/')
+	buffer: require.resolve('buffer/'),
+	process: require.resolve('process/browser')
 }
 webpackConfig.plugins.push(
 	new webpack.ProvidePlugin({
 		Buffer: ['buffer', 'Buffer'],
+		process: ['process']
 	}))
 module.exports = webpackConfig

@@ -5,9 +5,8 @@
 import { Graph, Community } from '../interfaces'
 import GraphBuilder from './GraphBuilder'
 import { DataRecord } from './processDataRecords'
+import {parse} from 'csv-parse'
 
-/* eslint-disable @typescript-eslint/no-var-requires */
-const parse = require('csv-parse')
 
 function fileExtension(fileName: string): string {
 	const fileNameParts = fileName.split('.')
@@ -67,6 +66,7 @@ export function readDataFile(
 				try {
 					resolve(await handleDataByType(fileWrapper, binaryStr, graph))
 				} catch (err) {
+					console.error('caught error', err)
 					reject('error parsing data')
 				}
 			} else {
