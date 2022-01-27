@@ -19,6 +19,7 @@
 		"lodash": "^4.17.20"
 	},
 	"devDependencies": {
+		"@essex/scripts": "^19.0.5",
 		"@types/lodash": "^4.14.162"
 	},
 	"peerDependencies": {

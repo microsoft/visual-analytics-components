@@ -6,7 +6,6 @@
 		"allowSyntheticDefaultImports": true,
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
-		"incremental": false,
 		"noEmit": true,
 		"declaration": false,
 		"skipLibCheck": true

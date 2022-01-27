@@ -310,7 +310,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-annotate-as-pure@npm:^7.16.7":
+"@babel/helper-annotate-as-pure@npm:^7.16.0, @babel/helper-annotate-as-pure@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/helper-annotate-as-pure@npm:7.16.7"
   dependencies:
@@ -604,7 +604,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-imports@npm:^7.12.13, @babel/helper-module-imports@npm:^7.16.7":
+"@babel/helper-module-imports@npm:^7.12.13, @babel/helper-module-imports@npm:^7.16.0, @babel/helper-module-imports@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/helper-module-imports@npm:7.16.7"
   dependencies:
@@ -8912,15 +8912,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:*":
-  version: 0.63.27
-  resolution: "@types/react-native@npm:0.63.27"
-  dependencies:
-    "@types/react": "*"
-  checksum: 02cd675974321d524c8887a33bac1d8b41b444424c8ac44f7030aad605b81589155a6f9cc7d994ffc88a6c885156e312e5dc79c11b136ad44c814824fb8c8f03
-  languageName: node
-  linkType: hard
-
 "@types/react-router-dom@npm:^5.1.6":
   version: 5.1.6
   resolution: "@types/react-router-dom@npm:5.1.6"
@@ -9056,15 +9047,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.4":
-  version: 5.1.4
-  resolution: "@types/styled-components@npm:5.1.4"
+"@types/styled-components@npm:^5.1.21":
+  version: 5.1.21
+  resolution: "@types/styled-components@npm:5.1.21"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
-    "@types/react-native": "*"
     csstype: ^3.0.2
-  checksum: 3b4551546e4df07dd1ff6389db9cf4453f65d9d8340e8389c734b8782c899ede272c12b919473e1b83f25d3ce3d1adc25a41de49c2c2e29a0429d61111bf8266
+  checksum: d53065f65052dd407516f1d37cc9bce33df6f4da31cbc7ef5a6b1e1fed6f14497456a13d809c065c15b963d73dc9b877613e3fb8dfa66074bfac60a94e561b04
   languageName: node
   linkType: hard
 
@@ -9656,6 +9646,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/abstract-dataset@workspace:packages/dataset-abstract"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@types/node": ~14.14.0
     "@visual-analytics-components/messages": "workspace:packages/lib-messages"
     "@visual-analytics-components/types": "workspace:packages/lib-types"
@@ -9670,13 +9661,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/datatable-component@workspace:packages/component-datatable"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/core": ^0.9.0
     "@thematic/react": ^0.9.0
     "@types/lodash": ^4.14.162
     "@types/node": ~14.14.0
     "@types/react": ^16.9.53
     "@types/react-dom": ^16.9.8
-    "@types/styled-components": ^5.1.4
+    "@types/styled-components": ^5.1.21
     "@visual-analytics-components/react": "workspace:packages/lib-react"
     ag-grid-community: ^23.2.1
     ag-grid-react: ^23.2.1
@@ -9685,7 +9677,7 @@ __metadata:
     react: ^16.14.0
     react-dom: ^16.14.0
     rxjs: ^6.6.3
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": "*"
@@ -9715,7 +9707,7 @@ __metadata:
     "@types/react-dom": ^16.9.8
     "@types/react-helmet": ^6.1.0
     "@types/react-tabs": ^2.3.2
-    "@types/styled-components": ^5.1.4
+    "@types/styled-components": ^5.1.21
     "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
     "@visual-analytics-components/embeddings-explorer": "workspace:packages/app-embeddings-explorer"
     "@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip"
@@ -9757,7 +9749,7 @@ __metadata:
     react-use-dimensions: ^1.2.1
     rehype-react: ^5.0.1
     shallow-compare: ^1.2.2
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     typography: ^0.16.19
     typography-theme-github: ^0.16.19
     vfile: ^4.2.0
@@ -9785,7 +9777,7 @@ __metadata:
     "@types/react-helmet": ^6.1.0
     "@types/react-router-dom": ^5.1.6
     "@types/react-tabs": ^2.3.2
-    "@types/styled-components": ^5.1.4
+    "@types/styled-components": ^5.1.21
     "@uifabric/icons": ^7.5.12
     "@visual-analytics-components/datatable-component": "workspace:packages/component-datatable"
     "@visual-analytics-components/filterchip-component": "workspace:packages/component-filterchip"
@@ -9816,7 +9808,7 @@ __metadata:
     rxjs: ^6.6.3
     shortid: ^2.2.15
     shx: ^0.3.2
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     tsne-js: ^1.0.3
     typescript: ^4.5.5
     umap-js: ^1.3.3
@@ -9829,17 +9821,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/filterchip-component@workspace:packages/component-filterchip"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/core": ^0.9.0
     "@thematic/react": ^0.9.0
     "@types/node": ~14.14.0
     "@types/react": ^16.9.53
     "@types/react-dom": ^16.9.8
-    "@types/styled-components": ^5.1.4
+    "@types/styled-components": ^5.1.21
     "@visual-analytics-components/react": "workspace:packages/lib-react"
     react: ^16.14.0
     react-dom: ^16.14.0
     rxjs: ^6.6.3
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8"
@@ -9858,6 +9851,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/graph-component@workspace:packages/component-graph"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@graspologic/graph": ^0.4.0
     "@graspologic/layout-core": ^0.4.0
     "@graspologic/layout-fa2": ^0.4.0
@@ -9879,7 +9873,7 @@ __metadata:
     react: ^16.14.0
     react-dom: ^16.14.0
     rxjs: ^6.6.3
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     use-resize-observer: ^6.1.0
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
@@ -9896,6 +9890,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/manager@workspace:packages/lib-manager"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/core": ^0.9.0
     "@types/node": ~14.14.0
     "@visual-analytics-components/mapped-dataset": "workspace:packages/dataset-mapped"
@@ -9914,6 +9909,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/mapped-dataset@workspace:packages/dataset-mapped"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@types/lodash": ^4.14.162
     "@visual-analytics-components/types": "workspace:packages/lib-types"
     lodash: ^4.17.20
@@ -9927,6 +9923,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/messages@workspace:packages/lib-messages"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@visual-analytics-components/types": "workspace:packages/lib-types"
   peerDependencies:
     core-js: "*"
@@ -9937,6 +9934,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/plain-object-dataset@workspace:packages/dataset-plain-object"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@visual-analytics-components/abstract-dataset": "workspace:packages/dataset-abstract"
     "@visual-analytics-components/messages": "workspace:packages/lib-messages"
     "@visual-analytics-components/types": "workspace:packages/lib-types"
@@ -9957,7 +9955,7 @@ __metadata:
     "@essex/scripts": ^19.0.5
     "@types/enzyme": ^3.10.7
     "@types/jest": ^26.0.15
-    "@types/styled-components": ^5.1.4
+    "@types/styled-components": ^5.1.21
     "@typescript-eslint/eslint-plugin": ^4.4.1
     "@typescript-eslint/parser": ^4.4.1
     enzyme: ^3.11.0
@@ -9971,7 +9969,7 @@ __metadata:
     react-dom: ^16.14.0
     regenerator-runtime: ^0.13.7
     shx: ^0.3.2
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     ts-jest: ^26.4.1
     typescript: ^4.5.5
   languageName: unknown
@@ -9981,6 +9979,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/ranklist-component@workspace:packages/component-ranklist"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/core": ^0.9.0
     "@thematic/react": ^0.9.0
     "@types/classnames": ^2.2.10
@@ -9991,7 +9990,7 @@ __metadata:
     "@types/react-dom": ^16.9.8
     "@types/react-virtualized-auto-sizer": ^1.0.0
     "@types/react-window": ^1.8.2
-    "@types/styled-components": ^5.1.4
+    "@types/styled-components": ^5.1.21
     "@visual-analytics-components/react": "workspace:packages/lib-react"
     camelcase: ^6.1.0
     classnames: ^2.2.6
@@ -10002,7 +10001,7 @@ __metadata:
     react-virtualized-auto-sizer: ^1.0.2
     react-window: ^1.8.5
     rxjs: ^6.6.3
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8"
@@ -10025,6 +10024,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/react@workspace:packages/lib-react"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/react": ^0.9.0
     "@types/enzyme": ^3.10.7
     "@types/node": ~14.14.0
@@ -10032,7 +10032,7 @@ __metadata:
     enzyme: ^3.11.0
     react: ^16.14.0
     react-shadow: ^18.4.2
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/react": "> 0.8"
@@ -10048,6 +10048,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/search-component@workspace:packages/component-search"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/core": ^0.9.0
     "@thematic/react": ^0.9.0
     "@types/lodash": ^4.14.162
@@ -10058,7 +10059,7 @@ __metadata:
     lodash: ^4.17.20
     react: ^16.14.0
     react-dom: ^16.14.0
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8"
@@ -10096,7 +10097,7 @@ __metadata:
     react: ^17.0.0
     react-markdown: ^4.3.1
     rxjs: ^6.6.3
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     visual-analytics-components: "workspace:packages/lib-vac"
   languageName: unknown
   linkType: soft
@@ -10105,6 +10106,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/title-component@workspace:packages/component-title"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/core": ^0.9.0
     "@thematic/react": ^0.9.0
     "@types/node": ~14.14.0
@@ -10114,7 +10116,7 @@ __metadata:
     react: ^16.14.0
     react-dom: ^16.14.0
     rxjs: ^6.6.3
-    styled-components: ^5.2.0
+    styled-components: ^5.3.3
     visual-analytics-components: "workspace:packages/lib-vac"
   peerDependencies:
     "@thematic/core": ">= 0.8.0"
@@ -10133,6 +10135,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@visual-analytics-components/types@workspace:packages/lib-types"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/core": ^0.9.0
     rxjs: ^6.6.3
   peerDependencies:
@@ -11933,7 +11936,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-styled-components@npm:>= 1, babel-plugin-styled-components@npm:^1.11.1":
+"babel-plugin-styled-components@npm:>= 1.12.0":
+  version: 2.0.2
+  resolution: "babel-plugin-styled-components@npm:2.0.2"
+  dependencies:
+    "@babel/helper-annotate-as-pure": ^7.16.0
+    "@babel/helper-module-imports": ^7.16.0
+    babel-plugin-syntax-jsx: ^6.18.0
+    lodash: ^4.17.11
+  peerDependencies:
+    styled-components: ">= 2"
+  checksum: 3de729e909506b8dda27567fa561aa2f50822f1151f0d321303790afa45ffc0698f0d6836b8c8fd5f24845f4e1b181f8c51532dd9c1fa7a15fa37033a445c137
+  languageName: node
+  linkType: hard
+
+"babel-plugin-styled-components@npm:^1.11.1":
   version: 1.11.1
   resolution: "babel-plugin-styled-components@npm:1.11.1"
   dependencies:
@@ -32984,16 +33001,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "styled-components@npm:5.2.0"
+"styled-components@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "styled-components@npm:5.3.3"
   dependencies:
     "@babel/helper-module-imports": ^7.0.0
     "@babel/traverse": ^7.4.5
     "@emotion/is-prop-valid": ^0.8.8
     "@emotion/stylis": ^0.8.4
     "@emotion/unitless": ^0.7.4
-    babel-plugin-styled-components: ">= 1"
+    babel-plugin-styled-components: ">= 1.12.0"
     css-to-react-native: ^3.0.0
     hoist-non-react-statics: ^3.0.0
     shallowequal: ^1.1.0
@@ -33002,7 +33019,7 @@ fsevents@^1.2.7:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
-  checksum: f6ccd4612351d06cb010c1b85f08fc72c9fcff990e866c54cb6c97d489151ded57026ab28931457d3df5b659b5c26e4c46cae3f25ff7a4aae1282aaa4b3a3079
+  checksum: a104341068fc39fa2c73950a34970d832dc7a511fc52b3df12f34e6746031f1f128f53b4d540bf39d9f0da043cf0d91517faf874d2c87de5e385f5c2e7620436
   languageName: node
   linkType: hard
 
@@ -35262,6 +35279,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "visual-analytics-components@workspace:packages/lib-vac"
   dependencies:
+    "@essex/scripts": ^19.0.5
     "@thematic/core": ^0.9.0
     "@types/lodash": ^4.14.162
     "@types/node": ~14.14.0

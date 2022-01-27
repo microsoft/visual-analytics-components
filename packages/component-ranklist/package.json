@@ -43,10 +43,11 @@
 		"react-virtualized-auto-sizer": "^1.0.2",
 		"react-window": "^1.8.5",
 		"rxjs": "^6.6.3",
-		"styled-components": "^5.2.0",
+		"styled-components": "^5.3.3",
 		"visual-analytics-components": "workspace:packages/lib-vac"
 	},
 	"devDependencies": {
+		"@essex/scripts": "^19.0.5",
 		"@thematic/core": "^0.9.0",
 		"@thematic/react": "^0.9.0",
 		"@types/classnames": "^2.2.10",
@@ -57,11 +58,11 @@
 		"@types/react-dom": "^16.9.8",
 		"@types/react-virtualized-auto-sizer": "^1.0.0",
 		"@types/react-window": "^1.8.2",
-		"@types/styled-components": "^5.1.4",
+		"@types/styled-components": "^5.1.21",
 		"camelcase": "^6.1.0",
 		"react": "^16.14.0",
 		"react-dom": "^16.14.0",
-		"styled-components": "^5.2.0"
+		"styled-components": "^5.3.3"
 	},
 	"peerDependencies": {
 		"@thematic/core": ">= 0.8",

@@ -22,21 +22,22 @@
 		"ag-grid-react": "^23.2.1",
 		"lodash": "^4.17.20",
 		"rxjs": "^6.6.3",
-		"styled-components": "^5.2.0",
+		"styled-components": "^5.3.3",
 		"visual-analytics-components": "workspace:packages/lib-vac"
 	},
 	"devDependencies": {
+		"@essex/scripts": "^19.0.5",
 		"@thematic/core": "^0.9.0",
 		"@thematic/react": "^0.9.0",
 		"@types/lodash": "^4.14.162",
 		"@types/node": "~14.14.0",
 		"@types/react": "^16.9.53",
 		"@types/react-dom": "^16.9.8",
-		"@types/styled-components": "^5.1.4",
+		"@types/styled-components": "^5.1.21",
 		"raw-loader": "^4.0.2",
 		"react": "^16.14.0",
 		"react-dom": "^16.14.0",
-		"styled-components": "^5.2.0"
+		"styled-components": "^5.3.3"
 	},
 	"peerDependencies": {
 		"@thematic/core": "*",

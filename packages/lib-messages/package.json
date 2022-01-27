@@ -17,6 +17,9 @@
 	"dependencies": {
 		"@visual-analytics-components/types": "workspace:packages/lib-types"
 	},
+	"devDependencies": {
+		"@essex/scripts": "^19.0.5"
+	},
 	"peerDependencies": {
 		"core-js": "*"
 	}
