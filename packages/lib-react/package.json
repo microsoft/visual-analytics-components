@@ -17,7 +17,7 @@
 		"watch": "essex watch"
 	},
 	"dependencies": {
-		"react-shadow": "^18.4.2",
+		"react-shadow": "^19.0.2",
 		"visual-analytics-components": "workspace:packages/lib-vac"
 	},
 	"devDependencies": {

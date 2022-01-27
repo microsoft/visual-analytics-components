@@ -15,8 +15,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "essex build",
-		"clean": "essex clean",
-		"start": "essex watch"
+		"clean": "essex clean"
 	},
 	"vac": {
 		"className": "TensorGraph",

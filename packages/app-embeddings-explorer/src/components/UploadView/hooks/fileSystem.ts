@@ -89,8 +89,8 @@ export function useFilesystemFiles(
 					const sortedFiles = sortFiles(totalFiles, filesToLoad)
 					setFilesAvailable(sortedFiles)
 					setLoadingFiles(filesToLoad)
-				} catch (err) {
-					onError(err.message)
+				} catch (err: any) {
+					onError(err?.message)
 				}
 			}
 		},

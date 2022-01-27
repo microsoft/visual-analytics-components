@@ -1,9 +1,10 @@
 /*!
- * Copyright (c) Microsoft. All rights reserved.
- * Licensed under the MIT license. See LICENSE file in the project.
- */
+	* Copyright (c) Microsoft. All rights reserved.
+	* Licensed under the MIT license. See LICENSE file in the project.
+	*/
 const { join } = require('path')
 const { configure } = require('@essex/webpack-config')
+const webpack = require('webpack')
 
 const resolveModules = () => [join(__dirname, '../../../node_modules')]
 
@@ -21,5 +22,13 @@ const webpackConfig = configure({
 
 webpackConfig.entry = ['@babel/polyfill', './src/index.tsx']
 webpackConfig.stats = 'errors-only'
-webpackConfig.devServer.stats = 'errors-only'
+webpackConfig.resolve.fallback = {
+	"stream": require.resolve("stream-browserify"),
+	events: require.resolve('events/'),
+	buffer: require.resolve('buffer/')
+}
+webpackConfig.plugins.push(
+	new webpack.ProvidePlugin({
+		Buffer: ['buffer', 'Buffer'],
+	}))
 module.exports = webpackConfig

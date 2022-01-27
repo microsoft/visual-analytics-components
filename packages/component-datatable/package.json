@@ -13,8 +13,7 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "essex build",
-		"clean": "essex clean",
-		"start": "essex watch"
+		"clean": "essex clean"
 	},
 	"dependencies": {
 		"@visual-analytics-components/react": "workspace:packages/lib-react",
@@ -37,6 +36,7 @@
 		"raw-loader": "^4.0.2",
 		"react": "^16.14.0",
 		"react-dom": "^16.14.0",
+		"regenerator-runtime": "^0.13.9",
 		"styled-components": "^5.3.3"
 	},
 	"peerDependencies": {
