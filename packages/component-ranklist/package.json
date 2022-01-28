@@ -63,8 +63,8 @@
 		"@types/styled-components": "^5.1.21",
 		"camelcase": "^6.1.0",
 		"events": "^3.3.0",
-		"react": "^16.14.0",
-		"react-dom": "^16.14.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
 		"styled-components": "^5.3.3"
 	},
 	"peerDependencies": {

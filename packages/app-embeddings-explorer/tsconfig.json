@@ -13,8 +13,10 @@
 		"jsx": "react",
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
-		"outDir": "lib",		
-		"importsNotUsedAsValues": "preserve"
+		"outDir": "lib",
+		"importsNotUsedAsValues": "preserve",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
 	},
 	"include": ["src/index.tsx", "src/react-app-env.d.ts"]
 }

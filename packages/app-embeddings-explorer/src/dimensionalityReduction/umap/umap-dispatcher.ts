@@ -47,7 +47,7 @@ self.onmessage = (evt: MessageEvent): void => {
 }
 
 const sendProgress = (epochNumber: number, embedding: number[][]): void => {
-	;(self as any).postMessage({
+	(self as any).postMessage({
 		type: UmapMessageType.Progress,
 		payload: {
 			epochNumber,
@@ -57,7 +57,7 @@ const sendProgress = (epochNumber: number, embedding: number[][]): void => {
 }
 
 const sendComplete = (embedding: number[][]): void => {
-	;(self as any).postMessage({
+	(self as any).postMessage({
 		type: UmapMessageType.Complete,
 		payload: {
 			embedding,

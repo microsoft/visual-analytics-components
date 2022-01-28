@@ -23,7 +23,7 @@
 		"@visual-analytics-components/search-component": "workspace:packages/component-search",
 		"@visual-analytics-components/title-component": "workspace:packages/component-title",
 		"d3-scale": "^3.2.3",
-		"react": "^17.0.0",
+		"react": "^17.0.2",
 		"react-markdown": "^4.3.1",
 		"rxjs": "^6.6.3",
 		"styled-components": "^5.3.3",

@@ -1,7 +1,10 @@
 {
 	"extends": "../../tsconfig.base",
 	"compilerOptions": {
-		"outDir": "lib"
+		"outDir": "lib",
+
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true
 	},
 	"files": ["src/index.ts"]
 }

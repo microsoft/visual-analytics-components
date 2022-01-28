@@ -9,7 +9,9 @@
 		"allowSyntheticDefaultImports": false,
 		"noImplicitAny": false,
 		"jsx": "react",
-		"lib": ["esnext", "dom"]
+		"lib": ["esnext", "dom"],
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true
 	},
 	"exclude": ["**/node_modules/**", "**/__tests__/**"]
 }

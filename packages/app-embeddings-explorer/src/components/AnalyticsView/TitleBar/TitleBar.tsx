@@ -3,7 +3,8 @@
  * Licensed under the MIT license. See LICENSE file in the project.
  */
 import { FilterChipComponent } from '@visual-analytics-components/filterchip-component'
-import { TitleComponent } from '@visual-analytics-components/title-component'
+import { useManager } from '@visual-analytics-components/react'
+import {Title} from '@visual-analytics-components/title-component'
 import React, { memo } from 'react'
 import styled from 'styled-components'
 import { Toggle } from './Toggle'
@@ -20,9 +21,10 @@ export const TitleBar: React.FC<TitleBarProps> = memo(function TitleBar({
 	onToggleTop,
 	onToggleBottom,
 }) {
+	const manager = useManager()
 	return (
 		<Container>
-			<TitleComponent />
+			<Title  manager={manager} />
 			<Content>
 				<FilterChipComponent />
 				<Toggle expanded={isTopOpen} title="Graph" onToggle={onToggleTop} />

@@ -53,7 +53,7 @@ const sendProgress = (
 	embedding: number[][],
 	status: string,
 ): void => {
-	;(self as any).postMessage({
+	(self as any).postMessage({
 		type: TsneMessageType.Progress,
 		payload: {
 			iteration,
@@ -64,7 +64,7 @@ const sendProgress = (
 }
 
 const sendComplete = (embedding: number[][]): void => {
-	;(self as any).postMessage({
+	(self as any).postMessage({
 		type: TsneMessageType.Complete,
 		payload: {
 			embedding,
@@ -73,7 +73,7 @@ const sendComplete = (embedding: number[][]): void => {
 }
 
 const sendError = (error: any): void => {
-	;(self as any).postMessage({
+	(self as any).postMessage({
 		type: TsneMessageType.Error,
 		payload: {
 			error,

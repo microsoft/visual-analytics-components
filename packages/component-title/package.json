@@ -18,7 +18,9 @@
 		"clean": "essex clean"
 	},
 	"dependencies": {
+		"@lit-labs/react": "^1.0.2",
 		"@visual-analytics-components/react": "workspace:packages/lib-react",
+		"lit": "^2.1.2",
 		"rxjs": "^6.6.3",
 		"visual-analytics-components": "workspace:packages/lib-vac"
 	},
@@ -29,8 +31,8 @@
 		"@types/node": "~14.14.0",
 		"@types/react": "^16.9.53",
 		"@types/react-dom": "^16.9.8",
-		"react": "^16.14.0",
-		"react-dom": "^16.14.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
 		"styled-components": "^5.3.3"
 	},
 	"peerDependencies": {

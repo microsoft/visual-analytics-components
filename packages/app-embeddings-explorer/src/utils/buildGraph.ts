@@ -2,10 +2,10 @@
  * Copyright (c) Microsoft. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project.
  */
+import {parse} from 'csv-parse'
 import { Graph, Community } from '../interfaces'
 import GraphBuilder from './GraphBuilder'
 import { DataRecord } from './processDataRecords'
-import {parse} from 'csv-parse'
 
 
 function fileExtension(fileName: string): string {

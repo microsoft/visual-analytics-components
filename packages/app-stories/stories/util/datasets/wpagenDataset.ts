@@ -6,7 +6,7 @@ import { PlainObjectDataSet, DataSet } from 'visual-analytics-components'
 import data from '../data/wpagen.json'
 
 export function wpagenDataset(): DataSet {
-	;(data as any).nodes.data.forEach((d: any) => {
+	(data as any).nodes.data.forEach((d: any) => {
 		d.weight = d.size
 		d.x *= 1000
 		d.y *= 1000

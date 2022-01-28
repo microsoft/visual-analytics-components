@@ -1,12 +1,9 @@
 /*!
-	* Copyright (c) Microsoft. All rights reserved.
-	* Licensed under the MIT license. See LICENSE file in the project.
-	*/
-const { join } = require('path')
+ * Copyright (c) Microsoft. All rights reserved.
+ * Licensed under the MIT license. See LICENSE file in the project.
+ */
 const { configure } = require('@essex/webpack-config')
 const webpack = require('webpack')
-
-const resolveModules = () => [join(__dirname, '../../../node_modules')]
 
 const extendConfiguration = config => ({
 	...config,
@@ -15,8 +12,6 @@ const extendConfiguration = config => ({
 
 const webpackConfig = configure({
 	pnp: true,
-	extendResolveModules: resolveModules,
-	extendResolveLoaderModules: resolveModules,
 	extendConfiguration,
 })
 

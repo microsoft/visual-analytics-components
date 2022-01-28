@@ -35,7 +35,7 @@ export class RowMapper {
 				configurable: true,
 				get: () => (row as Record<string, any>)[fieldName],
 				set: (value: unknown) => {
-					;(row as Record<string, any>)[fieldName] = value
+					(row as Record<string, any>)[fieldName] = value
 				},
 			})
 		})
