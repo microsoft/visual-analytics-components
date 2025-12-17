@@ -1,4 +1,4 @@
-![Node CI](https://github.com/microsoft/visual-analytics-components/workflows/Node%20CI/badge.svg)
+**This repository is the result of research efforts that are no longer active. It has been marked read-only on GitHub to preserve the public code, but is no longer maintained or accepting contributions.**
 
 # Visual Analytic Components
 
@@ -13,18 +13,6 @@ pnpm install
 # starts documentation website and embedding-browser application
 pnpm start
 ```
-
-# Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-<!-- docs disable Simply -->
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
 
 <!-- docs enable Simply -->
 
